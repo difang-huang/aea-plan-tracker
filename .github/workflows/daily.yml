@@ -1,0 +1,89 @@
+name: Daily update
+
+on:
+  schedule:
+    # 06:10 UTC every day (14:10 Asia/Shanghai). Off the hour on purpose:
+    # GitHub's scheduler is busiest at :00 and delays those runs.
+    - cron: "10 6 * * *"
+  workflow_dispatch:
+    inputs:
+      match_budget:
+        description: "How many plans to run paper matching on"
+        required: false
+        default: "500"
+      llm_budget:
+        description: "How many plans to send to the LLM (0 disables)"
+        required: false
+        default: "120"
+
+permissions:
+  contents: write   # commit refreshed data back to the repo
+  pages: write      # publish the site
+  id-token: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # The API response cache makes reruns cheap and keeps us polite to
+      # OpenAlex, Crossref and arXiv. It is restored across runs but never
+      # committed to git.
+      - name: Restore API cache
+        uses: actions/cache@v4
+        with:
+          path: data/cache
+          key: api-cache-${{ github.run_id }}
+          restore-keys: |
+            api-cache-
+
+      - name: Run pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          MATCH_BUDGET_PER_RUN: ${{ github.event.inputs.match_budget || '500' }}
+          LLM_BUDGET_PER_RUN: ${{ github.event.inputs.llm_budget || '120' }}
+        run: python -m tracker.cli daily | tee run-summary.json
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "aea-plan-tracker[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data
+          if git diff --cached --quiet; then
+            echo "No data changes today."
+          else
+            git commit -m "data: daily refresh $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Job summary
+        if: always()
+        run: |
+          echo "### Daily update" >> $GITHUB_STEP_SUMMARY
+          echo '```json' >> $GITHUB_STEP_SUMMARY
+          cat run-summary.json >> $GITHUB_STEP_SUMMARY || true
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          echo "Site: ${{ steps.deployment.outputs.page_url }}" >> $GITHUB_STEP_SUMMARY
