@@ -20,6 +20,7 @@ import io
 import json
 import logging
 import sys
+import time
 from collections import defaultdict
 from pathlib import Path
 
@@ -52,23 +53,89 @@ DROP_FIELDS = {"text_blob", "extra"}
 # Download
 # --------------------------------------------------------------------------
 def download_registry_csv(dest: Path | None = None) -> Path:
-    """Fetch the full registry export to `build/registry_raw.csv`."""
+    """Fetch the whole registry to `build/registry_raw.csv`.
+
+    `/site/csv` is the bulk export behind the advanced search page's
+    "Download as CSV" button — the entire registry in one file. The server
+    builds it on demand and can take a few minutes, so it gets its own long
+    timeout.
+
+    `/trials/search.csv` is *not* a bulk endpoint: it returns one page of 20
+    results and ignores `per_page`. It is only used as a fallback, walked page
+    by page, if the bulk export is unavailable.
+    """
     dest = dest or (config.BUILD / "registry_raw.csv")
-    log.info("Downloading registry export from %s", config.REGISTRY_CSV_URL)
-    r = http_get(config.REGISTRY_CSV_URL, accept="text/csv", stream=True,
-                 timeout=config.HTTP_TIMEOUT)
-    total = 0
-    with dest.open("wb") as fh:
-        for chunk in r.iter_content(chunk_size=1 << 16):
-            if chunk:
-                fh.write(chunk)
-                total += len(chunk)
-    log.info("Wrote %s (%.1f MB)", dest, total / 1e6)
-    if total < 10_000:
-        raise RuntimeError(
-            f"Registry export looks truncated ({total} bytes). Refusing to "
-            "overwrite good data with a bad snapshot."
-        )
+    log.info("Downloading bulk registry export from %s", config.REGISTRY_CSV_URL)
+    try:
+        r = http_get(config.REGISTRY_CSV_URL, accept="text/csv", stream=True,
+                     timeout=config.BULK_TIMEOUT)
+        total = 0
+        with dest.open("wb") as fh:
+            for chunk in r.iter_content(chunk_size=1 << 16):
+                if chunk:
+                    fh.write(chunk)
+                    total += len(chunk)
+        log.info("Wrote %s (%.1f MB)", dest, total / 1e6)
+        n = _count_rows(dest)
+        log.info("Bulk export contains %d rows", n)
+        if n >= config.MIN_EXPECTED_PLANS:
+            return dest
+        log.warning("Bulk export only had %d rows (expected >= %d); falling "
+                    "back to paginated search", n, config.MIN_EXPECTED_PLANS)
+    except Exception as exc:  # noqa: BLE001
+        log.warning("Bulk export failed (%s); falling back to paginated search", exc)
+
+    return download_paginated(dest)
+
+
+def _count_rows(path: Path) -> int:
+    """Count CSV records (the export has embedded newlines inside quotes)."""
+    csv.field_size_limit(min(sys.maxsize, 2**31 - 1))
+    with path.open("r", encoding="utf-8-sig", newline="") as fh:
+        return max(0, sum(1 for _ in csv.reader(fh)) - 1)
+
+
+def download_paginated(dest: Path, max_pages: int = 2000) -> Path:
+    """Walk `/trials/search.csv?page=N` until the pages stop yielding rows."""
+    log.info("Paginating %s (20 rows per page)", config.REGISTRY_SEARCH_CSV_URL)
+    header: list[str] | None = None
+    rows: list[list[str]] = []
+    seen_first: set[str] = set()
+
+    for page in range(1, max_pages + 1):
+        r = http_get(config.REGISTRY_SEARCH_CSV_URL, params={"page": page},
+                     accept="text/csv", timeout=config.HTTP_TIMEOUT)
+        reader = csv.reader(io.StringIO(r.text))
+        try:
+            page_header = next(reader)
+        except StopIteration:
+            break
+        page_rows = [row for row in reader if any(c.strip() for c in row)]
+        if header is None:
+            header = page_header
+        if not page_rows:
+            log.info("Page %d empty; stopping", page)
+            break
+        # The registry repeats the last page forever rather than 404ing, so
+        # stop as soon as a page's first row is one we have already taken.
+        key = "|".join(page_rows[0][:3])
+        if key in seen_first:
+            log.info("Page %d repeats earlier content; stopping", page)
+            break
+        seen_first.add(key)
+        rows.extend(page_rows)
+        if page % 25 == 0:
+            log.info("  %d pages, %d rows so far", page, len(rows))
+        time.sleep(config.PAGE_SLEEP)
+
+    if header is None or not rows:
+        raise RuntimeError("Paginated fallback produced no rows")
+
+    with dest.open("w", encoding="utf-8", newline="") as fh:
+        w = csv.writer(fh)
+        w.writerow(header)
+        w.writerows(rows)
+    log.info("Wrote %s (%d rows via pagination)", dest, len(rows))
     return dest
 
 
