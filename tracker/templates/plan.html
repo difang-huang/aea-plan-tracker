@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%232a78d6%27/%3E%3Crect x=%277%27 y=%2716%27 width=%274%27 height=%279%27 fill=%27white%27/%3E%3Crect x=%2714%27 y=%2711%27 width=%274%27 height=%2714%27 fill=%27white%27/%3E%3Crect x=%2721%27 y=%276%27 width=%274%27 height=%2719%27 fill=%27white%27/%3E%3C/svg%3E">
+<title>Plan · {{SITE_TITLE}}</title>
+<style>/*{{CSS}}*/</style>
+</head>
+<body>
+<header class="top">
+  <div class="inner">
+    <span class="brand"><a href="index.html">{{SITE_TITLE}}</a></span>
+    <span class="tagline" id="crumb-title"></span>
+    <button class="ghost" id="theme-toggle" aria-label="Toggle colour theme">Theme</button>
+  </div>
+</header>
+
+<main class="wrap" id="main">
+  <div class="crumbs"><a href="index.html">← All plans</a></div>
+  <div id="body"><div class="empty">Loading…</div></div>
+</main>
+
+<script>/*{{COMMON_JS}}*/</script>
+<script>
+initTheme();
+
+const COMPONENT_LABELS = {
+  semantic_rarity: "Unlike earlier plans",
+  topic_saturation: "Uncrowded topic",
+  method_rarity: "Unusual method",
+  combination_rarity: "Unusual field / setting",
+  priority: "Got there first",
+  power_adequacy: "Statistical power",
+  design_completeness: "Design specified",
+  timeline_realism: "Realistic timeline",
+  operational_risk: "Low operational risk",
+  team_track_record: "Team track record",
+};
+
+function shardOf(id) {
+  const digits = (id.match(/\d+/g) || ["0"]).join("");
+  return String(Number(digits) % 64).padStart(2, "0");
+}
+
+function components(obj) {
+  if (!obj) return "";
+  return Object.entries(obj).map(([k, v]) => `
+    <div class="comp">
+      <span>${esc(COMPONENT_LABELS[k] || k)}</span>
+      <span class="cbar"><span style="width:${(v * 100).toFixed(0)}%"></span></span>
+      <span class="cval">${(v * 100).toFixed(0)}</span>
+    </div>`).join("");
+}
+
+function scoreCard(name, score, blended, band, comps, notes, llmScore, llmReason) {
+  const shown = blended !== null && blended !== undefined ? blended : score;
+  return `<div class="card">
+    <h2>${name}</h2>
+    <div class="bigscore">${shown === null || shown === undefined ? "—" : (+shown).toFixed(0)}
+      <small>/ 100 · ${esc(band || "")}</small></div>
+    ${blended !== null && blended !== undefined && blended !== score
+      ? `<div class="stamp" style="margin-top:4px">rules ${(+score).toFixed(0)} · model ${llmScore} · blended</div>`
+      : `<div class="stamp" style="margin-top:4px">percentile within the registry</div>`}
+    <div style="margin-top:12px">${components(comps)}</div>
+    ${notes && notes.length ? `<ul class="notes">${notes.map((n) => `<li>${esc(n)}</li>`).join("")}</ul>` : ""}
+    ${llmReason ? `<p class="stamp" style="margin-top:10px"><strong>Model read:</strong> ${esc(llmReason)}</p>` : ""}
+  </div>`;
+}
+
+function paperBlock(p) {
+  const conf = +p.confidence;
+  const badge = conf >= 0.8 ? "confirmed" : conf >= 0.55 ? "likely" : "candidate";
+  const colour = conf >= 0.8 ? "var(--good)" : conf >= 0.55 ? "var(--warning)" : "var(--serious)";
+  return `<div class="paper">
+    <div class="ptitle">${p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a>` : esc(p.title)}</div>
+    <div class="meta">${esc(p.authors || "")}</div>
+    <div class="meta">${esc(p.venue || "")}${p.year ? " · " + p.year : ""}
+      · ${p.kind === "published" ? "published" : p.kind === "working_paper" ? "working paper" : "other"}
+      ${p.cited_by ? " · " + num(p.cited_by) + " citations" : ""}
+      ${p.doi ? ` · <span class="mono">${esc(p.doi)}</span>` : ""}</div>
+    <div style="margin-top:6px">
+      <span class="pill"><span class="dot" style="background:${colour}"></span>${badge} · ${conf.toFixed(2)}</span>
+      <span class="pill">${esc(String(p.method || "").replace(/_/g, " "))}</span>
+    </div>
+    ${p.evidence ? `<div class="ev">${esc(p.evidence)}</div>` : ""}
+  </div>`;
+}
+
+function longField(label, value) {
+  if (!value) return "";
+  return `<div style="margin-top:14px"><h3>${esc(label)}</h3>
+          <div class="longtext">${esc(value)}</div></div>`;
+}
+
+(async function main() {
+  const id = new URLSearchParams(location.search).get("id");
+  const body = document.getElementById("body");
+  if (!id) { body.innerHTML = '<div class="empty">No plan id given.</div>'; return; }
+
+  let shard;
+  try { shard = await loadJSON(`data/detail/${shardOf(id)}.json`); }
+  catch (e) { body.innerHTML = `<div class="empty">Could not load data (${esc(e.message)}).</div>`; return; }
+
+  const d = shard[id];
+  if (!d) { body.innerHTML = `<div class="empty">Plan ${esc(id)} not found.</div>`; return; }
+
+  document.title = (d.title || id) + " · {{SITE_TITLE}}";
+  document.getElementById("crumb-title").textContent = d.rct_id;
+
+  const s = d.scores || {};
+  const flags = s.flags || {};
+  const warn = [];
+  if (d.prospective === false) warn.push("Registered after the intervention began");
+  if (flags.underpowered) warn.push("Likely underpowered for plausible effects");
+  if (flags.mde_inconsistent) warn.push("Stated MDE conflicts with the planned sample");
+  if (flags.cluster_obs_inconsistent) warn.push("Cluster and observation counts are inconsistent");
+  if (flags.stalled_years) warn.push(`End date passed ${flags.stalled_years} years ago, still under way`);
+  if (d.overdue_years) warn.push(`Finished ${d.overdue_years} years ago with no paper found`);
+
+  const size = [
+    d.n_obs_planned ? `${num(Math.round(d.n_obs_planned))} observations` : null,
+    d.n_clusters_planned ? `${num(Math.round(d.n_clusters_planned))} clusters` : null,
+    d.n_arms ? `${Math.round(d.n_arms)} arms` : null,
+  ].filter(Boolean).join(" · ") || "not reported";
+
+  body.innerHTML = `
+    <h1>${esc(d.title || id)}</h1>
+    <p class="stamp">
+      <a href="${esc(d.url || "#")}" target="_blank" rel="noopener" class="mono">${esc(d.rct_id)}</a>
+      · ${esc(d.pi_name || "")}
+      · registered ${esc(d.first_registered_on || "?")}
+      · ${stagePillText(d.stage)}
+    </p>
+    ${warn.length ? `<div class="card" style="border-color:var(--serious);margin:14px 0">
+        <h3 style="margin:0 0 6px">Things to check</h3>
+        <ul class="notes" style="margin:0">${warn.map((w) => `<li>${esc(w)}</li>`).join("")}</ul>
+      </div>` : ""}
+
+    <div class="section scorebox">
+      ${scoreCard("Novelty", s.novelty, s.novelty_blended, s.novelty_band,
+                  s.novelty_components, s.novelty_notes,
+                  (s.llm || {}).novelty, (s.llm || {}).novelty_reason)}
+      ${scoreCard("Feasibility", s.feasibility, s.feasibility_blended, s.feasibility_band,
+                  s.feasibility_components, s.feasibility_notes,
+                  (s.llm || {}).feasibility, (s.llm || {}).feasibility_reason)}
+    </div>
+
+    <div class="section grid2">
+      <div class="card">
+        <h2>Papers <span class="note">${d.papers.length ? d.papers.length + " link(s)" : "none found"}</span></h2>
+        ${d.papers.length ? d.papers.map(paperBlock).join("")
+          : '<div class="empty">No working paper or publication matched to this plan yet.</div>'}
+      </div>
+      <div class="card">
+        <h2>Closest earlier plans <span class="note">what novelty is measured against</span></h2>
+        ${d.neighbours && d.neighbours.length ? d.neighbours.map((n) => `
+          <div class="paper"><div class="ptitle">
+            <a href="plan.html?id=${encodeURIComponent(n.rct_id)}">${esc(n.title)}</a></div>
+            <div class="meta">${esc(n.rct_id)} · registered ${esc(n.registered_on || "?")}
+              · similarity ${(+n.similarity).toFixed(2)}</div></div>`).join("")
+          : '<div class="empty">Nothing comparable was registered earlier.</div>'}
+      </div>
+    </div>
+
+    <div class="section card">
+      <h2>The plan</h2>
+      <dl class="kv">
+        <dt>Status</dt><dd>${esc(d.status || "—")}</dd>
+        <dt>Planned sample</dt><dd>${size}</dd>
+        <dt>Minimum effect size</dt><dd>${esc(d.mde_text || "not reported")}</dd>
+        ${flags.implied_mde_sd ? `<dt>Implied MDE at 80% power</dt><dd>${flags.implied_mde_sd} SD <span class="stamp">(assumes ICC 0.05 when clustered)</span></dd>` : ""}
+        <dt>Randomization</dt><dd>${esc(d.randomization_unit || "—")}</dd>
+        <dt>Countries</dt><dd>${esc((d.countries || []).join(", ") || "—")}</dd>
+        <dt>JEL</dt><dd>${esc((d.jel || []).join(", ") || "—")}</dd>
+        <dt>Keywords</dt><dd>${esc((d.keywords || []).join(", ") || "—")}</dd>
+        <dt>Investigators</dt><dd>${esc((d.pis || []).join("; ") || "—")}</dd>
+        <dt>Partners</dt><dd>${esc((d.partners || []).join(", ") || "—")}</dd>
+        <dt>Intervention dates</dt><dd>${esc(d.intervention_start || "?")} → ${esc(d.intervention_end || "?")}</dd>
+        <dt>Analysis plan</dt><dd>${d.has_analysis_plan ? "attached" : "none attached"}</dd>
+        <dt>IRB</dt><dd>${d.has_irb ? "reported" : "not reported"}</dd>
+        <dt>Detected methods</dt><dd>${esc((s.methods || []).map((m) => m.replace(/_/g, " ")).join(", ") || "—")}</dd>
+      </dl>
+      ${longField("Abstract", d.abstract)}
+      ${longField("Intervention", d.intervention)}
+      ${longField("Primary outcomes", d.primary_outcomes)}
+      ${longField("Primary outcome explanation", d.primary_outcome_explanation)}
+      ${longField("Experimental design", d.experimental_design_details)}
+      ${longField("Randomization method", d.randomization_method)}
+      ${longField("Treatment arms", d.treatment_arms)}
+      <p class="stamp" style="margin-top:18px">
+        Text and figures above are reproduced from the trial's AEA RCT Registry
+        entry. <a href="${esc(d.url || "#")}" target="_blank" rel="noopener">View the original registration →</a>
+      </p>
+    </div>`;
+
+  function stagePillText(stage) { return esc(String(stage || "").replace(/_/g, " ")); }
+})().catch((e) => {
+  document.getElementById("body").innerHTML =
+    `<div class="empty">Error: ${esc(e.message)}</div>`;
+});
+</script>
+</body>
+</html>
