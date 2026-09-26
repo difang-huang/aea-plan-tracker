@@ -29,7 +29,14 @@ for _p in (DATA, PLANS_DIR, BUILD, DOCS, DOCS_DATA, CACHE):
 # Source: AEA RCT Registry
 # --------------------------------------------------------------------------
 REGISTRY_BASE = "https://www.socialscienceregistry.org"
-REGISTRY_CSV_URL = f"{REGISTRY_BASE}/trials/search.csv"
+# The registry's bulk export (the "Download as CSV" button on the advanced
+# search page). This is the whole registry in one file; the server takes a
+# couple of minutes to generate it, hence the long timeout below.
+REGISTRY_CSV_URL = f"{REGISTRY_BASE}/site/csv"
+# Fallback: the search endpoint also emits CSV, but only 20 rows per page and
+# it ignores per_page, so it has to be walked page by page.
+REGISTRY_SEARCH_CSV_URL = f"{REGISTRY_BASE}/trials/search.csv"
+REGISTRY_PAGE_SIZE = 20
 TRIAL_URL_FMT = f"{REGISTRY_BASE}/trials/{{n}}"
 
 # Identify ourselves. Registries and APIs treat a real UA + contact as polite.
@@ -44,8 +51,16 @@ USER_AGENT = (
 # The registry refreshes its export roughly every ten minutes; one pull a day
 # is far inside any reasonable politeness budget.
 HTTP_TIMEOUT = 180
+# The bulk export is built on demand and can take several minutes.
+BULK_TIMEOUT = int(os.environ.get("BULK_TIMEOUT", "900"))
+# Pause between pages when falling back to paginated search.
+PAGE_SLEEP = float(os.environ.get("PAGE_SLEEP", "0.4"))
 HTTP_RETRIES = 4
 HTTP_BACKOFF = 5.0
+
+# A full registry pull should land in this ballpark; anything far below it
+# means we got a search page instead of the bulk export.
+MIN_EXPECTED_PLANS = int(os.environ.get("MIN_EXPECTED_PLANS", "5000"))
 
 # --------------------------------------------------------------------------
 # Bibliographic sources
