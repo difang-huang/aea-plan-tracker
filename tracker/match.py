@@ -24,6 +24,7 @@ from __future__ import annotations
 
 import logging
 import re
+import time
 from datetime import date
 from typing import Iterable
 
@@ -482,10 +483,19 @@ def run(plans: list[dict], budget: int | None = None) -> dict:
         if len(state_df) else {}
 
     new_links = 0
+    started = time.monotonic()
+    stopped_early = 0
     for i, plan in enumerate(queue, 1):
         rid = plan["rct_id"]
         if i % 50 == 0:
             log.info("  matched %d/%d", i, len(queue))
+        if time.monotonic() - started > config.MATCH_TIME_BUDGET_SEC:
+            stopped_early = len(queue) - i + 1
+            log.warning("Match time budget (%ds) reached after %d plans; "
+                        "leaving %d for the next run so the site still "
+                        "rebuilds", config.MATCH_TIME_BUDGET_SEC, i - 1,
+                        stopped_early)
+            break
         try:
             found = match_plan(plan)
         except Exception as exc:  # noqa: BLE001
@@ -549,7 +559,8 @@ def run(plans: list[dict], budget: int | None = None) -> dict:
         write_jsonl(config.EVENTS_JSONL, events, append=True)
 
     summary = {
-        "checked": len(queue),
+        "checked": len(queue) - stopped_early,
+        "deferred_to_next_run": stopped_early,
         "new_links": new_links,
         "plans_with_papers": sum(1 for v in existing.values() if v),
         "total_links": len(rows),
