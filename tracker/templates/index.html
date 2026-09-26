@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%232a78d6%27/%3E%3Crect x=%277%27 y=%2716%27 width=%274%27 height=%279%27 fill=%27white%27/%3E%3Crect x=%2714%27 y=%2711%27 width=%274%27 height=%2714%27 fill=%27white%27/%3E%3Crect x=%2721%27 y=%276%27 width=%274%27 height=%2719%27 fill=%27white%27/%3E%3C/svg%3E">
+<title>{{SITE_TITLE}}</title>
+<meta name="description" content="{{SITE_TAGLINE}}">
+<style>/*{{CSS}}*/</style>
+</head>
+<body>
+<header class="top">
+  <div class="inner">
+    <span class="brand">{{SITE_TITLE}}</span>
+    <span class="tagline">{{SITE_TAGLINE}}</span>
+    <span class="stamp">Updated {{GENERATED_AT}}</span>
+    <button class="ghost" id="theme-toggle" aria-label="Toggle colour theme">Theme</button>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="tiles" id="tiles"></div>
+
+  <section class="section">
+    <div class="grid2">
+      <div class="card">
+        <h2>From plan to paper
+          <span class="note">where every registered plan currently sits</span></h2>
+        <div class="funnel" id="funnel"></div>
+      </div>
+      <div class="card">
+        <h2>Plans registered each year
+          <span class="note">by first registration date</span></h2>
+        <div class="chart" id="chart-years"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="grid2">
+      <div class="card">
+        <h2>Share of each cohort with a paper
+          <span class="note">by year of registration</span></h2>
+        <div class="chart" id="chart-output"></div>
+        <p class="stamp" style="margin-top:8px">
+          Recent years are mechanically low: those trials have not had time to
+          produce anything yet. The interesting part is the plateau on the left.</p>
+      </div>
+      <div class="card">
+        <h2>Registration quality over time
+          <span class="note">share with an analysis plan attached</span></h2>
+        <div class="chart" id="chart-quality"></div>
+        <p class="stamp" style="margin-top:8px">
+          A pre-analysis plan document is the difference between registering a
+          study and pre-committing to how it will be analysed.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="card">
+      <h2>Novelty against feasibility
+        <span class="note" id="corr-note"></span></h2>
+      <div class="density">
+      <div class="chart" id="chart-density"></div>
+      <p class="stamp" style="margin-top:8px;max-width:74ch">
+        Each cell counts the plans in that slice of the plane. Both axes are
+        percentiles, so the marginal distributions are flat by construction —
+        only the <em>joint</em> shape carries information. A dark band running
+        bottom-left to top-right would mean ambitious plans are also the
+        better-designed ones; a dark top-left corner would mean the novel ideas
+        are the ones least likely to deliver.
+        <br><br>
+        With the whole registry loaded this is the one panel that can surprise
+        you: if the dark mass sits in the top-left, the field's most original
+        ideas are also its least well-powered, and the tracker has found
+        something worth writing about.
+      </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Every plan <span class="note" id="filter-note"></span></h2>
+    <div class="filters">
+      <input type="search" id="q" placeholder="Search title, investigator, RCT ID, country…"
+             autocomplete="off" aria-label="Search plans">
+      <select id="f-stage" aria-label="Filter by stage"><option value="">Any stage</option></select>
+      <select id="f-year" aria-label="Filter by year"><option value="">Any year</option></select>
+      <select id="f-score" aria-label="Filter by score">
+        <option value="">Any score</option>
+        <option value="hi-nov">Top-quartile novelty</option>
+        <option value="hi-fea">Top-quartile feasibility</option>
+        <option value="hi-both">Top quartile on both</option>
+        <option value="lo-fea">Bottom-quartile feasibility</option>
+      </select>
+      <select id="f-flag" aria-label="Filter by flag">
+        <option value="">Any status</option>
+        <option value="paper">Has a matched paper</option>
+        <option value="nopaper">No paper found</option>
+        <option value="overdue">Results overdue (2y+)</option>
+        <option value="retro">Registered retrospectively</option>
+        <option value="plan">Analysis plan attached</option>
+      </select>
+      <span class="count" id="count"></span>
+    </div>
+
+    <div class="tablewrap">
+      <table>
+        <thead><tr>
+          <th data-sort="title">Plan</th>
+          <th data-sort="year">Reg.</th>
+          <th data-sort="stage">Stage</th>
+          <th data-sort="novelty" class="num">Novelty</th>
+          <th data-sort="feasibility" class="num">Feasibility</th>
+          <th data-sort="paper_year">Matched paper</th>
+        </tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+    <div style="text-align:center;margin-top:14px">
+      <button class="ghost" id="more">Show more</button>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="grid2">
+      <div class="card">
+        <h2>Recent activity <span class="note">newest first</span></h2>
+        <div id="events"></div>
+      </div>
+      <div class="card">
+        <h2>Results overdue <span class="note">finished 2+ years ago, no paper found</span></h2>
+        <div id="overdue"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section card">
+    <h2>How to read this</h2>
+    <p style="font-size:.88rem;color:var(--ink-2);max-width:74ch">
+      Both scores are <strong>percentiles within the registry</strong>: 70 means
+      the plan scores above 70% of all registered plans on that dimension, not
+      that it is 70% good. Every score decomposes into named components that are
+      shown on each plan's page, along with the sentences that produced it.
+      Novelty is judged only against plans registered <em>earlier</em>.
+    </p>
+    <p style="font-size:.88rem;color:var(--ink-2);max-width:74ch">
+      Paper links carry a confidence and a method. Links marked
+      <em>declared</em> come from the registry entry itself and are as reliable
+      as the authors' own reporting; <em>rct&nbsp;id citation</em> means the
+      paper's full text cites the trial's registry number; <em>author
+      similarity</em> is inferred and should be checked before use.
+      "Results overdue" is a descriptive publication-bias signal, never a
+      penalty in any score.
+    </p>
+    <p style="font-size:.88rem;color:var(--ink-2)">
+      Data: <a href="download/">CSV downloads</a> ·
+      Source: <a href="https://www.socialscienceregistry.org/">AEA RCT Registry</a>,
+      <a href="https://openalex.org/">OpenAlex</a>,
+      <a href="https://www.crossref.org/">Crossref</a>, arXiv.
+    </p>
+  </section>
+</main>
+
+<script>/*{{COMMON_JS}}*/</script>
+<script>
+initTheme();
+
+const state = { all: [], view: [], shown: 0, page: 120,
+                sort: { key: "year", dir: -1 } };
+
+function rowObj(cols, r) { const o = {}; cols.forEach((c, i) => o[c] = r[i]); return o; }
+
+function stagePill(stage, labels) {
+  const c = STAGE_COLORS[stage] || "var(--ord-1)";
+  return `<span class="pill"><span class="dot" style="background:${c}"></span>${esc(labels[stage] || stage)}</span>`;
+}
+
+function scoreCell(v) {
+  if (v === null || v === undefined) return '<td class="num">—</td>';
+  return `<td class="num"><span class="score">${pct(v)}</span>
+    <div class="meter"><span style="width:${Math.max(2, v)}%"></span></div></td>`;
+}
+
+function render(reset) {
+  const tb = document.getElementById("rows");
+  if (reset) { tb.innerHTML = ""; state.shown = 0; }
+  const slice = state.view.slice(state.shown, state.shown + state.page);
+  const labels = state.summary.stage_labels;
+  tb.insertAdjacentHTML("beforeend", slice.map((d) => {
+    const flags = [];
+    if (d.overdue) flags.push(`<span class="flag">results overdue ${d.overdue}y</span>`);
+    if (d.prospective === false) flags.push('<span class="flag warn">retrospective</span>');
+    const paper = d.paper_title
+      ? `<div class="t">${d.paper_url ? `<a href="${esc(d.paper_url)}" target="_blank" rel="noopener">${esc(d.paper_title)}</a>` : esc(d.paper_title)}</div>
+         <div class="sub">${esc(d.paper_venue || "")}${d.paper_year ? " · " + d.paper_year : ""}${d.n_papers > 1 ? ` · +${d.n_papers - 1} more` : ""}</div>`
+      : '<span class="sub">—</span>';
+    return `<tr>
+      <td><div class="t"><a href="plan.html?id=${encodeURIComponent(d.id)}">${esc(d.title) || d.id}</a></div>
+          <div class="sub">${esc(d.pi || "")}${d.country ? " · " + esc(d.country) : ""}${d.jel ? " · " + esc(d.jel) : ""} · <span class="mono">${esc(d.id)}</span></div>
+          ${flags.length ? `<div>${flags.join(" ")}</div>` : ""}</td>
+      <td class="num">${d.year || "—"}</td>
+      <td>${stagePill(d.stage, labels)}</td>
+      ${scoreCell(d.novelty)}
+      ${scoreCell(d.feasibility)}
+      <td>${paper}</td>
+    </tr>`;
+  }).join(""));
+  state.shown += slice.length;
+  document.getElementById("more").style.display =
+    state.shown < state.view.length ? "" : "none";
+  document.getElementById("count").textContent =
+    `${nf.format(state.view.length)} of ${nf.format(state.all.length)} plans`;
+}
+
+function applyFilters() {
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const stage = document.getElementById("f-stage").value;
+  const year = document.getElementById("f-year").value;
+  const sc = document.getElementById("f-score").value;
+  const fl = document.getElementById("f-flag").value;
+
+  state.view = state.all.filter((d) => {
+    if (stage && d.stage !== stage) return false;
+    if (year && String(d.year) !== year) return false;
+    if (sc === "hi-nov" && !(d.novelty >= 75)) return false;
+    if (sc === "hi-fea" && !(d.feasibility >= 75)) return false;
+    if (sc === "hi-both" && !(d.novelty >= 75 && d.feasibility >= 75)) return false;
+    if (sc === "lo-fea" && !(d.feasibility !== null && d.feasibility <= 25)) return false;
+    if (fl === "paper" && !d.n_papers) return false;
+    if (fl === "nopaper" && d.n_papers) return false;
+    if (fl === "overdue" && !d.overdue) return false;
+    if (fl === "retro" && d.prospective !== false) return false;
+    if (fl === "plan" && !d.has_plan) return false;
+    if (q && !d._s.includes(q)) return false;
+    return true;
+  });
+  sortView();
+  render(true);
+}
+
+function sortView() {
+  const { key, dir } = state.sort;
+  state.view.sort((a, b) => {
+    let x = a[key], y = b[key];
+    if (x === null || x === undefined) return 1;
+    if (y === null || y === undefined) return -1;
+    if (typeof x === "string") { x = x.toLowerCase(); y = String(y).toLowerCase(); }
+    return x < y ? -dir : x > y ? dir : 0;
+  });
+}
+
+function drawCharts() {
+  const s = state.summary;
+  barChart(document.getElementById("chart-years"),
+    s.registrations_by_year.map((d) => ({ x: d.year, y: d.n })),
+    { labelEvery: Math.ceil(s.registrations_by_year.length / 9),
+      tipFn: (d) => `<b>${d.x}</b><br>${num(d.y)} plans registered` });
+
+  const everyN = (arr) => Math.max(1, Math.ceil(arr.length / 9));
+
+  lineChart(document.getElementById("chart-output"),
+    s.cohort_output.map((d) => ({ x: d.year, y: d.share, _d: d })),
+    { suffix: "%", labelEvery: everyN(s.cohort_output), height: 170,
+      tipFn: (d) => `<b>${d.x}</b><br>${d._d.with_paper} of ${d._d.n} plans have a paper<br>${d.y}%` });
+
+  lineChart(document.getElementById("chart-quality"),
+    s.plan_quality.map((d) => ({ x: d.year, y: d.analysis_plan, _d: d })),
+    { suffix: "%", labelEvery: everyN(s.plan_quality), height: 170,
+      tipFn: (d) => `<b>${d.x}</b><br>${d.y}% attached an analysis plan<br>${d._d.prospective}% registered before the intervention started` });
+
+  heatmap(document.getElementById("chart-density"), s.score_density, {
+    xLabel: "Novelty percentile →", yLabel: "Feasibility percentile →",
+    tipFn: (c) => `<b>Novelty ${c.x0}–${c.x0 + c.step}, feasibility ${c.y0}–${c.y0 + c.step}</b><br>${num(c.n)} plans`,
+  });
+  document.getElementById("corr-note").textContent =
+    s.score_corr === null || s.score_corr === undefined
+      ? "" : `correlation ${s.score_corr > 0 ? "+" : ""}${s.score_corr}`;
+}
+
+function drawFunnel() {
+  const s = state.summary;
+  const max = Math.max(...s.funnel.map((f) => f.n), 1);
+  document.getElementById("funnel").innerHTML = s.funnel.map((f, i) => `
+    <div class="row">
+      <div class="lab">${esc(f.label)}</div>
+      <div class="bar"><span style="width:${(f.n / max * 100).toFixed(1)}%;background:${ORD[i]}"></span></div>
+      <div class="num">${num(f.n)} <em>${(f.n / s.n_plans * 100).toFixed(1)}%</em></div>
+    </div>`).join("");
+}
+
+function drawTiles() {
+  const s = state.summary;
+  const tiles = [
+    ["Plans tracked", num(s.n_plans), "AEA RCT Registry"],
+    ["With a matched paper", num(s.n_with_paper),
+     `${(s.n_with_paper / s.n_plans * 100).toFixed(1)}% of plans`],
+    ["Published", num(s.n_published), "in a journal"],
+    ["Working paper only", num(s.n_working_paper), "not yet published"],
+    ["Results overdue", num(s.n_overdue), "finished 2+ years ago"],
+    ["Median plan → paper", s.median_lag_years ? s.median_lag_years + " yrs" : "—",
+     "registration to first paper"],
+  ];
+  document.getElementById("tiles").innerHTML = tiles.map(([k, v, sub]) =>
+    `<div class="card tile"><div class="k">${k}</div><div class="v">${v}</div>
+     <div class="s">${sub}</div></div>`).join("");
+}
+
+function drawEvents(events) {
+  const labels = { plan_registered: "New plan", plan_updated: "Plan updated",
+    status_changed: "Status changed", paper_found: "Paper found",
+    paper_published: "Paper published", stage_changed: "Stage changed",
+    plan_disappeared: "Plan removed" };
+  const html = events.slice(0, 40).map((e) => {
+    const t = e.title ? esc(e.title) : e.rct_id;
+    const extra = e.type === "paper_found"
+      ? `<div class="sub">${esc(e.venue || "")} · ${e.kind === "published" ? "published" : "working paper"} · confidence ${e.confidence}</div>`
+      : e.type === "status_changed" ? `<div class="sub">${esc(e.from)} → ${esc(e.to)}</div>` : "";
+    return `<div class="paper"><div class="ptitle">
+        <a href="plan.html?id=${encodeURIComponent(e.rct_id)}">${t}</a></div>
+      <div class="meta">${e.date} · ${labels[e.type] || e.type}</div>${extra}</div>`;
+  }).join("");
+  document.getElementById("events").innerHTML = html || '<div class="empty">No activity recorded yet</div>';
+}
+
+function drawOverdue() {
+  const rows = state.summary.overdue_top || [];
+  document.getElementById("overdue").innerHTML = rows.length ? rows.map((r) =>
+    `<div class="paper"><div class="ptitle">
+       <a href="plan.html?id=${encodeURIComponent(r.id)}">${esc(r.title)}</a></div>
+     <div class="meta">${esc(r.pi)} · finished ${r.years} years ago</div></div>`).join("")
+    : '<div class="empty">Nothing overdue</div>';
+}
+
+(async function main() {
+  const [summary, index, events] = await Promise.all([
+    loadJSON("data/summary.json"),
+    loadJSON("data/index.json"),
+    loadJSON("data/events.json").catch(() => []),
+  ]);
+  state.summary = summary;
+  state.all = index.rows.map((r) => {
+    const o = rowObj(index.columns, r);
+    o._s = [o.id, o.title, o.pi, o.country, o.jel].join(" ").toLowerCase();
+    return o;
+  });
+
+  const stageSel = document.getElementById("f-stage");
+  Object.entries(summary.stage_labels).forEach(([k, v]) => {
+    if (summary.stage_counts[k]) {
+      stageSel.insertAdjacentHTML("beforeend",
+        `<option value="${k}">${esc(v)} (${nf.format(summary.stage_counts[k])})</option>`);
+    }
+  });
+  const yearSel = document.getElementById("f-year");
+  summary.registrations_by_year.slice().reverse().forEach((d) =>
+    yearSel.insertAdjacentHTML("beforeend", `<option>${d.year}</option>`));
+
+  drawTiles(); drawFunnel(); drawOverdue(); drawEvents(events);
+  responsive(drawCharts);
+
+  ["q", "f-stage", "f-year", "f-score", "f-flag"].forEach((id) => {
+    const n = document.getElementById(id);
+    n.addEventListener(id === "q" ? "input" : "change", applyFilters);
+  });
+  document.getElementById("more").addEventListener("click", () => render(false));
+  document.querySelectorAll("th[data-sort]").forEach((th) => {
+    th.addEventListener("click", () => {
+      const key = th.dataset.sort;
+      state.sort = { key, dir: state.sort.key === key ? -state.sort.dir : -1 };
+      document.querySelectorAll("th[data-sort]").forEach((o) =>
+        o.classList.remove("asc", "desc"));
+      th.classList.add(state.sort.dir === 1 ? "asc" : "desc");
+      sortView(); render(true);
+    });
+  });
+  applyFilters();
+})().catch((e) => {
+  document.getElementById("rows").innerHTML =
+    `<tr><td colspan="6" class="empty">Could not load data: ${esc(e.message)}</td></tr>`;
+});
+</script>
+</body>
+</html>
