@@ -58,7 +58,12 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
           MATCH_BUDGET_PER_RUN: ${{ github.event.inputs.match_budget || '500' }}
           LLM_BUDGET_PER_RUN: ${{ github.event.inputs.llm_budget || '120' }}
-        run: python -m tracker.cli daily | tee run-summary.json
+        # pipefail matters: without it the exit status of the pipeline is
+        # tee's, so a crashed pipeline would report a green build.
+        shell: bash
+        run: |
+          set -o pipefail
+          python -m tracker.cli daily | tee run-summary.json
 
       - name: Commit refreshed data
         run: |
