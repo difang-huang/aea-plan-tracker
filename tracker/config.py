@@ -72,6 +72,10 @@ ARXIV_BASE = "http://export.arxiv.org/api/query"
 # Per-run budget so a daily job stays well inside every service's limits and
 # finishes in a few minutes. Backfill therefore spreads over several days.
 MATCH_BUDGET_PER_RUN = int(os.environ.get("MATCH_BUDGET_PER_RUN", "500"))
+# Hard wall-clock stop for the matching step. The CI job has a 90-minute
+# budget; matching must never be the reason the site fails to rebuild, so it
+# stops early and leaves the rest for tomorrow.
+MATCH_TIME_BUDGET_SEC = int(os.environ.get("MATCH_TIME_BUDGET_SEC", "2400"))
 # Re-check an already-matched plan this often (papers get published later).
 REMATCH_AFTER_DAYS = int(os.environ.get("REMATCH_AFTER_DAYS", "45"))
 # Re-check an unmatched plan less eagerly the older and quieter it is.
