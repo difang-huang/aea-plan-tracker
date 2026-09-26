@@ -1,0 +1,62 @@
+name: Bootstrap
+
+# One-shot: unpacks bootstrap/payload.b64.part* into the repository, then
+# deletes itself and the payload. Run it once from the Actions tab, then
+# never again.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Unpack payload
+        run: |
+          python3 - <<'PY'
+          import base64, glob, io, pathlib, tarfile
+          parts = sorted(glob.glob("bootstrap/payload.b64.part*"))
+          if not parts:
+              raise SystemExit("no payload parts found")
+          print("parts:", parts)
+          b64 = "".join("".join(pathlib.Path(p).read_text().split()) for p in parts)
+          print("base64 chars:", len(b64))
+          blob = base64.b64decode(b64)
+          print("tar.gz bytes:", len(blob))
+          with tarfile.open(fileobj=io.BytesIO(blob), mode="r:gz") as tf:
+              names = tf.getnames()
+              for n in names:
+                  if n.startswith("/") or ".." in pathlib.PurePosixPath(n).parts:
+                      raise SystemExit(f"refusing unsafe path in archive: {n}")
+              tf.extractall(".")
+          print(f"extracted {len(names)} entries")
+          PY
+
+      - name: Remove bootstrap scaffolding
+        run: |
+          rm -rf bootstrap
+          rm -f .github/workflows/bootstrap.yml
+
+      - name: Commit
+        run: |
+          git config user.name  "aea-plan-tracker[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Unpack project and remove bootstrap scaffolding"
+          git push
+
+      - name: What next
+        run: |
+          {
+            echo "### Bootstrap complete"
+            echo ""
+            echo "The project is now in the repository."
+            echo ""
+            echo "1. Settings -> Pages -> Source: **GitHub Actions**"
+            echo "2. Actions -> **Daily update** -> Run workflow (first run backfills the registry)"
+          } >> $GITHUB_STEP_SUMMARY
