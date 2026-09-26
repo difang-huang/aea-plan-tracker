@@ -18,6 +18,10 @@ from . import config
 log = logging.getLogger("tracker")
 
 
+class NotFound(Exception):
+    """A definitive 4xx answer. Never worth retrying."""
+
+
 def setup_logging(verbose: bool = True) -> None:
     logging.basicConfig(
         level=logging.INFO if verbose else logging.WARNING,
@@ -60,11 +64,18 @@ def http_get(
                 headers=headers,
                 stream=stream,
             )
-            # 429/5xx are worth retrying; 4xx otherwise are not.
+            # 429 and 5xx are worth retrying; other 4xx never are.
             if r.status_code == 429 or 500 <= r.status_code < 600:
                 raise requests.HTTPError(f"{r.status_code} for {url}")
+            if 400 <= r.status_code < 500:
+                # A 404 from a DOI lookup is an answer, not a failure.
+                # Retrying it four times with backoff is how a matching run
+                # burns its whole budget on nothing.
+                raise NotFound(f"{r.status_code} for {url}")
             r.raise_for_status()
             return r
+        except NotFound:
+            raise
         except Exception as exc:  # noqa: BLE001
             last = exc
             if attempt == config.HTTP_RETRIES - 1:
@@ -258,13 +269,21 @@ RCTID_RE = re.compile(r"\bAEARCTR[-\s]?(\d{7})\b", re.I)
 URL_RE = re.compile(r"https?://[^\s,;|)\]<>\"']+")
 
 
+# File extensions that get swept up when a DOI is pulled out of a URL such as
+# ".../10.1186/s40172-015-0022-8.pdf". Left on, they turn every such link into
+# a guaranteed 404.
+_DOI_SUFFIX = re.compile(
+    r"(?:\.(?:pdf|html?|xml|json|full|abstract|epub|txt|supp|s\d+))+$", re.I)
+
+
 def clean_doi(raw: str) -> str:
-    """Strip trailing punctuation and any resolver prefix from a DOI."""
+    """Strip resolver prefix, trailing punctuation and file extensions."""
     s = clean_text(raw).lower()
     s = re.sub(r"^(https?://)?(dx\.)?doi\.org/", "", s)
     s = re.sub(r"^doi:\s*", "", s)
     s = s.rstrip(".,;)]>\"'")
-    return s
+    s = _DOI_SUFFIX.sub("", s)
+    return s.rstrip(".,;)]>\"'")
 
 
 def extract_dois(text: str) -> list[str]:
