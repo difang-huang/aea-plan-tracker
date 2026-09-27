@@ -239,7 +239,9 @@ def match_plan(plan: dict) -> list[dict]:
                 f"arXiv:{aid} listed by the authors.")
 
     # --- rung 2: papers that cite the registry id ------------------------
-    for variant in rct_id_variants(rid)[:2]:
+    # One query, not one per spelling: the zero-padded form is what papers
+    # actually print, and every extra call is a call OpenAlex may rate-limit.
+    for variant in rct_id_variants(rid)[:1]:
         for work in sources.oa_fulltext(variant):
             add(_paper_from_openalex(work), "rct_id_citation", 0.93,
                 f"Paper's full text cites the trial id {variant}.")
