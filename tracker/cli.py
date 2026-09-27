@@ -74,6 +74,25 @@ def paper_counts_by_pi(plans: list[dict], papers_df: pd.DataFrame) -> dict[str, 
     return out
 
 
+def save_corpus_stats() -> dict:
+    """Persist the similarity diagnostics produced by the last scoring pass.
+
+    These are measurements, not scores: they say what a latent/embedding
+    similarity space would have changed, so the decision to adopt one can be
+    made from registry-scale evidence instead of intuition.
+    """
+    diag = dict(score.SIMILARITY_DIAGNOSTICS)
+    if not diag:
+        return {}
+    config.CORPUS_STATS_JSON.write_text(
+        json.dumps({"similarity_probe": diag}, indent=2, sort_keys=True),
+        encoding="utf-8",
+    )
+    log.info("Wrote %s (latent probe: %s)", config.CORPUS_STATS_JSON.name,
+             diag.get("status"))
+    return {k: v for k, v in diag.items() if k != "examples"}
+
+
 def do_score(plans: list[dict], use_llm: bool = True) -> dict:
     papers_df = match.load_papers()
     scores = score.score_all(plans, paper_counts_by_pi(plans, papers_df))
@@ -126,6 +145,9 @@ def main(argv: list[str] | None = None) -> int:
     if args.command in {"daily", "score", "match"}:
         scores = do_score(plans, use_llm=use_llm)
         summary["score"] = {"scored": len(scores)}
+        probe = save_corpus_stats()
+        if probe:
+            summary["similarity_probe"] = probe
 
     if args.command in {"daily", "site", "match", "score"}:
         if scores is None:
