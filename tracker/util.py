@@ -22,6 +22,30 @@ class NotFound(Exception):
     """A definitive 4xx answer. Never worth retrying."""
 
 
+# ----------------------------------------------------------------------
+# Adaptive throttle
+#
+# GitHub's runners share outbound IPs, so OpenAlex rate-limits us even in
+# the polite pool. A fixed sleep either wastes the whole run being slow or
+# collides constantly. Instead: start fast, and every 429 permanently slows
+# this process down a notch until it stops being rate-limited.
+# ----------------------------------------------------------------------
+_throttle = {"extra": 0.0}
+
+
+def note_rate_limited() -> None:
+    _throttle["extra"] = min(3.0, _throttle["extra"] * 1.7 + 0.2)
+    log.info("Throttling up: +%.2fs between requests", _throttle["extra"])
+
+
+def throttle_sleep(base: float) -> None:
+    time.sleep(base + _throttle["extra"])
+
+
+def throttle_extra() -> float:
+    return _throttle["extra"]
+
+
 def setup_logging(verbose: bool = True) -> None:
     logging.basicConfig(
         level=logging.INFO if verbose else logging.WARNING,
@@ -64,8 +88,23 @@ def http_get(
                 headers=headers,
                 stream=stream,
             )
-            # 429 and 5xx are worth retrying; other 4xx never are.
-            if r.status_code == 429 or 500 <= r.status_code < 600:
+            if r.status_code == 429:
+                # Honour Retry-After when the server sends one, and slow every
+                # later request down so we stop provoking it. GitHub runners
+                # share outbound IPs, so OpenAlex rate-limits this job even in
+                # the polite pool; a plain retry just collides again.
+                note_rate_limited()
+                try:
+                    wait = float(r.headers.get("Retry-After") or 0)
+                except ValueError:
+                    wait = 0.0
+                wait = wait or config.HTTP_BACKOFF * (2**attempt)
+                log.warning("Rate limited; waiting %.0fs: %s", min(wait, 60), url)
+                time.sleep(min(wait, 60))
+                last = requests.HTTPError(f"429 for {url}")
+                continue
+            # 5xx is worth retrying; other 4xx never is.
+            if 500 <= r.status_code < 600:
                 raise requests.HTTPError(f"{r.status_code} for {url}")
             if 400 <= r.status_code < 500:
                 # A 404 from a DOI lookup is an answer, not a failure.
