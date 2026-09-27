@@ -182,7 +182,134 @@ def build_similarity(plans: list[dict], n_neighbours: int = config.N_NEIGHBOURS)
             max_prior[i] = 0.0
             mean_prior[i] = 0.0
 
+    SIMILARITY_DIAGNOSTICS.clear()
+    SIMILARITY_DIAGNOSTICS.update(
+        probe_latent_space(X, idx, sim, ids, titles, n_neighbours)
+    )
+
     return neighbours, dict(zip(ids, max_prior)), dict(zip(ids, mean_prior))
+
+
+# --------------------------------------------------------------------------
+# Latent-space probe
+# --------------------------------------------------------------------------
+# Filled in by build_similarity; written to data/corpus_stats.json by the CLI.
+SIMILARITY_DIAGNOSTICS: dict = {}
+
+
+def probe_latent_space(X, lex_idx, lex_sim, ids, titles,
+                       n_neighbours: int = config.N_NEIGHBOURS,
+                       *, sample: int | None = None, seed: int = 0) -> dict:
+    """Measure what a latent similarity space *would* change. Changes nothing.
+
+    Fits LSA on the TF-IDF matrix that was just built, takes the latent top-k
+    for a random sample of plans, and compares it with the lexical top-k that
+    actually shipped. The number that decides whether embeddings are worth it
+    is `pct_rows_with_latent_only_hit`: how often the latent space pulls a plan
+    into the top-k that TF-IDF scored as barely related at all. Those pairs are
+    the claimed "same design, different words" case, and every one found is
+    recorded in `examples` so a human can read them and say whether they are
+    real. If they are, the blend is worth building (concatenate the lexical and
+    latent blocks, each L2-normalised and scaled by sqrt of its weight, so that
+    cosine over the pair is w_lex*cos_tfidf + w_sem*cos_lsa). If the probe keeps
+    finding none, the lexical space was never missing anything.
+    """
+    import time
+    from sklearn.decomposition import TruncatedSVD
+    from sklearn.preprocessing import normalize
+
+    n_docs = X.shape[0]
+    sample = config.SIM_PROBE_SAMPLE if sample is None else sample
+    if not sample:
+        return {"status": "disabled"}
+    n_comp = min(config.LSA_COMPONENTS, X.shape[1] - 1, n_docs - 1)
+    if n_comp < 30 or n_docs < 50:
+        return {"status": f"skipped: corpus too small ({n_docs} docs, "
+                          f"{n_comp} components)"}
+
+    t0 = time.time()
+    try:
+        Z = normalize(TruncatedSVD(n_components=n_comp, random_state=seed)
+                      .fit_transform(X))
+    except Exception as exc:  # noqa: BLE001
+        return {"status": f"failed: {exc}"}
+    Xn = normalize(X)
+
+    rng = np.random.default_rng(seed)
+    rows = rng.choice(n_docs, size=min(sample, n_docs), replace=False)
+    k = n_neighbours
+
+    overlaps: list[float] = []
+    lex_maxes: list[float] = []
+    lat_maxes: list[float] = []
+    examples: list[dict] = []
+    n_hits = 0
+    rows_with_hit = 0
+
+    # Z rows are unit vectors, so the dot product *is* cosine. Chunked so the
+    # sample x corpus score matrix never gets large.
+    for start in range(0, len(rows), 200):
+        block = rows[start:start + 200]
+        S = Z[block] @ Z.T
+        for bi, i in enumerate(block):
+            s = S[bi].copy()
+            s[i] = -1.0
+            lat = np.argpartition(-s, k)[:k]
+            lat = lat[np.argsort(-s[lat])]
+
+            lex = [int(j) for j in lex_idx[i] if int(j) != i][:k]
+            lex_set = set(lex)
+            lex_sims = [float(v) for j, v in zip(lex_idx[i], lex_sim[i])
+                        if int(j) != i][:k]
+
+            overlaps.append(len(lex_set & {int(j) for j in lat}) / max(k, 1))
+            if lex_sims:
+                lex_maxes.append(lex_sims[0])
+            lat_maxes.append(float(s[lat[0]]))
+
+            hit_here = False
+            for j in lat:
+                j = int(j)
+                if j in lex_set:
+                    continue
+                lat_s = float(s[j])
+                if lat_s < config.PROBE_LATENT_HIT:
+                    continue
+                lex_s = float(Xn[i].multiply(Xn[j]).sum())
+                if lex_s >= config.PROBE_LEXICAL_FLOOR:
+                    continue
+                n_hits += 1
+                hit_here = True
+                if len(examples) < config.PROBE_EXAMPLES:
+                    examples.append({
+                        "plan": ids[i], "plan_title": titles[i][:180],
+                        "latent_neighbour": ids[j],
+                        "neighbour_title": titles[j][:180],
+                        "latent_similarity": round(lat_s, 4),
+                        "lexical_similarity": round(lex_s, 4),
+                    })
+            rows_with_hit += int(hit_here)
+
+    return {
+        "status": "measured",
+        "n_docs": int(n_docs),
+        "n_features": int(X.shape[1]),
+        "n_components": int(n_comp),
+        "sample": int(len(rows)),
+        "k": int(k),
+        "lexical_floor": config.PROBE_LEXICAL_FLOOR,
+        "latent_hit": config.PROBE_LATENT_HIT,
+        # 1.0 would mean the latent space ranks exactly like TF-IDF, i.e. the
+        # blend cannot change any score. 0.0 would mean they disagree entirely.
+        "mean_topk_overlap": round(float(np.mean(overlaps)), 4) if overlaps else None,
+        "mean_lexical_max_sim": round(float(np.mean(lex_maxes)), 4) if lex_maxes else None,
+        "mean_latent_max_sim": round(float(np.mean(lat_maxes)), 4) if lat_maxes else None,
+        "n_latent_only_pairs": int(n_hits),
+        "pct_rows_with_latent_only_hit": round(100.0 * rows_with_hit / len(rows), 2),
+        "seconds": round(time.time() - t0, 1),
+        "examples": examples,
+    }
+
 
 
 # ==========================================================================
