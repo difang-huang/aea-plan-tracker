@@ -38,6 +38,20 @@ def note_rate_limited() -> None:
     log.info("Throttling up: +%.2fs between requests", _throttle["extra"])
 
 
+def note_ok() -> None:
+    """A request got through: give a little of the penalty back.
+
+    Without this the delay only ever ratchets upward and never comes down.
+    Measured on run 36308420403: six 429s between 09:10 and 09:12 pinned the
+    extra delay at its +3.0s cap, and it stayed there for the remaining 42
+    minutes -- the run checked 34 plans instead of a few hundred. Decaying on
+    success lets the delay settle at whatever the service actually tolerates
+    instead of at the worst moment of the run.
+    """
+    if _throttle["extra"] > 0.0:
+        _throttle["extra"] = max(0.0, _throttle["extra"] * 0.98 - 0.005)
+
+
 def throttle_sleep(base: float) -> None:
     time.sleep(base + _throttle["extra"])
 
@@ -112,6 +126,7 @@ def http_get(
                 # burns its whole budget on nothing.
                 raise NotFound(f"{r.status_code} for {url}")
             r.raise_for_status()
+            note_ok()
             return r
         except NotFound:
             raise
