@@ -72,17 +72,36 @@ jobs:
           git add -A data
           if git diff --cached --quiet; then
             echo "No data changes today."
-          else
-            git commit -m "data: daily refresh $(date -u +%Y-%m-%d)"
-            git push
+            exit 0
           fi
+          git commit -m "data: daily refresh $(date -u +%Y-%m-%d)"
+          # A full run takes ~45 minutes, so main has often moved on while it
+          # worked. Rebase onto whatever landed and retry, rather than throwing
+          # away the day's collected data on a non-fast-forward rejection.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected; rebasing onto origin/main (attempt $attempt)."
+            git pull --rebase --autostash origin main || exit 1
+            sleep $((attempt * 5))
+          done
+          echo "Could not push refreshed data after 5 attempts." >&2
+          exit 1
 
+      # The site is rebuilt from data already on disk, so publish it even if the
+      # commit above failed. A lost data commit should not also cost a day's
+      # worth of site updates.
       - uses: actions/configure-pages@v5
+        if: always()
       - uses: actions/upload-pages-artifact@v3
+        if: always()
         with:
           path: docs
       - id: deployment
         uses: actions/deploy-pages@v4
+        if: always()
 
       - name: Job summary
         if: always()
