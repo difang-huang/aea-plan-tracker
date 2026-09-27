@@ -191,6 +191,40 @@ def test_novelty_only_looks_backwards():
     assert second["max_prior_similarity"] > first["max_prior_similarity"]
 
 
+def test_latent_probe_reports_without_changing_scores(monkeypatch):
+    """The probe measures what a latent space would change, and nothing else."""
+    rows = []
+    for i in range(80):
+        row = dict(BASE_ROW)
+        row["RCT_ID"] = f"AEARCTR-{7000 + i:07d}"
+        row["Url"] = f"https://www.socialscienceregistry.org/trials/{7000 + i}"
+        row["Title"] = f"Study {i} of topic {i % 7}"
+        row["Abstract"] = (f"We randomise topic {i % 7} across {i} villages "
+                           f"measuring outcome {i % 4} with method {i % 3}.")
+        rows.append(normalize.normalize_row(row))
+
+    monkeypatch.setattr(score.config, "SIM_PROBE_SAMPLE", 40)
+    first = score.score_all(rows)
+    probe = dict(score.SIMILARITY_DIAGNOSTICS)
+
+    assert probe.get("status") in {"measured"} or probe["status"].startswith("skipped")
+    if probe["status"] == "measured":
+        assert probe["sample"] == 40
+        assert 0.0 <= probe["mean_topk_overlap"] <= 1.0
+        assert probe["pct_rows_with_latent_only_hit"] >= 0.0
+        for ex in probe["examples"]:
+            assert ex["latent_similarity"] >= score.config.PROBE_LATENT_HIT
+            assert ex["lexical_similarity"] < score.config.PROBE_LEXICAL_FLOOR
+
+    # Running the probe must leave the published scores bit-for-bit identical.
+    monkeypatch.setattr(score.config, "SIM_PROBE_SAMPLE", 0)
+    second = score.score_all(rows)
+    assert score.SIMILARITY_DIAGNOSTICS.get("status") == "disabled"
+    for field in ("novelty_score", "feasibility_score", "max_prior_similarity"):
+        assert ({r: v[field] for r, v in first.items()}
+                == {r: v[field] for r, v in second.items()})
+
+
 # --------------------------------------------------------------- match ----
 def test_declared_references_parses_the_free_text_field():
     plan = {"relevant_papers":
