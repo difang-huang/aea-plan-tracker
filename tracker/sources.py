@@ -8,7 +8,7 @@ import xml.etree.ElementTree as ET
 from typing import Any, Iterable
 
 from . import config
-from .util import clean_doi, clean_text, http_get, get_json
+from .util import clean_doi, clean_text, http_get, get_json, throttle_sleep
 
 log = logging.getLogger("tracker.sources")
 
@@ -42,7 +42,7 @@ def oa_search(filters: str, *, search: str | None = None, per_page: int = 25,
     except Exception as exc:  # noqa: BLE001
         log.warning("OpenAlex query failed (%s): %s", exc, filters)
         return []
-    time.sleep(config.OPENALEX_SLEEP)
+    throttle_sleep(config.OPENALEX_SLEEP)
     return data.get("results", []) or []
 
 
@@ -139,7 +139,7 @@ def crossref_by_doi(doi: str) -> dict | None:
                         cache_key=f"cr:doi:{doi}", ttl_days=45)
     except Exception:  # noqa: BLE001
         return None
-    time.sleep(config.CROSSREF_SLEEP)
+    throttle_sleep(config.CROSSREF_SLEEP)
     return (data or {}).get("message")
 
 
@@ -153,7 +153,7 @@ def crossref_search_title(title: str, rows: int = 5) -> list[dict]:
                         cache_key=f"cr:t:{title[:120]}", ttl_days=30)
     except Exception:  # noqa: BLE001
         return []
-    time.sleep(config.CROSSREF_SLEEP)
+    throttle_sleep(config.CROSSREF_SLEEP)
     return ((data or {}).get("message") or {}).get("items", []) or []
 
 
