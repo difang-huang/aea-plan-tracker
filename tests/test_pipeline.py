@@ -225,6 +225,22 @@ def test_latent_probe_reports_without_changing_scores(monkeypatch):
                 == {r: v[field] for r, v in second.items()})
 
 
+def test_throttle_decays_after_rate_limits():
+    """A burst of 429s must not tax every later request for the whole run."""
+    from tracker import util
+    util._throttle["extra"] = 0.0
+    try:
+        for _ in range(6):
+            util.note_rate_limited()
+        peak = util.throttle_extra()
+        assert peak == pytest.approx(3.0, abs=0.01)   # ratchets to the cap
+        for _ in range(200):
+            util.note_ok()
+        assert util.throttle_extra() < peak / 3       # and comes back down
+    finally:
+        util._throttle["extra"] = 0.0
+
+
 # --------------------------------------------------------------- match ----
 def test_declared_references_parses_the_free_text_field():
     plan = {"relevant_papers":
