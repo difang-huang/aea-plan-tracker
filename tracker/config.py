@@ -126,6 +126,32 @@ FEASIBILITY_WEIGHTS = {
 # to the LLM as the comparison set).
 N_NEIGHBOURS = 6
 
+# Similarity space. Novelty is measured with TF-IDF cosine over the plan text.
+#
+# The standing objection to that is paraphrase: two plans describing the same
+# design in different words ("cash grant" / "unconditional transfer") look
+# unrelated to a bag of words. The usual fix is a latent or embedding space.
+# It was tried: LSA over this same matrix, blended with the lexical space. On a
+# 600-plan benchmark with hand-written paraphrase pairs -- same study,
+# deliberately disjoint vocabulary -- the blend ranked the paraphrase partner
+# *identically* to pure TF-IDF, and strictly worse when weighted further toward
+# the latent space. So it is not shipped: an unvalidated change does not get to
+# move anybody's published score.
+#
+# Instead the latent space is measured on every run, at registry scale, against
+# the lexical neighbours actually published (see probe_latent_space in
+# score.py). If the probe shows real paraphrase pairs that TF-IDF misses, the
+# blend is worth building; if it keeps showing none, the objection was wrong.
+LSA_COMPONENTS = int(os.environ.get("LSA_COMPONENTS", "300"))
+# Plans sampled per run for the probe. 0 skips it.
+SIM_PROBE_SAMPLE = int(os.environ.get("SIM_PROBE_SAMPLE", "800"))
+# The case the lexical score is accused of missing: two plans the latent space
+# calls close (>= PROBE_LATENT_HIT) while TF-IDF calls them barely related
+# (< PROBE_LEXICAL_FLOOR). Every such pair is recorded so it can be read.
+PROBE_LEXICAL_FLOOR = float(os.environ.get("PROBE_LEXICAL_FLOOR", "0.20"))
+PROBE_LATENT_HIT = float(os.environ.get("PROBE_LATENT_HIT", "0.60"))
+PROBE_EXAMPLES = int(os.environ.get("PROBE_EXAMPLES", "15"))
+
 SITE_TITLE = "AEA Pre-Registration Plan Tracker"
 SITE_TAGLINE = (
     "Every plan in the AEA RCT Registry, scored for novelty and feasibility, "
