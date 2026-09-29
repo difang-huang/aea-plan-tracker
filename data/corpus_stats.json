@@ -2,139 +2,139 @@
   "similarity_probe": {
     "examples": [
       {
+        "latent_neighbour": "AEARCTR-0006884",
+        "latent_similarity": 0.7707,
+        "lexical_similarity": 0.133,
+        "neighbour_title": "Vaccine deployment characteristics and vaccine uptake",
+        "plan": "AEARCTR-0007768",
+        "plan_title": "Determinants of COVID Vaccine Uptake"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0007396",
+        "latent_similarity": 0.7591,
+        "lexical_similarity": 0.1434,
+        "neighbour_title": "Effects of information on vaccination intentions and decisions",
+        "plan": "AEARCTR-0007768",
+        "plan_title": "Determinants of COVID Vaccine Uptake"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0009583",
+        "latent_similarity": 0.7211,
+        "lexical_similarity": 0.0991,
+        "neighbour_title": "THE IMPACT OF INCENTIVES FOR VACCINATION: SURVEY SELECTION",
+        "plan": "AEARCTR-0007768",
+        "plan_title": "Determinants of COVID Vaccine Uptake"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0008909",
+        "latent_similarity": 0.7136,
+        "lexical_similarity": 0.1434,
+        "neighbour_title": "COVID-19 Vaccine Hesitancy",
+        "plan": "AEARCTR-0007768",
+        "plan_title": "Determinants of COVID Vaccine Uptake"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0012038",
+        "latent_similarity": 0.6411,
+        "lexical_similarity": 0.0688,
+        "neighbour_title": "(Un)Ethical Behaviour and Competition",
+        "plan": "AEARCTR-0016367",
+        "plan_title": "The slider task: An oTree implementation for studying incentive effects in online experiments"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0003793",
+        "latent_similarity": 0.6064,
+        "lexical_similarity": 0.0607,
+        "neighbour_title": "Honoring ethical behavior with awards - the effect on productivity",
+        "plan": "AEARCTR-0016367",
+        "plan_title": "The slider task: An oTree implementation for studying incentive effects in online experiments"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0001397",
+        "latent_similarity": 0.6031,
+        "lexical_similarity": 0.0756,
+        "neighbour_title": "Time as an Incentive in the Workplace",
+        "plan": "AEARCTR-0016367",
+        "plan_title": "The slider task: An oTree implementation for studying incentive effects in online experiments"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0002987",
+        "latent_similarity": 0.6021,
+        "lexical_similarity": 0.0612,
+        "neighbour_title": "Heterogeneity of Experimental Findings: Evidence from Real-Effort Tasks",
+        "plan": "AEARCTR-0016367",
+        "plan_title": "The slider task: An oTree implementation for studying incentive effects in online experiments"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0015434",
+        "latent_similarity": 0.7228,
+        "lexical_similarity": 0.0933,
+        "neighbour_title": "Calibrating Ambition: The Impact of Realistic Goal-Setting on Student Effort and Performance",
+        "plan": "AEARCTR-0008328",
+        "plan_title": "The effect of setting a joint, self-chosen SMART-Goal on project success - an experiment with student learning groups"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0002089",
+        "latent_similarity": 0.6817,
+        "lexical_similarity": 0.0785,
+        "neighbour_title": "Incentivizing Self-Control",
+        "plan": "AEARCTR-0008328",
+        "plan_title": "The effect of setting a joint, self-chosen SMART-Goal on project success - an experiment with student learning groups"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0000949",
+        "latent_similarity": 0.6729,
+        "lexical_similarity": 0.0851,
+        "neighbour_title": "Evaluation of the DOLE Special Program for the Employment of Students (SPES)",
+        "plan": "AEARCTR-0001692",
+        "plan_title": "Career Academies: Exploring College and Career Options"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0017802",
+        "latent_similarity": 0.6282,
+        "lexical_similarity": 0.0748,
+        "neighbour_title": "Propelling Futures Forward: Advancing Young Adults in High-Demand Health Careers Through a Jobs-First Approach",
+        "plan": "AEARCTR-0001692",
+        "plan_title": "Career Academies: Exploring College and Career Options"
+      },
+      {
         "latent_neighbour": "AEARCTR-0002579",
-        "latent_similarity": 0.6279,
-        "lexical_similarity": 0.0951,
+        "latent_similarity": 0.6345,
+        "lexical_similarity": 0.0842,
         "neighbour_title": "An impact assessment of EAMDA's banana initiative to increase technology adoption by smallholder farmers in Kenya",
-        "plan": "AEARCTR-0007744",
-        "plan_title": "Building Sustainable Supply Chains: A Model of Youth Input Resellers in Kenya"
+        "plan": "AEARCTR-0015204",
+        "plan_title": "Leveraging Natural Enemies to Reduce Pesticide Overuse in Agriculture"
       },
       {
-        "latent_neighbour": "AEARCTR-0005150",
-        "latent_similarity": 0.606,
-        "lexical_similarity": 0.0955,
-        "neighbour_title": "Knowledge Heterogeneity: Experimental Evidence on Information Barriers to Oil Seed Adoption in Uganda",
-        "plan": "AEARCTR-0007744",
-        "plan_title": "Building Sustainable Supply Chains: A Model of Youth Input Resellers in Kenya"
+        "latent_neighbour": "AEARCTR-0011308",
+        "latent_similarity": 0.6238,
+        "lexical_similarity": 0.0842,
+        "neighbour_title": "Technology adoption: agricultural drones and autonomous driving technology for farm machinery",
+        "plan": "AEARCTR-0015204",
+        "plan_title": "Leveraging Natural Enemies to Reduce Pesticide Overuse in Agriculture"
       },
       {
-        "latent_neighbour": "AEARCTR-0009410",
-        "latent_similarity": 0.6034,
-        "lexical_similarity": 0.0825,
-        "neighbour_title": "Why do farmers sell immediately after harvest when prices are lowest?",
-        "plan": "AEARCTR-0007744",
-        "plan_title": "Building Sustainable Supply Chains: A Model of Youth Input Resellers in Kenya"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0008715",
-        "latent_similarity": 0.6017,
-        "lexical_similarity": 0.0981,
-        "neighbour_title": "Evidence-based Scaling of Improved On-Farm Storage among Smallholders (Tanzania)",
-        "plan": "AEARCTR-0007744",
-        "plan_title": "Building Sustainable Supply Chains: A Model of Youth Input Resellers in Kenya"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0001519",
-        "latent_similarity": 0.6578,
-        "lexical_similarity": 0.1171,
-        "neighbour_title": "Improving Job Search Efficiency",
-        "plan": "AEARCTR-0015801",
-        "plan_title": "Job Seekers' Beliefs and Labor Market Demand"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0019605",
-        "latent_similarity": 0.6088,
-        "lexical_similarity": 0.0911,
-        "neighbour_title": "Job Search and Skills Development of Technical Vocational Education and Training Students: Experimental Evidence from Bangladesh",
-        "plan": "AEARCTR-0015801",
-        "plan_title": "Job Seekers' Beliefs and Labor Market Demand"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0003949",
-        "latent_similarity": 0.6061,
-        "lexical_similarity": 0.0955,
-        "neighbour_title": "Michigan Job Seekers Study",
-        "plan": "AEARCTR-0015801",
-        "plan_title": "Job Seekers' Beliefs and Labor Market Demand"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0010640",
-        "latent_similarity": 0.7075,
-        "lexical_similarity": 0.1012,
-        "neighbour_title": "Impact of small-package fertilizer sale on the adoption of micro-dose fertilization technology and the productivity of rice farming: Evidence from Madagascar",
-        "plan": "AEARCTR-0017577",
-        "plan_title": "Empirical investigation of nudge for creation of innovative olive production cluster: A randomized controlled trial on olive-growing farms in West Bank of Palestine"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0010474",
-        "latent_similarity": 0.6995,
-        "lexical_similarity": 0.0948,
-        "neighbour_title": "Impact Evaluation of the Use of Pod-Borer Resistant Cowpea in Nigeria",
-        "plan": "AEARCTR-0017577",
-        "plan_title": "Empirical investigation of nudge for creation of innovative olive production cluster: A randomized controlled trial on olive-growing farms in West Bank of Palestine"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0001816",
-        "latent_similarity": 0.6975,
-        "lexical_similarity": 0.0937,
-        "neighbour_title": "The effect of demonstration plots and the warehouse receipt system on ISFM adoption, yield and income of smallholder farmers: a study from Malawi\u2019s Anchor Farms",
-        "plan": "AEARCTR-0017577",
-        "plan_title": "Empirical investigation of nudge for creation of innovative olive production cluster: A randomized controlled trial on olive-growing farms in West Bank of Palestine"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0012824",
-        "latent_similarity": 0.681,
-        "lexical_similarity": 0.0857,
-        "neighbour_title": "Improving Incomes of Coffee Farmers (IICoF) In Jimma, Ethiopia",
-        "plan": "AEARCTR-0017577",
-        "plan_title": "Empirical investigation of nudge for creation of innovative olive production cluster: A randomized controlled trial on olive-growing farms in West Bank of Palestine"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0007726",
-        "latent_similarity": 0.6355,
-        "lexical_similarity": 0.0807,
-        "neighbour_title": "Mechanisms Driving Social Comparison Nudges",
-        "plan": "AEARCTR-0002176",
-        "plan_title": "Measuring the Welfare Effects of Residential Energy Efficiency Programs"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0006145",
-        "latent_similarity": 0.619,
-        "lexical_similarity": 0.0904,
-        "neighbour_title": "Can Information about Energy Costs Affect Consumers Choices? Evidence from a Field Experiment",
-        "plan": "AEARCTR-0002176",
-        "plan_title": "Measuring the Welfare Effects of Residential Energy Efficiency Programs"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0011587",
-        "latent_similarity": 0.6009,
-        "lexical_similarity": 0.0812,
-        "neighbour_title": "What is \u201cLocal\u201d? A Lab-in-the-Field Experiment on Urban-Rural Differences in Willingness to Pay for Different Definitions of Local Food",
-        "plan": "AEARCTR-0015126",
-        "plan_title": "How does information affect decision-making?"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0014802",
-        "latent_similarity": 0.6291,
-        "lexical_similarity": 0.0935,
-        "neighbour_title": "Unlocking agricultural potential through bundled services? Experimental evidence from a digital platform in Ghana",
-        "plan": "AEARCTR-0012900",
-        "plan_title": "The Impacts of Cold Storage Infrastructure and Weather Forecasts on Agricultural Outcomes and Trade"
+        "latent_neighbour": "AEARCTR-0013621",
+        "latent_similarity": 0.6043,
+        "lexical_similarity": 0.0749,
+        "neighbour_title": "The impact of system of rice intensification and its mechanized version on rice productivity and income: Evidence from Bangladesh",
+        "plan": "AEARCTR-0015204",
+        "plan_title": "Leveraging Natural Enemies to Reduce Pesticide Overuse in Agriculture"
       }
     ],
     "k": 6,
     "latent_hit": 0.6,
     "lexical_floor": 0.2,
-    "mean_latent_max_sim": 0.6821,
-    "mean_lexical_max_sim": 0.2263,
-    "mean_topk_overlap": 0.4815,
+    "mean_latent_max_sim": 0.6867,
+    "mean_lexical_max_sim": 0.2261,
+    "mean_topk_overlap": 0.4779,
     "n_components": 300,
-    "n_docs": 12826,
+    "n_docs": 12869,
     "n_features": 200000,
-    "n_latent_only_pairs": 721,
-    "pct_rows_with_latent_only_hit": 41.25,
+    "n_latent_only_pairs": 803,
+    "pct_rows_with_latent_only_hit": 42.62,
     "sample": 800,
-    "seconds": 21.1,
+    "seconds": 22.5,
     "status": "measured"
   }
 }
