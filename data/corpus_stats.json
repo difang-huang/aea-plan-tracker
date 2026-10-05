@@ -3,87 +3,95 @@
     "examples": [
       {
         "latent_neighbour": "AEARCTR-0006884",
-        "latent_similarity": 0.7715,
-        "lexical_similarity": 0.1336,
+        "latent_similarity": 0.7708,
+        "lexical_similarity": 0.133,
         "neighbour_title": "Vaccine deployment characteristics and vaccine uptake",
         "plan": "AEARCTR-0007768",
         "plan_title": "Determinants of COVID Vaccine Uptake"
       },
       {
+        "latent_neighbour": "AEARCTR-0007396",
+        "latent_similarity": 0.7586,
+        "lexical_similarity": 0.144,
+        "neighbour_title": "Effects of information on vaccination intentions and decisions",
+        "plan": "AEARCTR-0007768",
+        "plan_title": "Determinants of COVID Vaccine Uptake"
+      },
+      {
         "latent_neighbour": "AEARCTR-0009583",
-        "latent_similarity": 0.7208,
-        "lexical_similarity": 0.0996,
+        "latent_similarity": 0.7217,
+        "lexical_similarity": 0.0978,
         "neighbour_title": "THE IMPACT OF INCENTIVES FOR VACCINATION: SURVEY SELECTION",
         "plan": "AEARCTR-0007768",
         "plan_title": "Determinants of COVID Vaccine Uptake"
       },
       {
         "latent_neighbour": "AEARCTR-0008909",
-        "latent_similarity": 0.7135,
-        "lexical_similarity": 0.1442,
+        "latent_similarity": 0.7134,
+        "lexical_similarity": 0.1429,
         "neighbour_title": "COVID-19 Vaccine Hesitancy",
         "plan": "AEARCTR-0007768",
         "plan_title": "Determinants of COVID Vaccine Uptake"
       },
       {
         "latent_neighbour": "AEARCTR-0012038",
-        "latent_similarity": 0.6405,
-        "lexical_similarity": 0.0685,
+        "latent_similarity": 0.6404,
+        "lexical_similarity": 0.0679,
         "neighbour_title": "(Un)Ethical Behaviour and Competition",
         "plan": "AEARCTR-0016367",
         "plan_title": "The slider task: An oTree implementation for studying incentive effects in online experiments"
       },
       {
         "latent_neighbour": "AEARCTR-0003793",
-        "latent_similarity": 0.6067,
-        "lexical_similarity": 0.0607,
+        "latent_similarity": 0.6063,
+        "lexical_similarity": 0.0598,
         "neighbour_title": "Honoring ethical behavior with awards - the effect on productivity",
         "plan": "AEARCTR-0016367",
         "plan_title": "The slider task: An oTree implementation for studying incentive effects in online experiments"
       },
       {
         "latent_neighbour": "AEARCTR-0001397",
-        "latent_similarity": 0.6028,
-        "lexical_similarity": 0.0758,
+        "latent_similarity": 0.6026,
+        "lexical_similarity": 0.0741,
         "neighbour_title": "Time as an Incentive in the Workplace",
         "plan": "AEARCTR-0016367",
         "plan_title": "The slider task: An oTree implementation for studying incentive effects in online experiments"
       },
       {
         "latent_neighbour": "AEARCTR-0002987",
-        "latent_similarity": 0.6012,
-        "lexical_similarity": 0.0613,
+        "latent_similarity": 0.602,
+        "lexical_similarity": 0.0602,
         "neighbour_title": "Heterogeneity of Experimental Findings: Evidence from Real-Effort Tasks",
         "plan": "AEARCTR-0016367",
         "plan_title": "The slider task: An oTree implementation for studying incentive effects in online experiments"
       },
       {
         "latent_neighbour": "AEARCTR-0015434",
-        "latent_similarity": 0.7225,
-        "lexical_similarity": 0.0936,
+        "latent_similarity": 0.724,
+        "lexical_similarity": 0.0952,
         "neighbour_title": "Calibrating Ambition: The Impact of Realistic Goal-Setting on Student Effort and Performance",
         "plan": "AEARCTR-0008328",
         "plan_title": "The effect of setting a joint, self-chosen SMART-Goal on project success - an experiment with student learning groups"
       },
       {
         "latent_neighbour": "AEARCTR-0002089",
-        "latent_similarity": 0.6824,
-        "lexical_similarity": 0.0785,
+        "latent_similarity": 0.6827,
+        "lexical_similarity": 0.0795,
         "neighbour_title": "Incentivizing Self-Control",
         "plan": "AEARCTR-0008328",
         "plan_title": "The effect of setting a joint, self-chosen SMART-Goal on project success - an experiment with student learning groups"
       },
       {
         "latent_neighbour": "AEARCTR-0000949",
-        "latent_similarity": 0.6725,
-        "lexical_similarity": 0.0847,
+        "latent_similarity": 0.6732,
+        "lexical_similarity": 0.0852,
         "neighbour_title": "Evaluation of the DOLE Special Program for the Employment of Students (SPES)",
         "plan": "AEARCTR-0001692",
         "plan_title": "Career Academies: Exploring College and Career Options"
       },
       {
         "latent_neighbour": "AEARCTR-0017802",
-        "latent_similarity": 0.6276,
+        "latent_similarity": 0.628,
         "lexical_similarity": 0.0744,
         "neighbour_title": "Propelling Futures Forward: Advancing Young Adults in High-Demand Health Careers Through a Jobs-First Approach",
         "plan": "AEARCTR-0001692",
@@ -91,32 +99,24 @@
       },
       {
         "latent_neighbour": "AEARCTR-0002579",
-        "latent_similarity": 0.6337,
-        "lexical_similarity": 0.0845,
+        "latent_similarity": 0.6343,
+        "lexical_similarity": 0.0837,
         "neighbour_title": "An impact assessment of EAMDA's banana initiative to increase technology adoption by smallholder farmers in Kenya",
         "plan": "AEARCTR-0015204",
         "plan_title": "Leveraging Natural Enemies to Reduce Pesticide Overuse in Agriculture"
       },
       {
         "latent_neighbour": "AEARCTR-0011308",
-        "latent_similarity": 0.6235,
-        "lexical_similarity": 0.0844,
+        "latent_similarity": 0.6236,
+        "lexical_similarity": 0.0847,
         "neighbour_title": "Technology adoption: agricultural drones and autonomous driving technology for farm machinery",
         "plan": "AEARCTR-0015204",
         "plan_title": "Leveraging Natural Enemies to Reduce Pesticide Overuse in Agriculture"
       },
       {
-        "latent_neighbour": "AEARCTR-0004081",
-        "latent_similarity": 0.6043,
-        "lexical_similarity": 0.0627,
-        "neighbour_title": "Incentivising Adoption of and Measuring the Impact of Agricultural Products Processing Technologies: An RCT in West Africa",
-        "plan": "AEARCTR-0015204",
-        "plan_title": "Leveraging Natural Enemies to Reduce Pesticide Overuse in Agriculture"
-      },
-      {
         "latent_neighbour": "AEARCTR-0013621",
-        "latent_similarity": 0.6041,
-        "lexical_similarity": 0.0752,
+        "latent_similarity": 0.6045,
+        "lexical_similarity": 0.0748,
         "neighbour_title": "The impact of system of rice intensification and its mechanized version on rice productivity and income: Evidence from Bangladesh",
         "plan": "AEARCTR-0015204",
         "plan_title": "Leveraging Natural Enemies to Reduce Pesticide Overuse in Agriculture"
@@ -127,14 +127,14 @@
     "lexical_floor": 0.2,
     "mean_latent_max_sim": 0.6867,
     "mean_lexical_max_sim": 0.2261,
-    "mean_topk_overlap": 0.4763,
+    "mean_topk_overlap": 0.4769,
     "n_components": 300,
     "n_docs": 12869,
     "n_features": 200000,
-    "n_latent_only_pairs": 800,
-    "pct_rows_with_latent_only_hit": 42.75,
+    "n_latent_only_pairs": 802,
+    "pct_rows_with_latent_only_hit": 43.0,
     "sample": 800,
-    "seconds": 22.0,
+    "seconds": 19.7,
     "status": "measured"
   }
 }
