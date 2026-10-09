@@ -3,16 +3,16 @@
     "examples": [
       {
         "latent_neighbour": "AEARCTR-0005285",
-        "latent_similarity": 0.7853,
-        "lexical_similarity": 0.1254,
+        "latent_similarity": 0.7864,
+        "lexical_similarity": 0.1261,
         "neighbour_title": "Targeting in Tax Compliance Interventions: Experimental Evidence from Honduras",
         "plan": "AEARCTR-0008351",
         "plan_title": "Tax Enforcement in a Globalized Economy"
       },
       {
         "latent_neighbour": "AEARCTR-0002575",
-        "latent_similarity": 0.7458,
-        "lexical_similarity": 0.1251,
+        "latent_similarity": 0.7463,
+        "lexical_similarity": 0.1247,
         "neighbour_title": "Rental income tax compliance",
         "plan": "AEARCTR-0008351",
         "plan_title": "Tax Enforcement in a Globalized Economy"
@@ -26,98 +26,98 @@
         "plan_title": "Tax Enforcement in a Globalized Economy"
       },
       {
+        "latent_neighbour": "AEARCTR-0002701",
+        "latent_similarity": 0.7171,
+        "lexical_similarity": 0.1067,
+        "neighbour_title": "Tax Compliance Among Small Firms in Rwanda",
+        "plan": "AEARCTR-0008351",
+        "plan_title": "Tax Enforcement in a Globalized Economy"
+      },
+      {
         "latent_neighbour": "AEARCTR-0010436",
-        "latent_similarity": 0.6018,
-        "lexical_similarity": 0.0588,
+        "latent_similarity": 0.6023,
+        "lexical_similarity": 0.0587,
         "neighbour_title": "Alienated issue as a coordination device: An experiment in a new battle-of-the-sexes game",
         "plan": "AEARCTR-0015903",
         "plan_title": "The Effect of Commitment Types in Repeated Games with Long-lived and Short-lived Players"
       },
       {
         "latent_neighbour": "AEARCTR-0015090",
-        "latent_similarity": 0.6467,
-        "lexical_similarity": 0.0928,
+        "latent_similarity": 0.6469,
+        "lexical_similarity": 0.0921,
         "neighbour_title": "Promoting Mental Health for University Students in China through Mindfulness: A Pilot Randomized Controlled Trial",
         "plan": "AEARCTR-0017538",
         "plan_title": "Impact of Mindfulness program on Academic Stress"
       },
       {
         "latent_neighbour": "AEARCTR-0016685",
-        "latent_similarity": 0.6429,
-        "lexical_similarity": 0.0979,
+        "latent_similarity": 0.6434,
+        "lexical_similarity": 0.0972,
         "neighbour_title": "Promoting mental health for university students in China through mindfulness: A randomized controlled trial across six universities",
         "plan": "AEARCTR-0017538",
         "plan_title": "Impact of Mindfulness program on Academic Stress"
       },
       {
         "latent_neighbour": "AEARCTR-0003629",
-        "latent_similarity": 0.6658,
-        "lexical_similarity": 0.1112,
+        "latent_similarity": 0.6663,
+        "lexical_similarity": 0.1109,
         "neighbour_title": "The impact of school feeding on nutrition, education, agriculture and other social outcomes: design of a randomised controlled trial of 'home-grown' school feeding in Ghana",
         "plan": "AEARCTR-0013936",
         "plan_title": "Menu Training and Vendor Linkages in school feeding programs to support Smallholder Farmers in Nigeria"
       },
       {
         "latent_neighbour": "AEARCTR-0005285",
-        "latent_similarity": 0.6789,
-        "lexical_similarity": 0.097,
+        "latent_similarity": 0.6794,
+        "lexical_similarity": 0.0984,
         "neighbour_title": "Targeting in Tax Compliance Interventions: Experimental Evidence from Honduras",
         "plan": "AEARCTR-0002196",
         "plan_title": "Does providing information on government spending alter taxpayer beliefs and compliance? Evidence from a large-scale field trial in Belgium"
       },
       {
         "latent_neighbour": "AEARCTR-0009460",
-        "latent_similarity": 0.664,
-        "lexical_similarity": 0.0697,
+        "latent_similarity": 0.6649,
+        "lexical_similarity": 0.0701,
         "neighbour_title": "Small Businesses Tax Compliance Behaviour: Deterrence, Literacy, or Social Norm? Evidence from RCT in Indonesia",
         "plan": "AEARCTR-0002196",
         "plan_title": "Does providing information on government spending alter taxpayer beliefs and compliance? Evidence from a large-scale field trial in Belgium"
       },
       {
         "latent_neighbour": "AEARCTR-0004753",
-        "latent_similarity": 0.6617,
-        "lexical_similarity": 0.0974,
+        "latent_similarity": 0.6622,
+        "lexical_similarity": 0.0986,
         "neighbour_title": "Experiment on Tax Compliance in Eswatini",
         "plan": "AEARCTR-0002196",
         "plan_title": "Does providing information on government spending alter taxpayer beliefs and compliance? Evidence from a large-scale field trial in Belgium"
       },
       {
         "latent_neighbour": "AEARCTR-0001332",
-        "latent_similarity": 0.6608,
-        "lexical_similarity": 0.0824,
+        "latent_similarity": 0.6601,
+        "lexical_similarity": 0.0828,
         "neighbour_title": "The Effect of Good Governance on Tax Compliance",
         "plan": "AEARCTR-0002196",
         "plan_title": "Does providing information on government spending alter taxpayer beliefs and compliance? Evidence from a large-scale field trial in Belgium"
       },
       {
         "latent_neighbour": "AEARCTR-0000405",
-        "latent_similarity": 0.6753,
-        "lexical_similarity": 0.0953,
+        "latent_similarity": 0.674,
+        "lexical_similarity": 0.0944,
         "neighbour_title": "READING CATCH-UP PROJECT: THE IMPACT OF AN 11-WEEK TEACHER SUPPORT PROGRAMME ON PUPIL READING PROFICIENCY",
         "plan": "AEARCTR-0016934",
         "plan_title": "Long term impacts of a successful foundational literacy program in South Africa"
       },
       {
         "latent_neighbour": "AEARCTR-0000340",
-        "latent_similarity": 0.6342,
-        "lexical_similarity": 0.1056,
+        "latent_similarity": 0.6356,
+        "lexical_similarity": 0.1052,
         "neighbour_title": "Financial Inclusion for the Rural Poor",
         "plan": "AEARCTR-0007755",
         "plan_title": "Financial Inclusion through a Public-Private Partnership: Evidence from Ingreso Solidario in Colombia"
       },
       {
         "latent_neighbour": "AEARCTR-0015299",
-        "latent_similarity": 0.6187,
-        "lexical_similarity": 0.0954,
+        "latent_similarity": 0.6194,
+        "lexical_similarity": 0.0952,
         "neighbour_title": "School Fees, Seasonality, and Under-investment in Human Capital",
-        "plan": "AEARCTR-0019089",
-        "plan_title": "Lighting Up Home to Boost Learning and Livelihoods in Refugee-Hosting Communities in Northern Uganda"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0003834",
-        "latent_similarity": 0.614,
-        "lexical_similarity": 0.0877,
-        "neighbour_title": "Supporting the school participation of displaced children",
         "plan": "AEARCTR-0019089",
         "plan_title": "Lighting Up Home to Boost Learning and Livelihoods in Refugee-Hosting Communities in Northern Uganda"
       }
@@ -127,14 +127,14 @@
     "lexical_floor": 0.2,
     "mean_latent_max_sim": 0.6796,
     "mean_lexical_max_sim": 0.2286,
-    "mean_topk_overlap": 0.4721,
+    "mean_topk_overlap": 0.4729,
     "n_components": 300,
     "n_docs": 12910,
     "n_features": 200000,
     "n_latent_only_pairs": 694,
-    "pct_rows_with_latent_only_hit": 38.38,
+    "pct_rows_with_latent_only_hit": 38.25,
     "sample": 800,
-    "seconds": 22.4,
+    "seconds": 20.3,
     "status": "measured"
   }
 }
