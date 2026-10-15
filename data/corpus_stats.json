@@ -2,139 +2,139 @@
   "similarity_probe": {
     "examples": [
       {
-        "latent_neighbour": "AEARCTR-0008641",
-        "latent_similarity": 0.6809,
-        "lexical_similarity": 0.0943,
-        "neighbour_title": "Managerial or entrepreneurial capital? Untangling constraints of innovative entrepreneurs",
-        "plan": "AEARCTR-0017418",
-        "plan_title": "RCT of an Investment Readiness Program for Women Entrepreneurs in Armenia, Georgia and Kazakhstan"
+        "latent_neighbour": "AEARCTR-0005285",
+        "latent_similarity": 0.7864,
+        "lexical_similarity": 0.1263,
+        "neighbour_title": "Targeting in Tax Compliance Interventions: Experimental Evidence from Honduras",
+        "plan": "AEARCTR-0008351",
+        "plan_title": "Tax Enforcement in a Globalized Economy"
       },
       {
-        "latent_neighbour": "AEARCTR-0000973",
-        "latent_similarity": 0.6616,
-        "lexical_similarity": 0.0778,
-        "neighbour_title": "The Effectiveness of Business Coaching on Technology-Based Ventures' Survival Capabilities",
-        "plan": "AEARCTR-0017418",
-        "plan_title": "RCT of an Investment Readiness Program for Women Entrepreneurs in Armenia, Georgia and Kazakhstan"
+        "latent_neighbour": "AEARCTR-0002575",
+        "latent_similarity": 0.7467,
+        "lexical_similarity": 0.123,
+        "neighbour_title": "Rental income tax compliance",
+        "plan": "AEARCTR-0008351",
+        "plan_title": "Tax Enforcement in a Globalized Economy"
       },
       {
-        "latent_neighbour": "AEARCTR-0013110",
-        "latent_similarity": 0.7141,
-        "lexical_similarity": 0.113,
-        "neighbour_title": "Learning is in the Air: Clean Air as an Experience Good",
-        "plan": "AEARCTR-0008352",
-        "plan_title": "Air pollution perceptions and behavior in the UK"
+        "latent_neighbour": "AEARCTR-0011909",
+        "latent_similarity": 0.7233,
+        "lexical_similarity": 0.124,
+        "neighbour_title": "How to Improve Voluntary Income Tax Compliance in Tanzania",
+        "plan": "AEARCTR-0008351",
+        "plan_title": "Tax Enforcement in a Globalized Economy"
       },
       {
-        "latent_neighbour": "AEARCTR-0007980",
-        "latent_similarity": 0.7062,
-        "lexical_similarity": 0.0845,
-        "neighbour_title": "The effectiveness of personalised versus generic information in changing behavior: Evidence from an indoor air quality experiment",
-        "plan": "AEARCTR-0008352",
-        "plan_title": "Air pollution perceptions and behavior in the UK"
+        "latent_neighbour": "AEARCTR-0010436",
+        "latent_similarity": 0.6026,
+        "lexical_similarity": 0.0584,
+        "neighbour_title": "Alienated issue as a coordination device: An experiment in a new battle-of-the-sexes game",
+        "plan": "AEARCTR-0015903",
+        "plan_title": "The Effect of Commitment Types in Repeated Games with Long-lived and Short-lived Players"
       },
       {
-        "latent_neighbour": "AEARCTR-0004742",
-        "latent_similarity": 0.693,
-        "lexical_similarity": 0.0921,
-        "neighbour_title": "The Impact of Enhanced Air Pollution Awareness on Defensive Actions and the Demand for Clean Air",
-        "plan": "AEARCTR-0008352",
-        "plan_title": "Air pollution perceptions and behavior in the UK"
+        "latent_neighbour": "AEARCTR-0015090",
+        "latent_similarity": 0.6483,
+        "lexical_similarity": 0.0925,
+        "neighbour_title": "Promoting Mental Health for University Students in China through Mindfulness: A Pilot Randomized Controlled Trial",
+        "plan": "AEARCTR-0017538",
+        "plan_title": "Impact of Mindfulness program on Academic Stress"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0016685",
+        "latent_similarity": 0.6444,
+        "lexical_similarity": 0.0975,
+        "neighbour_title": "Promoting mental health for university students in China through mindfulness: A randomized controlled trial across six universities",
+        "plan": "AEARCTR-0017538",
+        "plan_title": "Impact of Mindfulness program on Academic Stress"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0003629",
+        "latent_similarity": 0.6659,
+        "lexical_similarity": 0.1107,
+        "neighbour_title": "The impact of school feeding on nutrition, education, agriculture and other social outcomes: design of a randomised controlled trial of 'home-grown' school feeding in Ghana",
+        "plan": "AEARCTR-0013936",
+        "plan_title": "Menu Training and Vendor Linkages in school feeding programs to support Smallholder Farmers in Nigeria"
       },
       {
         "latent_neighbour": "AEARCTR-0005285",
-        "latent_similarity": 0.6778,
-        "lexical_similarity": 0.099,
+        "latent_similarity": 0.6777,
+        "lexical_similarity": 0.0988,
         "neighbour_title": "Targeting in Tax Compliance Interventions: Experimental Evidence from Honduras",
         "plan": "AEARCTR-0002196",
         "plan_title": "Does providing information on government spending alter taxpayer beliefs and compliance? Evidence from a large-scale field trial in Belgium"
       },
       {
-        "latent_neighbour": "AEARCTR-0004753",
-        "latent_similarity": 0.6624,
-        "lexical_similarity": 0.0985,
-        "neighbour_title": "Experiment on Tax Compliance in Eswatini",
-        "plan": "AEARCTR-0002196",
-        "plan_title": "Does providing information on government spending alter taxpayer beliefs and compliance? Evidence from a large-scale field trial in Belgium"
-      },
-      {
         "latent_neighbour": "AEARCTR-0009460",
-        "latent_similarity": 0.6624,
-        "lexical_similarity": 0.0701,
+        "latent_similarity": 0.6646,
+        "lexical_similarity": 0.0705,
         "neighbour_title": "Small Businesses Tax Compliance Behaviour: Deterrence, Literacy, or Social Norm? Evidence from RCT in Indonesia",
         "plan": "AEARCTR-0002196",
         "plan_title": "Does providing information on government spending alter taxpayer beliefs and compliance? Evidence from a large-scale field trial in Belgium"
       },
       {
+        "latent_neighbour": "AEARCTR-0004753",
+        "latent_similarity": 0.6608,
+        "lexical_similarity": 0.0992,
+        "neighbour_title": "Experiment on Tax Compliance in Eswatini",
+        "plan": "AEARCTR-0002196",
+        "plan_title": "Does providing information on government spending alter taxpayer beliefs and compliance? Evidence from a large-scale field trial in Belgium"
+      },
+      {
         "latent_neighbour": "AEARCTR-0001332",
-        "latent_similarity": 0.6566,
-        "lexical_similarity": 0.0826,
+        "latent_similarity": 0.6583,
+        "lexical_similarity": 0.0831,
         "neighbour_title": "The Effect of Good Governance on Tax Compliance",
         "plan": "AEARCTR-0002196",
         "plan_title": "Does providing information on government spending alter taxpayer beliefs and compliance? Evidence from a large-scale field trial in Belgium"
       },
       {
-        "latent_neighbour": "AEARCTR-0015559",
-        "latent_similarity": 0.6873,
-        "lexical_similarity": 0.1017,
-        "neighbour_title": "Gender Targeting and the Psychosocial and Economic Effects of Livelihood Programs in a Fragile Setting",
-        "plan": "AEARCTR-0007756",
-        "plan_title": "Intra household decision making and productive inclusion in Nigeria"
+        "latent_neighbour": "AEARCTR-0000405",
+        "latent_similarity": 0.6738,
+        "lexical_similarity": 0.0934,
+        "neighbour_title": "READING CATCH-UP PROJECT: THE IMPACT OF AN 11-WEEK TEACHER SUPPORT PROGRAMME ON PUPIL READING PROFICIENCY",
+        "plan": "AEARCTR-0016934",
+        "plan_title": "Long term impacts of a successful foundational literacy program in South Africa"
       },
       {
-        "latent_neighbour": "AEARCTR-0003498",
-        "latent_similarity": 0.655,
-        "lexical_similarity": 0.1231,
-        "neighbour_title": "Supporting Women's Livelihoods (SWL) in Zambia",
-        "plan": "AEARCTR-0007756",
-        "plan_title": "Intra household decision making and productive inclusion in Nigeria"
+        "latent_neighbour": "AEARCTR-0000340",
+        "latent_similarity": 0.635,
+        "lexical_similarity": 0.1054,
+        "neighbour_title": "Financial Inclusion for the Rural Poor",
+        "plan": "AEARCTR-0007755",
+        "plan_title": "Financial Inclusion through a Public-Private Partnership: Evidence from Ingreso Solidario in Colombia"
       },
       {
-        "latent_neighbour": "AEARCTR-0015357",
-        "latent_similarity": 0.6507,
-        "lexical_similarity": 0.1048,
-        "neighbour_title": "Does the recipient matter? Experimental evidence on the impact of changing cash transfers from married men to their spouses in Ethiopia",
-        "plan": "AEARCTR-0007756",
-        "plan_title": "Intra household decision making and productive inclusion in Nigeria"
+        "latent_neighbour": "AEARCTR-0015299",
+        "latent_similarity": 0.6187,
+        "lexical_similarity": 0.0957,
+        "neighbour_title": "School Fees, Seasonality, and Under-investment in Human Capital",
+        "plan": "AEARCTR-0019089",
+        "plan_title": "Lighting Up Home to Boost Learning and Livelihoods in Refugee-Hosting Communities in Northern Uganda"
       },
       {
-        "latent_neighbour": "AEARCTR-0017599",
-        "latent_similarity": 0.6131,
-        "lexical_similarity": 0.0699,
-        "neighbour_title": "Understanding Teacher Perceptions of Cooperative and Non-cooperative Students",
-        "plan": "AEARCTR-0015829",
-        "plan_title": "Extending the Behavioral Explanation of the Gender Grade Gap: Evidence from a Vignette Experiment"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0014729",
-        "latent_similarity": 0.6401,
-        "lexical_similarity": 0.1042,
-        "neighbour_title": "The impact of human-AI collaboration modes on worker experiences",
-        "plan": "AEARCTR-0014140",
-        "plan_title": "Investigating the productivity impact of Generative AI in the public sector"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0016936",
-        "latent_similarity": 0.6317,
-        "lexical_similarity": 0.1041,
-        "neighbour_title": "New Technologies and Productivity: A Study with Vocational Students",
-        "plan": "AEARCTR-0014140",
-        "plan_title": "Investigating the productivity impact of Generative AI in the public sector"
+        "latent_neighbour": "AEARCTR-0003834",
+        "latent_similarity": 0.6144,
+        "lexical_similarity": 0.0874,
+        "neighbour_title": "Supporting the school participation of displaced children",
+        "plan": "AEARCTR-0019089",
+        "plan_title": "Lighting Up Home to Boost Learning and Livelihoods in Refugee-Hosting Communities in Northern Uganda"
       }
     ],
     "k": 6,
     "latent_hit": 0.6,
     "lexical_floor": 0.2,
-    "mean_latent_max_sim": 0.686,
-    "mean_lexical_max_sim": 0.2354,
-    "mean_topk_overlap": 0.471,
+    "mean_latent_max_sim": 0.6796,
+    "mean_lexical_max_sim": 0.2286,
+    "mean_topk_overlap": 0.4713,
     "n_components": 300,
-    "n_docs": 12913,
+    "n_docs": 12910,
     "n_features": 200000,
-    "n_latent_only_pairs": 714,
-    "pct_rows_with_latent_only_hit": 39.5,
+    "n_latent_only_pairs": 689,
+    "pct_rows_with_latent_only_hit": 38.38,
     "sample": 800,
-    "seconds": 23.4,
+    "seconds": 20.9,
     "status": "measured"
   }
 }
