@@ -2,139 +2,139 @@
   "similarity_probe": {
     "examples": [
       {
-        "latent_neighbour": "AEARCTR-0005285",
-        "latent_similarity": 0.7862,
-        "lexical_similarity": 0.1257,
-        "neighbour_title": "Targeting in Tax Compliance Interventions: Experimental Evidence from Honduras",
-        "plan": "AEARCTR-0008351",
-        "plan_title": "Tax Enforcement in a Globalized Economy"
+        "latent_neighbour": "AEARCTR-0001992",
+        "latent_similarity": 0.7111,
+        "lexical_similarity": 0.1091,
+        "neighbour_title": "The Effect of Post-Baccalaureate Certificates on Job Search: Results from a Correspondence Study",
+        "plan": "AEARCTR-0015942",
+        "plan_title": "A Study on Ukraine War Veterans"
       },
       {
-        "latent_neighbour": "AEARCTR-0002575",
-        "latent_similarity": 0.7465,
-        "lexical_similarity": 0.1233,
-        "neighbour_title": "Rental income tax compliance",
-        "plan": "AEARCTR-0008351",
-        "plan_title": "Tax Enforcement in a Globalized Economy"
+        "latent_neighbour": "AEARCTR-0011183",
+        "latent_similarity": 0.7099,
+        "lexical_similarity": 0.1155,
+        "neighbour_title": "Nonbinary hiring discrimination and the politicization of pronouns: A resume audit study",
+        "plan": "AEARCTR-0015942",
+        "plan_title": "A Study on Ukraine War Veterans"
       },
       {
-        "latent_neighbour": "AEARCTR-0011909",
-        "latent_similarity": 0.7234,
-        "lexical_similarity": 0.122,
-        "neighbour_title": "How to Improve Voluntary Income Tax Compliance in Tanzania",
-        "plan": "AEARCTR-0008351",
-        "plan_title": "Tax Enforcement in a Globalized Economy"
+        "latent_neighbour": "AEARCTR-0018338",
+        "latent_similarity": 0.6972,
+        "lexical_similarity": 0.1404,
+        "neighbour_title": "How Incentives affect physicians\u2019 AI-assisted Decision Making \u2013 An Audit Study in Health Care",
+        "plan": "AEARCTR-0017590",
+        "plan_title": "Physician Responses to Patient Use of Generative AI for Self-Diagnosis: A Field Experiment"
       },
       {
-        "latent_neighbour": "AEARCTR-0010436",
-        "latent_similarity": 0.6017,
-        "lexical_similarity": 0.0577,
-        "neighbour_title": "Alienated issue as a coordination device: An experiment in a new battle-of-the-sexes game",
-        "plan": "AEARCTR-0015903",
-        "plan_title": "The Effect of Commitment Types in Repeated Games with Long-lived and Short-lived Players"
+        "latent_neighbour": "AEARCTR-0017724",
+        "latent_similarity": 0.6696,
+        "lexical_similarity": 0.1135,
+        "neighbour_title": "Patients\u2019 Perceptions of AI Use in Health Care",
+        "plan": "AEARCTR-0017590",
+        "plan_title": "Physician Responses to Patient Use of Generative AI for Self-Diagnosis: A Field Experiment"
       },
       {
-        "latent_neighbour": "AEARCTR-0015090",
-        "latent_similarity": 0.6482,
-        "lexical_similarity": 0.0929,
-        "neighbour_title": "Promoting Mental Health for University Students in China through Mindfulness: A Pilot Randomized Controlled Trial",
-        "plan": "AEARCTR-0017538",
-        "plan_title": "Impact of Mindfulness program on Academic Stress"
+        "latent_neighbour": "AEARCTR-0003497",
+        "latent_similarity": 0.6968,
+        "lexical_similarity": 0.0949,
+        "neighbour_title": "Probabilistic continuation in the public goods game",
+        "plan": "AEARCTR-0016967",
+        "plan_title": "Tackling Internal Inequality in Contest Games: Theory and Experimental Evidence"
       },
       {
-        "latent_neighbour": "AEARCTR-0016685",
-        "latent_similarity": 0.6442,
-        "lexical_similarity": 0.0978,
-        "neighbour_title": "Promoting mental health for university students in China through mindfulness: A randomized controlled trial across six universities",
-        "plan": "AEARCTR-0017538",
-        "plan_title": "Impact of Mindfulness program on Academic Stress"
+        "latent_neighbour": "AEARCTR-0003567",
+        "latent_similarity": 0.681,
+        "lexical_similarity": 0.0942,
+        "neighbour_title": "Apologies in Public Goods Game",
+        "plan": "AEARCTR-0016967",
+        "plan_title": "Tackling Internal Inequality in Contest Games: Theory and Experimental Evidence"
       },
       {
-        "latent_neighbour": "AEARCTR-0003629",
-        "latent_similarity": 0.6661,
-        "lexical_similarity": 0.1111,
-        "neighbour_title": "The impact of school feeding on nutrition, education, agriculture and other social outcomes: design of a randomised controlled trial of 'home-grown' school feeding in Ghana",
-        "plan": "AEARCTR-0013936",
-        "plan_title": "Menu Training and Vendor Linkages in school feeding programs to support Smallholder Farmers in Nigeria"
+        "latent_neighbour": "AEARCTR-0008612",
+        "latent_similarity": 0.6804,
+        "lexical_similarity": 0.0938,
+        "neighbour_title": "Minimum Contribution Mechanism",
+        "plan": "AEARCTR-0016967",
+        "plan_title": "Tackling Internal Inequality in Contest Games: Theory and Experimental Evidence"
       },
       {
-        "latent_neighbour": "AEARCTR-0005285",
-        "latent_similarity": 0.6785,
-        "lexical_similarity": 0.097,
-        "neighbour_title": "Targeting in Tax Compliance Interventions: Experimental Evidence from Honduras",
-        "plan": "AEARCTR-0002196",
-        "plan_title": "Does providing information on government spending alter taxpayer beliefs and compliance? Evidence from a large-scale field trial in Belgium"
+        "latent_neighbour": "AEARCTR-0002326",
+        "latent_similarity": 0.7448,
+        "lexical_similarity": 0.131,
+        "neighbour_title": "Does socio-emotional skills signaling matter in the labor market? A gender and skills correspondence study",
+        "plan": "AEARCTR-0015852",
+        "plan_title": "The Role of Long-Term Unemployment in the Hiring Process: Evidence from a correspondence study in Italy"
       },
       {
-        "latent_neighbour": "AEARCTR-0009460",
-        "latent_similarity": 0.6644,
-        "lexical_similarity": 0.0697,
-        "neighbour_title": "Small Businesses Tax Compliance Behaviour: Deterrence, Literacy, or Social Norm? Evidence from RCT in Indonesia",
-        "plan": "AEARCTR-0002196",
-        "plan_title": "Does providing information on government spending alter taxpayer beliefs and compliance? Evidence from a large-scale field trial in Belgium"
+        "latent_neighbour": "AEARCTR-0002766",
+        "latent_similarity": 0.7444,
+        "lexical_similarity": 0.129,
+        "neighbour_title": "Gig Jobs: stepping stones or dead ends?",
+        "plan": "AEARCTR-0015852",
+        "plan_title": "The Role of Long-Term Unemployment in the Hiring Process: Evidence from a correspondence study in Italy"
       },
       {
-        "latent_neighbour": "AEARCTR-0004753",
-        "latent_similarity": 0.6608,
-        "lexical_similarity": 0.0975,
-        "neighbour_title": "Experiment on Tax Compliance in Eswatini",
-        "plan": "AEARCTR-0002196",
-        "plan_title": "Does providing information on government spending alter taxpayer beliefs and compliance? Evidence from a large-scale field trial in Belgium"
+        "latent_neighbour": "AEARCTR-0009534",
+        "latent_similarity": 0.7254,
+        "lexical_similarity": 0.1309,
+        "neighbour_title": "Measuring Labor Market Discrimination: A Correspondence Audit Study in Egypt",
+        "plan": "AEARCTR-0015852",
+        "plan_title": "The Role of Long-Term Unemployment in the Hiring Process: Evidence from a correspondence study in Italy"
       },
       {
-        "latent_neighbour": "AEARCTR-0001332",
-        "latent_similarity": 0.6595,
-        "lexical_similarity": 0.0826,
-        "neighbour_title": "The Effect of Good Governance on Tax Compliance",
-        "plan": "AEARCTR-0002196",
-        "plan_title": "Does providing information on government spending alter taxpayer beliefs and compliance? Evidence from a large-scale field trial in Belgium"
+        "latent_neighbour": "AEARCTR-0018038",
+        "latent_similarity": 0.7247,
+        "lexical_similarity": 0.1118,
+        "neighbour_title": "Discrimination Against Persons with Disabilities in Recruitment: A Correspondence Study",
+        "plan": "AEARCTR-0015852",
+        "plan_title": "The Role of Long-Term Unemployment in the Hiring Process: Evidence from a correspondence study in Italy"
       },
       {
-        "latent_neighbour": "AEARCTR-0000405",
-        "latent_similarity": 0.6733,
-        "lexical_similarity": 0.0941,
-        "neighbour_title": "READING CATCH-UP PROJECT: THE IMPACT OF AN 11-WEEK TEACHER SUPPORT PROGRAMME ON PUPIL READING PROFICIENCY",
-        "plan": "AEARCTR-0016934",
-        "plan_title": "Long term impacts of a successful foundational literacy program in South Africa"
+        "latent_neighbour": "AEARCTR-0008702",
+        "latent_similarity": 0.7049,
+        "lexical_similarity": 0.1117,
+        "neighbour_title": "Leveraging Technology and Behavioral Science Insights to Promote Development in the Early Years: The Effect of a Remote Assistance and Messaging Program to Sustain Parental Behavio",
+        "plan": "AEARCTR-0012837",
+        "plan_title": "Impacts of Early Childhood Nutrition and Maternal Mental Health Interventions on Child Health and Development"
       },
       {
-        "latent_neighbour": "AEARCTR-0000340",
-        "latent_similarity": 0.6343,
-        "lexical_similarity": 0.1061,
-        "neighbour_title": "Financial Inclusion for the Rural Poor",
-        "plan": "AEARCTR-0007755",
-        "plan_title": "Financial Inclusion through a Public-Private Partnership: Evidence from Ingreso Solidario in Colombia"
+        "latent_neighbour": "AEARCTR-0002868",
+        "latent_similarity": 0.6964,
+        "lexical_similarity": 0.1229,
+        "neighbour_title": "Experimental evaluation of Semillas de Apego, a group-based program to foster maternal mental health and early childhood development among violence exposed communities in Colombia.",
+        "plan": "AEARCTR-0012837",
+        "plan_title": "Impacts of Early Childhood Nutrition and Maternal Mental Health Interventions on Child Health and Development"
       },
       {
-        "latent_neighbour": "AEARCTR-0015299",
-        "latent_similarity": 0.6185,
-        "lexical_similarity": 0.0967,
-        "neighbour_title": "School Fees, Seasonality, and Under-investment in Human Capital",
-        "plan": "AEARCTR-0019089",
-        "plan_title": "Lighting Up Home to Boost Learning and Livelihoods in Refugee-Hosting Communities in Northern Uganda"
+        "latent_neighbour": "AEARCTR-0012360",
+        "latent_similarity": 0.6933,
+        "lexical_similarity": 0.1292,
+        "neighbour_title": "PROMOTING CHILD DEVELOPMENT AND CAREGIVER WELLBEING BY COMBINING TECHNOLOGY AND BEHAVIORAL SCIENCE DURING PREGNANCY AND THE FIRST MONTHS OF LIFE",
+        "plan": "AEARCTR-0012837",
+        "plan_title": "Impacts of Early Childhood Nutrition and Maternal Mental Health Interventions on Child Health and Development"
       },
       {
-        "latent_neighbour": "AEARCTR-0003834",
-        "latent_similarity": 0.6143,
-        "lexical_similarity": 0.0879,
-        "neighbour_title": "Supporting the school participation of displaced children",
-        "plan": "AEARCTR-0019089",
-        "plan_title": "Lighting Up Home to Boost Learning and Livelihoods in Refugee-Hosting Communities in Northern Uganda"
+        "latent_neighbour": "AEARCTR-0017815",
+        "latent_similarity": 0.602,
+        "lexical_similarity": 0.088,
+        "neighbour_title": "Wage information and Fertility Intentions",
+        "plan": "AEARCTR-0019718",
+        "plan_title": "The Value of Public Sector Employment in China"
       }
     ],
     "k": 6,
     "latent_hit": 0.6,
     "lexical_floor": 0.2,
-    "mean_latent_max_sim": 0.6796,
-    "mean_lexical_max_sim": 0.2285,
-    "mean_topk_overlap": 0.4731,
+    "mean_latent_max_sim": 0.6837,
+    "mean_lexical_max_sim": 0.2258,
+    "mean_topk_overlap": 0.4746,
     "n_components": 300,
-    "n_docs": 12910,
+    "n_docs": 12932,
     "n_features": 200000,
-    "n_latent_only_pairs": 693,
-    "pct_rows_with_latent_only_hit": 38.25,
+    "n_latent_only_pairs": 703,
+    "pct_rows_with_latent_only_hit": 40.0,
     "sample": 800,
-    "seconds": 21.4,
+    "seconds": 22.3,
     "status": "measured"
   }
 }
