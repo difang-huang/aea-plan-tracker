@@ -2,139 +2,139 @@
   "similarity_probe": {
     "examples": [
       {
-        "latent_neighbour": "AEARCTR-0001992",
-        "latent_similarity": 0.7117,
-        "lexical_similarity": 0.1097,
-        "neighbour_title": "The Effect of Post-Baccalaureate Certificates on Job Search: Results from a Correspondence Study",
-        "plan": "AEARCTR-0015942",
-        "plan_title": "A Study on Ukraine War Veterans"
+        "latent_neighbour": "AEARCTR-0009832",
+        "latent_similarity": 0.7186,
+        "lexical_similarity": 0.1212,
+        "neighbour_title": "SMS Campaign to Increase COVID-19 Vaccine Take-up in Tanzania",
+        "plan": "AEARCTR-0007864",
+        "plan_title": "Persuasive Messages for COVID-19 Vaccine Uptake: a Randomized Controlled Trial"
       },
       {
-        "latent_neighbour": "AEARCTR-0011183",
-        "latent_similarity": 0.7091,
-        "lexical_similarity": 0.1159,
-        "neighbour_title": "Nonbinary hiring discrimination and the politicization of pronouns: A resume audit study",
-        "plan": "AEARCTR-0015942",
-        "plan_title": "A Study on Ukraine War Veterans"
+        "latent_neighbour": "AEARCTR-0007228",
+        "latent_similarity": 0.6943,
+        "lexical_similarity": 0.0946,
+        "neighbour_title": "COVID-19 Vaccine Acceptability in Mozambique",
+        "plan": "AEARCTR-0007864",
+        "plan_title": "Persuasive Messages for COVID-19 Vaccine Uptake: a Randomized Controlled Trial"
       },
       {
-        "latent_neighbour": "AEARCTR-0018338",
-        "latent_similarity": 0.6966,
-        "lexical_similarity": 0.1396,
-        "neighbour_title": "How Incentives affect physicians\u2019 AI-assisted Decision Making \u2013 An Audit Study in Health Care",
-        "plan": "AEARCTR-0017590",
-        "plan_title": "Physician Responses to Patient Use of Generative AI for Self-Diagnosis: A Field Experiment"
+        "latent_neighbour": "AEARCTR-0005857",
+        "latent_similarity": 0.6825,
+        "lexical_similarity": 0.1035,
+        "neighbour_title": "Influenza Vaccine: the combined influence of preferences and information about risks and benefits",
+        "plan": "AEARCTR-0007864",
+        "plan_title": "Persuasive Messages for COVID-19 Vaccine Uptake: a Randomized Controlled Trial"
       },
       {
-        "latent_neighbour": "AEARCTR-0017724",
-        "latent_similarity": 0.671,
-        "lexical_similarity": 0.1115,
-        "neighbour_title": "Patients\u2019 Perceptions of AI Use in Health Care",
-        "plan": "AEARCTR-0017590",
-        "plan_title": "Physician Responses to Patient Use of Generative AI for Self-Diagnosis: A Field Experiment"
+        "latent_neighbour": "AEARCTR-0009804",
+        "latent_similarity": 0.6649,
+        "lexical_similarity": 0.1052,
+        "neighbour_title": "Productivity Impact of Integrating Soil Fertility Management Interventions (SFMIs) in Input Subsidy Programs (ISPs): Evidence from a Randomized Controlled Trial in Malawi",
+        "plan": "AEARCTR-0008384",
+        "plan_title": "ICT effectiveness in transmitting information about optimal agricultural input use to Nepalese farmers"
       },
       {
-        "latent_neighbour": "AEARCTR-0003497",
-        "latent_similarity": 0.6973,
-        "lexical_similarity": 0.0958,
-        "neighbour_title": "Probabilistic continuation in the public goods game",
-        "plan": "AEARCTR-0016967",
-        "plan_title": "Tackling Internal Inequality in Contest Games: Theory and Experimental Evidence"
+        "latent_neighbour": "AEARCTR-0017887",
+        "latent_similarity": 0.6369,
+        "lexical_similarity": 0.0908,
+        "neighbour_title": "Developing Effective Technology Dissemination Strategies through Farmer-to-Farmer Networks in Ghana",
+        "plan": "AEARCTR-0008384",
+        "plan_title": "ICT effectiveness in transmitting information about optimal agricultural input use to Nepalese farmers"
       },
       {
-        "latent_neighbour": "AEARCTR-0008612",
-        "latent_similarity": 0.6807,
-        "lexical_similarity": 0.0951,
-        "neighbour_title": "Minimum Contribution Mechanism",
-        "plan": "AEARCTR-0016967",
-        "plan_title": "Tackling Internal Inequality in Contest Games: Theory and Experimental Evidence"
+        "latent_neighbour": "AEARCTR-0012560",
+        "latent_similarity": 0.6341,
+        "lexical_similarity": 0.0744,
+        "neighbour_title": "The role of mechanistic explanations in technology adoption across contexts: Evidence from Uganda",
+        "plan": "AEARCTR-0008384",
+        "plan_title": "ICT effectiveness in transmitting information about optimal agricultural input use to Nepalese farmers"
       },
       {
-        "latent_neighbour": "AEARCTR-0003567",
-        "latent_similarity": 0.6802,
-        "lexical_similarity": 0.0942,
-        "neighbour_title": "Apologies in Public Goods Game",
-        "plan": "AEARCTR-0016967",
-        "plan_title": "Tackling Internal Inequality in Contest Games: Theory and Experimental Evidence"
+        "latent_neighbour": "AEARCTR-0002261",
+        "latent_similarity": 0.7087,
+        "lexical_similarity": 0.1052,
+        "neighbour_title": "The Effect of Improving Child Care Centers on Early Childhood Development in Bolivia",
+        "plan": "AEARCTR-0001772",
+        "plan_title": "Improving school preparedness and child health outcomes through Integrated Child Development Services (ICDS) in Tamil Nadu"
       },
       {
-        "latent_neighbour": "AEARCTR-0002766",
-        "latent_similarity": 0.7438,
-        "lexical_similarity": 0.1287,
-        "neighbour_title": "Gig Jobs: stepping stones or dead ends?",
-        "plan": "AEARCTR-0015852",
-        "plan_title": "The Role of Long-Term Unemployment in the Hiring Process: Evidence from a correspondence study in Italy"
+        "latent_neighbour": "AEARCTR-0003161",
+        "latent_similarity": 0.684,
+        "lexical_similarity": 0.1144,
+        "neighbour_title": "Cluster Randomised Trial of the effect and Timing and Duration of Early Childhood Interventions in Odisha, India",
+        "plan": "AEARCTR-0001772",
+        "plan_title": "Improving school preparedness and child health outcomes through Integrated Child Development Services (ICDS) in Tamil Nadu"
       },
       {
-        "latent_neighbour": "AEARCTR-0002326",
-        "latent_similarity": 0.7436,
-        "lexical_similarity": 0.1309,
-        "neighbour_title": "Does socio-emotional skills signaling matter in the labor market? A gender and skills correspondence study",
-        "plan": "AEARCTR-0015852",
-        "plan_title": "The Role of Long-Term Unemployment in the Hiring Process: Evidence from a correspondence study in Italy"
+        "latent_neighbour": "AEARCTR-0002250",
+        "latent_similarity": 0.6579,
+        "lexical_similarity": 0.0983,
+        "neighbour_title": "The Effect of a Home-Based Community Visits on Early Childhood Development in Bolivia",
+        "plan": "AEARCTR-0001772",
+        "plan_title": "Improving school preparedness and child health outcomes through Integrated Child Development Services (ICDS) in Tamil Nadu"
       },
       {
-        "latent_neighbour": "AEARCTR-0009534",
-        "latent_similarity": 0.7252,
-        "lexical_similarity": 0.1293,
-        "neighbour_title": "Measuring Labor Market Discrimination: A Correspondence Audit Study in Egypt",
-        "plan": "AEARCTR-0015852",
-        "plan_title": "The Role of Long-Term Unemployment in the Hiring Process: Evidence from a correspondence study in Italy"
+        "latent_neighbour": "AEARCTR-0008001",
+        "latent_similarity": 0.6571,
+        "lexical_similarity": 0.088,
+        "neighbour_title": "Early Childhood Human Capital Formation at Scale: Experimental Evidence from Bangladesh",
+        "plan": "AEARCTR-0001772",
+        "plan_title": "Improving school preparedness and child health outcomes through Integrated Child Development Services (ICDS) in Tamil Nadu"
       },
       {
-        "latent_neighbour": "AEARCTR-0018038",
-        "latent_similarity": 0.724,
-        "lexical_similarity": 0.1123,
-        "neighbour_title": "Discrimination Against Persons with Disabilities in Recruitment: A Correspondence Study",
-        "plan": "AEARCTR-0015852",
-        "plan_title": "The Role of Long-Term Unemployment in the Hiring Process: Evidence from a correspondence study in Italy"
+        "latent_neighbour": "AEARCTR-0001246",
+        "latent_similarity": 0.6428,
+        "lexical_similarity": 0.0761,
+        "neighbour_title": "Evaluation of Centres for Infant Development: an early years intervention in Colombia",
+        "plan": "AEARCTR-0001772",
+        "plan_title": "Improving school preparedness and child health outcomes through Integrated Child Development Services (ICDS) in Tamil Nadu"
       },
       {
-        "latent_neighbour": "AEARCTR-0008702",
-        "latent_similarity": 0.7062,
-        "lexical_similarity": 0.1128,
-        "neighbour_title": "Leveraging Technology and Behavioral Science Insights to Promote Development in the Early Years: The Effect of a Remote Assistance and Messaging Program to Sustain Parental Behavio",
-        "plan": "AEARCTR-0012837",
-        "plan_title": "Impacts of Early Childhood Nutrition and Maternal Mental Health Interventions on Child Health and Development"
+        "latent_neighbour": "AEARCTR-0015221",
+        "latent_similarity": 0.6123,
+        "lexical_similarity": 0.0917,
+        "neighbour_title": "The Impact of Digital Mental Health Technology on Mental Health, Education, and Economic Outlook of Young Adults",
+        "plan": "AEARCTR-0017634",
+        "plan_title": "Care on Campus: Understanding and Responding to Student Wellbeing in India"
       },
       {
-        "latent_neighbour": "AEARCTR-0002868",
-        "latent_similarity": 0.6957,
-        "lexical_similarity": 0.1234,
-        "neighbour_title": "Experimental evaluation of Semillas de Apego, a group-based program to foster maternal mental health and early childhood development among violence exposed communities in Colombia.",
-        "plan": "AEARCTR-0012837",
-        "plan_title": "Impacts of Early Childhood Nutrition and Maternal Mental Health Interventions on Child Health and Development"
+        "latent_neighbour": "AEARCTR-0010431",
+        "latent_similarity": 0.6016,
+        "lexical_similarity": 0.1028,
+        "neighbour_title": "We are All Ears: Improving students\u2019 mental health and academic achievement",
+        "plan": "AEARCTR-0017634",
+        "plan_title": "Care on Campus: Understanding and Responding to Student Wellbeing in India"
       },
       {
-        "latent_neighbour": "AEARCTR-0012360",
-        "latent_similarity": 0.6939,
-        "lexical_similarity": 0.1285,
-        "neighbour_title": "PROMOTING CHILD DEVELOPMENT AND CAREGIVER WELLBEING BY COMBINING TECHNOLOGY AND BEHAVIORAL SCIENCE DURING PREGNANCY AND THE FIRST MONTHS OF LIFE",
-        "plan": "AEARCTR-0012837",
-        "plan_title": "Impacts of Early Childhood Nutrition and Maternal Mental Health Interventions on Child Health and Development"
+        "latent_neighbour": "AEARCTR-0000903",
+        "latent_similarity": 0.6604,
+        "lexical_similarity": 0.0976,
+        "neighbour_title": "Can non-teaching role models reduce the gender gap in science?",
+        "plan": "AEARCTR-0015320",
+        "plan_title": "Nurturing STEM Talent in School"
       },
       {
-        "latent_neighbour": "AEARCTR-0017815",
-        "latent_similarity": 0.6008,
-        "lexical_similarity": 0.0885,
-        "neighbour_title": "Wage information and Fertility Intentions",
-        "plan": "AEARCTR-0019718",
-        "plan_title": "The Value of Public Sector Employment in China"
+        "latent_neighbour": "AEARCTR-0008014",
+        "latent_similarity": 0.6384,
+        "lexical_similarity": 0.0749,
+        "neighbour_title": "Gender Stereotypes and Education Gaps in the Economics Field (GSEGEF)",
+        "plan": "AEARCTR-0015320",
+        "plan_title": "Nurturing STEM Talent in School"
       }
     ],
     "k": 6,
     "latent_hit": 0.6,
     "lexical_floor": 0.2,
-    "mean_latent_max_sim": 0.6838,
-    "mean_lexical_max_sim": 0.2258,
-    "mean_topk_overlap": 0.4754,
+    "mean_latent_max_sim": 0.688,
+    "mean_lexical_max_sim": 0.2295,
+    "mean_topk_overlap": 0.4842,
     "n_components": 300,
-    "n_docs": 12932,
+    "n_docs": 12973,
     "n_features": 200000,
-    "n_latent_only_pairs": 704,
-    "pct_rows_with_latent_only_hit": 40.38,
+    "n_latent_only_pairs": 764,
+    "pct_rows_with_latent_only_hit": 42.38,
     "sample": 800,
-    "seconds": 27.1,
+    "seconds": 14.3,
     "status": "measured"
   }
 }
