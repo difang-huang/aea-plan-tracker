@@ -3,47 +3,47 @@
     "examples": [
       {
         "latent_neighbour": "AEARCTR-0009832",
-        "latent_similarity": 0.7183,
-        "lexical_similarity": 0.1208,
+        "latent_similarity": 0.7185,
+        "lexical_similarity": 0.1206,
         "neighbour_title": "SMS Campaign to Increase COVID-19 Vaccine Take-up in Tanzania",
         "plan": "AEARCTR-0007864",
         "plan_title": "Persuasive Messages for COVID-19 Vaccine Uptake: a Randomized Controlled Trial"
       },
       {
         "latent_neighbour": "AEARCTR-0007228",
-        "latent_similarity": 0.6946,
-        "lexical_similarity": 0.0947,
+        "latent_similarity": 0.6956,
+        "lexical_similarity": 0.095,
         "neighbour_title": "COVID-19 Vaccine Acceptability in Mozambique",
         "plan": "AEARCTR-0007864",
         "plan_title": "Persuasive Messages for COVID-19 Vaccine Uptake: a Randomized Controlled Trial"
       },
       {
         "latent_neighbour": "AEARCTR-0005857",
-        "latent_similarity": 0.6835,
-        "lexical_similarity": 0.1028,
+        "latent_similarity": 0.6833,
+        "lexical_similarity": 0.1046,
         "neighbour_title": "Influenza Vaccine: the combined influence of preferences and information about risks and benefits",
         "plan": "AEARCTR-0007864",
         "plan_title": "Persuasive Messages for COVID-19 Vaccine Uptake: a Randomized Controlled Trial"
       },
       {
         "latent_neighbour": "AEARCTR-0017887",
-        "latent_similarity": 0.6367,
-        "lexical_similarity": 0.0918,
+        "latent_similarity": 0.6362,
+        "lexical_similarity": 0.0914,
         "neighbour_title": "Developing Effective Technology Dissemination Strategies through Farmer-to-Farmer Networks in Ghana",
         "plan": "AEARCTR-0008384",
         "plan_title": "ICT effectiveness in transmitting information about optimal agricultural input use to Nepalese farmers"
       },
       {
-        "latent_neighbour": "AEARCTR-0012560",
-        "latent_similarity": 0.6333,
-        "lexical_similarity": 0.0747,
-        "neighbour_title": "The role of mechanistic explanations in technology adoption across contexts: Evidence from Uganda",
+        "latent_neighbour": "AEARCTR-0000678",
+        "latent_similarity": 0.6357,
+        "lexical_similarity": 0.0715,
+        "neighbour_title": "The Value of Advice: Evidence from the Adoption of Agricultural Practices",
         "plan": "AEARCTR-0008384",
         "plan_title": "ICT effectiveness in transmitting information about optimal agricultural input use to Nepalese farmers"
       },
       {
         "latent_neighbour": "AEARCTR-0002261",
-        "latent_similarity": 0.7087,
+        "latent_similarity": 0.7096,
         "lexical_similarity": 0.1065,
         "neighbour_title": "The Effect of Improving Child Care Centers on Early Childhood Development in Bolivia",
         "plan": "AEARCTR-0001772",
@@ -51,73 +51,73 @@
       },
       {
         "latent_neighbour": "AEARCTR-0003161",
-        "latent_similarity": 0.6832,
-        "lexical_similarity": 0.1147,
+        "latent_similarity": 0.6844,
+        "lexical_similarity": 0.1139,
         "neighbour_title": "Cluster Randomised Trial of the effect and Timing and Duration of Early Childhood Interventions in Odisha, India",
         "plan": "AEARCTR-0001772",
         "plan_title": "Improving school preparedness and child health outcomes through Integrated Child Development Services (ICDS) in Tamil Nadu"
       },
       {
         "latent_neighbour": "AEARCTR-0002250",
-        "latent_similarity": 0.6583,
-        "lexical_similarity": 0.0986,
+        "latent_similarity": 0.6588,
+        "lexical_similarity": 0.0989,
         "neighbour_title": "The Effect of a Home-Based Community Visits on Early Childhood Development in Bolivia",
         "plan": "AEARCTR-0001772",
         "plan_title": "Improving school preparedness and child health outcomes through Integrated Child Development Services (ICDS) in Tamil Nadu"
       },
       {
         "latent_neighbour": "AEARCTR-0008001",
-        "latent_similarity": 0.6572,
-        "lexical_similarity": 0.0898,
+        "latent_similarity": 0.6569,
+        "lexical_similarity": 0.088,
         "neighbour_title": "Early Childhood Human Capital Formation at Scale: Experimental Evidence from Bangladesh",
         "plan": "AEARCTR-0001772",
         "plan_title": "Improving school preparedness and child health outcomes through Integrated Child Development Services (ICDS) in Tamil Nadu"
       },
       {
         "latent_neighbour": "AEARCTR-0001246",
-        "latent_similarity": 0.6432,
-        "lexical_similarity": 0.0769,
+        "latent_similarity": 0.6422,
+        "lexical_similarity": 0.0761,
         "neighbour_title": "Evaluation of Centres for Infant Development: an early years intervention in Colombia",
         "plan": "AEARCTR-0001772",
         "plan_title": "Improving school preparedness and child health outcomes through Integrated Child Development Services (ICDS) in Tamil Nadu"
       },
       {
         "latent_neighbour": "AEARCTR-0015221",
-        "latent_similarity": 0.6114,
-        "lexical_similarity": 0.0919,
+        "latent_similarity": 0.6129,
+        "lexical_similarity": 0.092,
         "neighbour_title": "The Impact of Digital Mental Health Technology on Mental Health, Education, and Economic Outlook of Young Adults",
         "plan": "AEARCTR-0017634",
         "plan_title": "Care on Campus: Understanding and Responding to Student Wellbeing in India"
       },
       {
         "latent_neighbour": "AEARCTR-0010431",
-        "latent_similarity": 0.6034,
-        "lexical_similarity": 0.1029,
+        "latent_similarity": 0.6023,
+        "lexical_similarity": 0.1017,
         "neighbour_title": "We are All Ears: Improving students\u2019 mental health and academic achievement",
         "plan": "AEARCTR-0017634",
         "plan_title": "Care on Campus: Understanding and Responding to Student Wellbeing in India"
       },
       {
+        "latent_neighbour": "AEARCTR-0013603",
+        "latent_similarity": 0.6236,
+        "lexical_similarity": 0.0773,
+        "neighbour_title": "Generative AI & TeamWork: An experimental approach.",
+        "plan": "AEARCTR-0019019",
+        "plan_title": "Team Production with AI"
+      },
+      {
         "latent_neighbour": "AEARCTR-0000903",
-        "latent_similarity": 0.6598,
-        "lexical_similarity": 0.0981,
+        "latent_similarity": 0.6613,
+        "lexical_similarity": 0.0977,
         "neighbour_title": "Can non-teaching role models reduce the gender gap in science?",
         "plan": "AEARCTR-0015320",
         "plan_title": "Nurturing STEM Talent in School"
       },
       {
         "latent_neighbour": "AEARCTR-0008014",
-        "latent_similarity": 0.6392,
-        "lexical_similarity": 0.0755,
+        "latent_similarity": 0.6369,
+        "lexical_similarity": 0.0754,
         "neighbour_title": "Gender Stereotypes and Education Gaps in the Economics Field (GSEGEF)",
-        "plan": "AEARCTR-0015320",
-        "plan_title": "Nurturing STEM Talent in School"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0018840",
-        "latent_similarity": 0.619,
-        "lexical_similarity": 0.0955,
-        "neighbour_title": "Encouraging STEM Specialization Among High School Girls",
         "plan": "AEARCTR-0015320",
         "plan_title": "Nurturing STEM Talent in School"
       }
@@ -127,14 +127,14 @@
     "lexical_floor": 0.2,
     "mean_latent_max_sim": 0.688,
     "mean_lexical_max_sim": 0.2296,
-    "mean_topk_overlap": 0.4873,
+    "mean_topk_overlap": 0.4854,
     "n_components": 300,
     "n_docs": 12973,
     "n_features": 200000,
-    "n_latent_only_pairs": 755,
-    "pct_rows_with_latent_only_hit": 42.0,
+    "n_latent_only_pairs": 751,
+    "pct_rows_with_latent_only_hit": 41.75,
     "sample": 800,
-    "seconds": 15.7,
+    "seconds": 23.3,
     "status": "measured"
   }
 }
