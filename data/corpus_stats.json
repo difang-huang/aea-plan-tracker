@@ -27,7 +27,7 @@
       },
       {
         "latent_neighbour": "AEARCTR-0017887",
-        "latent_similarity": 0.6362,
+        "latent_similarity": 0.6363,
         "lexical_similarity": 0.0914,
         "neighbour_title": "Developing Effective Technology Dissemination Strategies through Farmer-to-Farmer Networks in Ghana",
         "plan": "AEARCTR-0008384",
@@ -91,7 +91,7 @@
       },
       {
         "latent_neighbour": "AEARCTR-0010431",
-        "latent_similarity": 0.6023,
+        "latent_similarity": 0.6024,
         "lexical_similarity": 0.1017,
         "neighbour_title": "We are All Ears: Improving students\u2019 mental health and academic achievement",
         "plan": "AEARCTR-0017634",
@@ -134,7 +134,7 @@
     "n_latent_only_pairs": 751,
     "pct_rows_with_latent_only_hit": 41.75,
     "sample": 800,
-    "seconds": 23.3,
+    "seconds": 21.8,
     "status": "measured"
   }
 }
