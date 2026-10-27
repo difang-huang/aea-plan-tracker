@@ -2,139 +2,139 @@
   "similarity_probe": {
     "examples": [
       {
-        "latent_neighbour": "AEARCTR-0009832",
-        "latent_similarity": 0.7185,
-        "lexical_similarity": 0.1206,
-        "neighbour_title": "SMS Campaign to Increase COVID-19 Vaccine Take-up in Tanzania",
-        "plan": "AEARCTR-0007864",
-        "plan_title": "Persuasive Messages for COVID-19 Vaccine Uptake: a Randomized Controlled Trial"
+        "latent_neighbour": "AEARCTR-0002011",
+        "latent_similarity": 0.6771,
+        "lexical_similarity": 0.0933,
+        "neighbour_title": "Mobilitza't Mobile: Bringing young unemployed back into formal education and labor market.",
+        "plan": "AEARCTR-0007910",
+        "plan_title": "Evaluation of Demand-led Vocational Training Programs in Pakistan"
       },
       {
-        "latent_neighbour": "AEARCTR-0007228",
-        "latent_similarity": 0.6956,
-        "lexical_similarity": 0.095,
-        "neighbour_title": "COVID-19 Vaccine Acceptability in Mozambique",
-        "plan": "AEARCTR-0007864",
-        "plan_title": "Persuasive Messages for COVID-19 Vaccine Uptake: a Randomized Controlled Trial"
+        "latent_neighbour": "AEARCTR-0008249",
+        "latent_similarity": 0.6723,
+        "lexical_similarity": 0.0828,
+        "neighbour_title": "Impact Evaluation of BYLC\u2019s CSF Project",
+        "plan": "AEARCTR-0007910",
+        "plan_title": "Evaluation of Demand-led Vocational Training Programs in Pakistan"
       },
       {
-        "latent_neighbour": "AEARCTR-0005857",
-        "latent_similarity": 0.6833,
+        "latent_neighbour": "AEARCTR-0004310",
+        "latent_similarity": 0.6692,
+        "lexical_similarity": 0.084,
+        "neighbour_title": "Meet Your Future: Job Search Effort and Aspirations of Young Jobseekers",
+        "plan": "AEARCTR-0007910",
+        "plan_title": "Evaluation of Demand-led Vocational Training Programs in Pakistan"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0018098",
+        "latent_similarity": 0.6584,
+        "lexical_similarity": 0.076,
+        "neighbour_title": "Intensifying vs Targeting Support",
+        "plan": "AEARCTR-0007910",
+        "plan_title": "Evaluation of Demand-led Vocational Training Programs in Pakistan"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0006386",
+        "latent_similarity": 0.6436,
+        "lexical_similarity": 0.0704,
+        "neighbour_title": "Leaving welfare for work : evaluation of a French training program for social welfare recipients",
+        "plan": "AEARCTR-0007910",
+        "plan_title": "Evaluation of Demand-led Vocational Training Programs in Pakistan"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0018582",
+        "latent_similarity": 0.7022,
+        "lexical_similarity": 0.1071,
+        "neighbour_title": "Quota Rules and Holdout",
+        "plan": "AEARCTR-0016084",
+        "plan_title": "Price Competition and Bargaining: An Experimental Study Based on Hotelling\u2019s Model"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0019208",
+        "latent_similarity": 0.6459,
+        "lexical_similarity": 0.11,
+        "neighbour_title": "Demand for Options as Price Insurance",
+        "plan": "AEARCTR-0014116",
+        "plan_title": "Willingness to pay for index-based weather insurance by rice farmers in Vietnam"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0017004",
+        "latent_similarity": 0.702,
+        "lexical_similarity": 0.141,
+        "neighbour_title": "Legal Aid in the Eviction Context",
+        "plan": "AEARCTR-0010687",
+        "plan_title": "The Effects of Legal Assistance on Evictions"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0006813",
+        "latent_similarity": 0.6962,
+        "lexical_similarity": 0.1235,
+        "neighbour_title": "Testing Unbundled Legal Services in Housing Court: A Pilot RCT",
+        "plan": "AEARCTR-0010687",
+        "plan_title": "The Effects of Legal Assistance on Evictions"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0008752",
+        "latent_similarity": 0.6268,
+        "lexical_similarity": 0.1022,
+        "neighbour_title": "Promoting the consumption of meat substitutes with mental accounting",
+        "plan": "AEARCTR-0019144",
+        "plan_title": "The Role of Motivated Beliefs in the Carbon Footprint of Food Consumption"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0008507",
+        "latent_similarity": 0.6179,
+        "lexical_similarity": 0.1051,
+        "neighbour_title": "Voters\u2019 preferences for a meat tax: Evidence from a referendum choice experiment",
+        "plan": "AEARCTR-0019144",
+        "plan_title": "The Role of Motivated Beliefs in the Carbon Footprint of Food Consumption"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0012959",
+        "latent_similarity": 0.733,
+        "lexical_similarity": 0.165,
+        "neighbour_title": "Do attitudes towards policy changes depend on beliefs about policy levels?",
+        "plan": "AEARCTR-0015403",
+        "plan_title": "Narrative Persuasion 3"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0006145",
+        "latent_similarity": 0.6229,
+        "lexical_similarity": 0.081,
+        "neighbour_title": "Can Information about Energy Costs Affect Consumers Choices? Evidence from a Field Experiment",
+        "plan": "AEARCTR-0010757",
+        "plan_title": "Nudging the Poor: Increasing Energy Efficiency Investments of Low-Income Households"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0001517",
+        "latent_similarity": 0.6055,
+        "lexical_similarity": 0.091,
+        "neighbour_title": "Can We Confront Climate Change by Picking up $20 Bills in Houses? Experimental Evidence on Programs to Reduce Residential Sector Energy Consumption",
+        "plan": "AEARCTR-0010757",
+        "plan_title": "Nudging the Poor: Increasing Energy Efficiency Investments of Low-Income Households"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0007097",
+        "latent_similarity": 0.6887,
         "lexical_similarity": 0.1046,
-        "neighbour_title": "Influenza Vaccine: the combined influence of preferences and information about risks and benefits",
-        "plan": "AEARCTR-0007864",
-        "plan_title": "Persuasive Messages for COVID-19 Vaccine Uptake: a Randomized Controlled Trial"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0017887",
-        "latent_similarity": 0.6363,
-        "lexical_similarity": 0.0914,
-        "neighbour_title": "Developing Effective Technology Dissemination Strategies through Farmer-to-Farmer Networks in Ghana",
-        "plan": "AEARCTR-0008384",
-        "plan_title": "ICT effectiveness in transmitting information about optimal agricultural input use to Nepalese farmers"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0000678",
-        "latent_similarity": 0.6357,
-        "lexical_similarity": 0.0715,
-        "neighbour_title": "The Value of Advice: Evidence from the Adoption of Agricultural Practices",
-        "plan": "AEARCTR-0008384",
-        "plan_title": "ICT effectiveness in transmitting information about optimal agricultural input use to Nepalese farmers"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0002261",
-        "latent_similarity": 0.7096,
-        "lexical_similarity": 0.1065,
-        "neighbour_title": "The Effect of Improving Child Care Centers on Early Childhood Development in Bolivia",
-        "plan": "AEARCTR-0001772",
-        "plan_title": "Improving school preparedness and child health outcomes through Integrated Child Development Services (ICDS) in Tamil Nadu"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0003161",
-        "latent_similarity": 0.6844,
-        "lexical_similarity": 0.1139,
-        "neighbour_title": "Cluster Randomised Trial of the effect and Timing and Duration of Early Childhood Interventions in Odisha, India",
-        "plan": "AEARCTR-0001772",
-        "plan_title": "Improving school preparedness and child health outcomes through Integrated Child Development Services (ICDS) in Tamil Nadu"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0002250",
-        "latent_similarity": 0.6588,
-        "lexical_similarity": 0.0989,
-        "neighbour_title": "The Effect of a Home-Based Community Visits on Early Childhood Development in Bolivia",
-        "plan": "AEARCTR-0001772",
-        "plan_title": "Improving school preparedness and child health outcomes through Integrated Child Development Services (ICDS) in Tamil Nadu"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0008001",
-        "latent_similarity": 0.6569,
-        "lexical_similarity": 0.088,
-        "neighbour_title": "Early Childhood Human Capital Formation at Scale: Experimental Evidence from Bangladesh",
-        "plan": "AEARCTR-0001772",
-        "plan_title": "Improving school preparedness and child health outcomes through Integrated Child Development Services (ICDS) in Tamil Nadu"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0001246",
-        "latent_similarity": 0.6422,
-        "lexical_similarity": 0.0761,
-        "neighbour_title": "Evaluation of Centres for Infant Development: an early years intervention in Colombia",
-        "plan": "AEARCTR-0001772",
-        "plan_title": "Improving school preparedness and child health outcomes through Integrated Child Development Services (ICDS) in Tamil Nadu"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0015221",
-        "latent_similarity": 0.6129,
-        "lexical_similarity": 0.092,
-        "neighbour_title": "The Impact of Digital Mental Health Technology on Mental Health, Education, and Economic Outlook of Young Adults",
-        "plan": "AEARCTR-0017634",
-        "plan_title": "Care on Campus: Understanding and Responding to Student Wellbeing in India"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0010431",
-        "latent_similarity": 0.6024,
-        "lexical_similarity": 0.1017,
-        "neighbour_title": "We are All Ears: Improving students\u2019 mental health and academic achievement",
-        "plan": "AEARCTR-0017634",
-        "plan_title": "Care on Campus: Understanding and Responding to Student Wellbeing in India"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0013603",
-        "latent_similarity": 0.6236,
-        "lexical_similarity": 0.0773,
-        "neighbour_title": "Generative AI & TeamWork: An experimental approach.",
-        "plan": "AEARCTR-0019019",
-        "plan_title": "Team Production with AI"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0000903",
-        "latent_similarity": 0.6613,
-        "lexical_similarity": 0.0977,
-        "neighbour_title": "Can non-teaching role models reduce the gender gap in science?",
-        "plan": "AEARCTR-0015320",
-        "plan_title": "Nurturing STEM Talent in School"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0008014",
-        "latent_similarity": 0.6369,
-        "lexical_similarity": 0.0754,
-        "neighbour_title": "Gender Stereotypes and Education Gaps in the Economics Field (GSEGEF)",
-        "plan": "AEARCTR-0015320",
-        "plan_title": "Nurturing STEM Talent in School"
+        "neighbour_title": "Impact of AI Skills on Callback in Job Applications: Evidence from a Field Experiment",
+        "plan": "AEARCTR-0017127",
+        "plan_title": "Belief-updating about elderly\u2019s cognitive abilities in the Czech labour market \u2013 Evidence from a machine learning-assisted field experiment"
       }
     ],
     "k": 6,
     "latent_hit": 0.6,
     "lexical_floor": 0.2,
-    "mean_latent_max_sim": 0.688,
-    "mean_lexical_max_sim": 0.2296,
-    "mean_topk_overlap": 0.4854,
+    "mean_latent_max_sim": 0.6867,
+    "mean_lexical_max_sim": 0.2332,
+    "mean_topk_overlap": 0.48,
     "n_components": 300,
-    "n_docs": 12973,
+    "n_docs": 13046,
     "n_features": 200000,
-    "n_latent_only_pairs": 751,
-    "pct_rows_with_latent_only_hit": 41.75,
+    "n_latent_only_pairs": 762,
+    "pct_rows_with_latent_only_hit": 41.5,
     "sample": 800,
-    "seconds": 21.8,
+    "seconds": 23.3,
     "status": "measured"
   }
 }
