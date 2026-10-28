@@ -3,120 +3,120 @@
     "examples": [
       {
         "latent_neighbour": "AEARCTR-0002011",
-        "latent_similarity": 0.6771,
-        "lexical_similarity": 0.0933,
+        "latent_similarity": 0.6774,
+        "lexical_similarity": 0.093,
         "neighbour_title": "Mobilitza't Mobile: Bringing young unemployed back into formal education and labor market.",
         "plan": "AEARCTR-0007910",
         "plan_title": "Evaluation of Demand-led Vocational Training Programs in Pakistan"
       },
       {
         "latent_neighbour": "AEARCTR-0008249",
-        "latent_similarity": 0.6723,
-        "lexical_similarity": 0.0828,
+        "latent_similarity": 0.6727,
+        "lexical_similarity": 0.0822,
         "neighbour_title": "Impact Evaluation of BYLC\u2019s CSF Project",
         "plan": "AEARCTR-0007910",
         "plan_title": "Evaluation of Demand-led Vocational Training Programs in Pakistan"
       },
       {
         "latent_neighbour": "AEARCTR-0004310",
-        "latent_similarity": 0.6692,
-        "lexical_similarity": 0.084,
+        "latent_similarity": 0.6697,
+        "lexical_similarity": 0.0838,
         "neighbour_title": "Meet Your Future: Job Search Effort and Aspirations of Young Jobseekers",
         "plan": "AEARCTR-0007910",
         "plan_title": "Evaluation of Demand-led Vocational Training Programs in Pakistan"
       },
       {
         "latent_neighbour": "AEARCTR-0018098",
-        "latent_similarity": 0.6584,
-        "lexical_similarity": 0.076,
+        "latent_similarity": 0.6578,
+        "lexical_similarity": 0.0753,
         "neighbour_title": "Intensifying vs Targeting Support",
         "plan": "AEARCTR-0007910",
         "plan_title": "Evaluation of Demand-led Vocational Training Programs in Pakistan"
       },
       {
         "latent_neighbour": "AEARCTR-0006386",
-        "latent_similarity": 0.6436,
-        "lexical_similarity": 0.0704,
+        "latent_similarity": 0.6446,
+        "lexical_similarity": 0.0701,
         "neighbour_title": "Leaving welfare for work : evaluation of a French training program for social welfare recipients",
         "plan": "AEARCTR-0007910",
         "plan_title": "Evaluation of Demand-led Vocational Training Programs in Pakistan"
       },
       {
         "latent_neighbour": "AEARCTR-0018582",
-        "latent_similarity": 0.7022,
-        "lexical_similarity": 0.1071,
+        "latent_similarity": 0.7043,
+        "lexical_similarity": 0.1066,
         "neighbour_title": "Quota Rules and Holdout",
         "plan": "AEARCTR-0016084",
         "plan_title": "Price Competition and Bargaining: An Experimental Study Based on Hotelling\u2019s Model"
       },
       {
         "latent_neighbour": "AEARCTR-0019208",
-        "latent_similarity": 0.6459,
-        "lexical_similarity": 0.11,
+        "latent_similarity": 0.6453,
+        "lexical_similarity": 0.1099,
         "neighbour_title": "Demand for Options as Price Insurance",
         "plan": "AEARCTR-0014116",
         "plan_title": "Willingness to pay for index-based weather insurance by rice farmers in Vietnam"
       },
       {
         "latent_neighbour": "AEARCTR-0017004",
-        "latent_similarity": 0.702,
-        "lexical_similarity": 0.141,
+        "latent_similarity": 0.7026,
+        "lexical_similarity": 0.1407,
         "neighbour_title": "Legal Aid in the Eviction Context",
         "plan": "AEARCTR-0010687",
         "plan_title": "The Effects of Legal Assistance on Evictions"
       },
       {
         "latent_neighbour": "AEARCTR-0006813",
-        "latent_similarity": 0.6962,
-        "lexical_similarity": 0.1235,
+        "latent_similarity": 0.6967,
+        "lexical_similarity": 0.1224,
         "neighbour_title": "Testing Unbundled Legal Services in Housing Court: A Pilot RCT",
         "plan": "AEARCTR-0010687",
         "plan_title": "The Effects of Legal Assistance on Evictions"
       },
       {
         "latent_neighbour": "AEARCTR-0008752",
-        "latent_similarity": 0.6268,
-        "lexical_similarity": 0.1022,
+        "latent_similarity": 0.6266,
+        "lexical_similarity": 0.1017,
         "neighbour_title": "Promoting the consumption of meat substitutes with mental accounting",
         "plan": "AEARCTR-0019144",
         "plan_title": "The Role of Motivated Beliefs in the Carbon Footprint of Food Consumption"
       },
       {
         "latent_neighbour": "AEARCTR-0008507",
-        "latent_similarity": 0.6179,
-        "lexical_similarity": 0.1051,
+        "latent_similarity": 0.6176,
+        "lexical_similarity": 0.1042,
         "neighbour_title": "Voters\u2019 preferences for a meat tax: Evidence from a referendum choice experiment",
         "plan": "AEARCTR-0019144",
         "plan_title": "The Role of Motivated Beliefs in the Carbon Footprint of Food Consumption"
       },
       {
         "latent_neighbour": "AEARCTR-0012959",
-        "latent_similarity": 0.733,
-        "lexical_similarity": 0.165,
+        "latent_similarity": 0.7333,
+        "lexical_similarity": 0.1661,
         "neighbour_title": "Do attitudes towards policy changes depend on beliefs about policy levels?",
         "plan": "AEARCTR-0015403",
         "plan_title": "Narrative Persuasion 3"
       },
       {
         "latent_neighbour": "AEARCTR-0006145",
-        "latent_similarity": 0.6229,
-        "lexical_similarity": 0.081,
+        "latent_similarity": 0.6242,
+        "lexical_similarity": 0.0803,
         "neighbour_title": "Can Information about Energy Costs Affect Consumers Choices? Evidence from a Field Experiment",
         "plan": "AEARCTR-0010757",
         "plan_title": "Nudging the Poor: Increasing Energy Efficiency Investments of Low-Income Households"
       },
       {
         "latent_neighbour": "AEARCTR-0001517",
-        "latent_similarity": 0.6055,
-        "lexical_similarity": 0.091,
+        "latent_similarity": 0.606,
+        "lexical_similarity": 0.0912,
         "neighbour_title": "Can We Confront Climate Change by Picking up $20 Bills in Houses? Experimental Evidence on Programs to Reduce Residential Sector Energy Consumption",
         "plan": "AEARCTR-0010757",
         "plan_title": "Nudging the Poor: Increasing Energy Efficiency Investments of Low-Income Households"
       },
       {
         "latent_neighbour": "AEARCTR-0007097",
-        "latent_similarity": 0.6887,
-        "lexical_similarity": 0.1046,
+        "latent_similarity": 0.6886,
+        "lexical_similarity": 0.1056,
         "neighbour_title": "Impact of AI Skills on Callback in Job Applications: Evidence from a Field Experiment",
         "plan": "AEARCTR-0017127",
         "plan_title": "Belief-updating about elderly\u2019s cognitive abilities in the Czech labour market \u2013 Evidence from a machine learning-assisted field experiment"
@@ -125,16 +125,16 @@
     "k": 6,
     "latent_hit": 0.6,
     "lexical_floor": 0.2,
-    "mean_latent_max_sim": 0.6867,
-    "mean_lexical_max_sim": 0.2332,
-    "mean_topk_overlap": 0.48,
+    "mean_latent_max_sim": 0.6868,
+    "mean_lexical_max_sim": 0.2331,
+    "mean_topk_overlap": 0.4783,
     "n_components": 300,
     "n_docs": 13046,
     "n_features": 200000,
-    "n_latent_only_pairs": 762,
-    "pct_rows_with_latent_only_hit": 41.5,
+    "n_latent_only_pairs": 767,
+    "pct_rows_with_latent_only_hit": 41.75,
     "sample": 800,
-    "seconds": 23.3,
+    "seconds": 23.9,
     "status": "measured"
   }
 }
