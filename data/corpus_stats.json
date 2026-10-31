@@ -2,139 +2,139 @@
   "similarity_probe": {
     "examples": [
       {
-        "latent_neighbour": "AEARCTR-0002011",
-        "latent_similarity": 0.6766,
-        "lexical_similarity": 0.0944,
-        "neighbour_title": "Mobilitza't Mobile: Bringing young unemployed back into formal education and labor market.",
-        "plan": "AEARCTR-0007910",
-        "plan_title": "Evaluation of Demand-led Vocational Training Programs in Pakistan"
+        "latent_neighbour": "AEARCTR-0000230",
+        "latent_similarity": 0.6692,
+        "lexical_similarity": 0.1306,
+        "neighbour_title": "Information on Tax Refunds & Tax-filing Decisions",
+        "plan": "AEARCTR-0007925",
+        "plan_title": "Increasing voluntary tax compliance through outreach to clients of return preparers"
       },
       {
-        "latent_neighbour": "AEARCTR-0008249",
-        "latent_similarity": 0.6733,
-        "lexical_similarity": 0.084,
-        "neighbour_title": "Impact Evaluation of BYLC\u2019s CSF Project",
-        "plan": "AEARCTR-0007910",
-        "plan_title": "Evaluation of Demand-led Vocational Training Programs in Pakistan"
+        "latent_neighbour": "AEARCTR-0002580",
+        "latent_similarity": 0.6038,
+        "lexical_similarity": 0.1002,
+        "neighbour_title": "Choices in ambiguous settings",
+        "plan": "AEARCTR-0008447",
+        "plan_title": "What drives sports betting?"
       },
       {
-        "latent_neighbour": "AEARCTR-0004310",
-        "latent_similarity": 0.6702,
-        "lexical_similarity": 0.0851,
-        "neighbour_title": "Meet Your Future: Job Search Effort and Aspirations of Young Jobseekers",
-        "plan": "AEARCTR-0007910",
-        "plan_title": "Evaluation of Demand-led Vocational Training Programs in Pakistan"
+        "latent_neighbour": "AEARCTR-0012346",
+        "latent_similarity": 0.6633,
+        "lexical_similarity": 0.0841,
+        "neighbour_title": "Born That Way: Fairness Considerations about Genetics",
+        "plan": "AEARCTR-0014144",
+        "plan_title": "Market Luck and Redistributive Preferences - China"
       },
       {
-        "latent_neighbour": "AEARCTR-0018098",
-        "latent_similarity": 0.657,
-        "lexical_similarity": 0.0767,
-        "neighbour_title": "Intensifying vs Targeting Support",
-        "plan": "AEARCTR-0007910",
-        "plan_title": "Evaluation of Demand-led Vocational Training Programs in Pakistan"
+        "latent_neighbour": "AEARCTR-0008474",
+        "latent_similarity": 0.661,
+        "lexical_similarity": 0.1019,
+        "neighbour_title": "Inequality with unequal opportunity",
+        "plan": "AEARCTR-0014144",
+        "plan_title": "Market Luck and Redistributive Preferences - China"
       },
       {
-        "latent_neighbour": "AEARCTR-0006386",
-        "latent_similarity": 0.6443,
-        "lexical_similarity": 0.0708,
-        "neighbour_title": "Leaving welfare for work : evaluation of a French training program for social welfare recipients",
-        "plan": "AEARCTR-0007910",
-        "plan_title": "Evaluation of Demand-led Vocational Training Programs in Pakistan"
+        "latent_neighbour": "AEARCTR-0010180",
+        "latent_similarity": 0.6546,
+        "lexical_similarity": 0.0966,
+        "neighbour_title": "History-dependent fairness preferences - study 2",
+        "plan": "AEARCTR-0014144",
+        "plan_title": "Market Luck and Redistributive Preferences - China"
       },
       {
-        "latent_neighbour": "AEARCTR-0015462",
-        "latent_similarity": 0.6209,
-        "lexical_similarity": 0.0729,
-        "neighbour_title": "The Relationship Between Shocks and Higher-Order Risk Attitudes",
-        "plan": "AEARCTR-0017748",
-        "plan_title": "The cautious smile: effects of emoji exposure on risk-taking"
+        "latent_neighbour": "AEARCTR-0019121",
+        "latent_similarity": 0.6769,
+        "lexical_similarity": 0.1402,
+        "neighbour_title": "Strategic Communication and the Underuse of Incentive-Based Credibility: Experimental Evidence",
+        "plan": "AEARCTR-0007750",
+        "plan_title": "The Supply of Motivated Beliefs"
       },
       {
-        "latent_neighbour": "AEARCTR-0002807",
-        "latent_similarity": 0.6429,
-        "lexical_similarity": 0.089,
-        "neighbour_title": "Creating Moves to Opportunity in Seattle and King County",
-        "plan": "AEARCTR-0008429",
-        "plan_title": "Supporting Pathways Out of Poverty: A Randomized Evaluation of AMP Up Boston"
+        "latent_neighbour": "AEARCTR-0013519",
+        "latent_similarity": 0.743,
+        "lexical_similarity": 0.1136,
+        "neighbour_title": "AI-Powered Tutoring: Unleashing the Full Potential of Personalized Learning with Khanmigo",
+        "plan": "AEARCTR-0019188",
+        "plan_title": "Bridging the Gap: Evaluating AI-powered Math Tutoring to Support Low-income Middle School Students"
       },
       {
-        "latent_neighbour": "AEARCTR-0010304",
-        "latent_similarity": 0.6204,
-        "lexical_similarity": 0.0791,
-        "neighbour_title": "Impact Evaluation of Extending Supportive Services to WIOA Youth",
-        "plan": "AEARCTR-0008429",
-        "plan_title": "Supporting Pathways Out of Poverty: A Randomized Evaluation of AMP Up Boston"
+        "latent_neighbour": "AEARCTR-0017917",
+        "latent_similarity": 0.7313,
+        "lexical_similarity": 0.1088,
+        "neighbour_title": "The Personalization Trap: Does AI Tutoring Build Learners or Dependence?",
+        "plan": "AEARCTR-0019188",
+        "plan_title": "Bridging the Gap: Evaluating AI-powered Math Tutoring to Support Low-income Middle School Students"
       },
       {
-        "latent_neighbour": "AEARCTR-0016667",
-        "latent_similarity": 0.6104,
-        "lexical_similarity": 0.1017,
-        "neighbour_title": "Homelessness Prevention through the School System: An Impact Evaluation of Hennepin County\u2019s School to Housing Program",
-        "plan": "AEARCTR-0008429",
-        "plan_title": "Supporting Pathways Out of Poverty: A Randomized Evaluation of AMP Up Boston"
+        "latent_neighbour": "AEARCTR-0019569",
+        "latent_similarity": 0.7118,
+        "lexical_similarity": 0.1033,
+        "neighbour_title": "Improving Persistence through Goal Support in i-Ready: A Classroom-Randomized Crossover Trial",
+        "plan": "AEARCTR-0019188",
+        "plan_title": "Bridging the Gap: Evaluating AI-powered Math Tutoring to Support Low-income Middle School Students"
       },
       {
-        "latent_neighbour": "AEARCTR-0006539",
-        "latent_similarity": 0.625,
-        "lexical_similarity": 0.1035,
-        "neighbour_title": "The Impacts of #MeToo Movement on Female Employees: Evidence from a Field Experiment",
-        "plan": "AEARCTR-0016085",
-        "plan_title": "Empowering Women through Safety at Work: An Experiment to investigate Sexual Harassment in the Workplace."
+        "latent_neighbour": "AEARCTR-0019200",
+        "latent_similarity": 0.7009,
+        "lexical_similarity": 0.1205,
+        "neighbour_title": "Adaptive Math Practice and Teacher Data Use: A Randomized Evaluation of AI-Enabled Learning in Uzbekistan",
+        "plan": "AEARCTR-0019188",
+        "plan_title": "Bridging the Gap: Evaluating AI-powered Math Tutoring to Support Low-income Middle School Students"
       },
       {
-        "latent_neighbour": "AEARCTR-0001592",
-        "latent_similarity": 0.669,
-        "lexical_similarity": 0.0986,
-        "neighbour_title": "Savings Constraints and Microenterprise Development: Evidence from a Field Experiment in Kenya",
-        "plan": "AEARCTR-0001824",
-        "plan_title": "Transaction Costs, Bargaining Power, and Savings Account Use in Kenya"
+        "latent_neighbour": "AEARCTR-0014275",
+        "latent_similarity": 0.7377,
+        "lexical_similarity": 0.1181,
+        "neighbour_title": "The Effect of Inflation Uncertainty on Household Expectations and Spending",
+        "plan": "AEARCTR-0015436",
+        "plan_title": "Interest rate expectations and household decision-making"
       },
       {
-        "latent_neighbour": "AEARCTR-0001788",
-        "latent_similarity": 0.6656,
-        "lexical_similarity": 0.0938,
-        "neighbour_title": "Price and Control Elasticities of Demand for Savings in the Philippines",
-        "plan": "AEARCTR-0001824",
-        "plan_title": "Transaction Costs, Bargaining Power, and Savings Account Use in Kenya"
+        "latent_neighbour": "AEARCTR-0012835",
+        "latent_similarity": 0.7172,
+        "lexical_similarity": 0.1056,
+        "neighbour_title": "Hand-to-mouth agents and durable consumption",
+        "plan": "AEARCTR-0015436",
+        "plan_title": "Interest rate expectations and household decision-making"
       },
       {
-        "latent_neighbour": "AEARCTR-0000045",
-        "latent_similarity": 0.6247,
-        "lexical_similarity": 0.0821,
-        "neighbour_title": "Commitment Savings Products in the Philippines",
-        "plan": "AEARCTR-0001824",
-        "plan_title": "Transaction Costs, Bargaining Power, and Savings Account Use in Kenya"
+        "latent_neighbour": "AEARCTR-0009912",
+        "latent_similarity": 0.6331,
+        "lexical_similarity": 0.0797,
+        "neighbour_title": "Reducing Indoor Air Pollution",
+        "plan": "AEARCTR-0013153",
+        "plan_title": "Testing framing approaches for delivery of information about the impact of wood burning on air quality in Sandwell, UK"
       },
       {
-        "latent_neighbour": "AEARCTR-0018619",
-        "latent_similarity": 0.6061,
-        "lexical_similarity": 0.0707,
-        "neighbour_title": "Privacy, Truth-Telling, and Data Quality: Experimental Evidence on Sensitive Questions Measurement in Surveys",
-        "plan": "AEARCTR-0019845",
-        "plan_title": "Measuring evidence use under social pressure"
+        "latent_neighbour": "AEARCTR-0005341",
+        "latent_similarity": 0.6952,
+        "lexical_similarity": 0.0907,
+        "neighbour_title": "Socioemotional Skills in Preschool. Evidence from Mexico",
+        "plan": "AEARCTR-0013499",
+        "plan_title": "The impact of a robotics workshop on neurobiological mechanisms of executive and social functions in boys and girls: a longitudinal study."
       },
       {
-        "latent_neighbour": "AEARCTR-0002094",
-        "latent_similarity": 0.6351,
-        "lexical_similarity": 0.0881,
-        "neighbour_title": "Can Grit be Taught? Learning from a field experiment with middle school students in FYR Macedonia",
-        "plan": "AEARCTR-0015404",
-        "plan_title": "Measuring the Impacts of Interpersonal Conflict Management and Dispute Resolution Skills Training on Academic Success: A Field Experiment"
+        "latent_neighbour": "AEARCTR-0003976",
+        "latent_similarity": 0.6781,
+        "lexical_similarity": 0.0817,
+        "neighbour_title": "Non-Cognitive Skills Development and School-Based Violence Reduction in Central America.",
+        "plan": "AEARCTR-0013499",
+        "plan_title": "The impact of a robotics workshop on neurobiological mechanisms of executive and social functions in boys and girls: a longitudinal study."
       }
     ],
     "k": 6,
     "latent_hit": 0.6,
     "lexical_floor": 0.2,
-    "mean_latent_max_sim": 0.6877,
-    "mean_lexical_max_sim": 0.2362,
-    "mean_topk_overlap": 0.4713,
+    "mean_latent_max_sim": 0.6822,
+    "mean_lexical_max_sim": 0.2258,
+    "mean_topk_overlap": 0.459,
     "n_components": 300,
-    "n_docs": 13048,
+    "n_docs": 13078,
     "n_features": 200000,
-    "n_latent_only_pairs": 793,
-    "pct_rows_with_latent_only_hit": 41.25,
+    "n_latent_only_pairs": 764,
+    "pct_rows_with_latent_only_hit": 41.38,
     "sample": 800,
-    "seconds": 18.4,
+    "seconds": 23.0,
     "status": "measured"
   }
 }
