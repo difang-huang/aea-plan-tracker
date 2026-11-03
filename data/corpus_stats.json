@@ -3,120 +3,120 @@
     "examples": [
       {
         "latent_neighbour": "AEARCTR-0000230",
-        "latent_similarity": 0.6691,
-        "lexical_similarity": 0.1308,
+        "latent_similarity": 0.6697,
+        "lexical_similarity": 0.1294,
         "neighbour_title": "Information on Tax Refunds & Tax-filing Decisions",
         "plan": "AEARCTR-0007925",
         "plan_title": "Increasing voluntary tax compliance through outreach to clients of return preparers"
       },
       {
         "latent_neighbour": "AEARCTR-0002580",
-        "latent_similarity": 0.6034,
-        "lexical_similarity": 0.0994,
+        "latent_similarity": 0.6032,
+        "lexical_similarity": 0.1005,
         "neighbour_title": "Choices in ambiguous settings",
         "plan": "AEARCTR-0008447",
         "plan_title": "What drives sports betting?"
       },
       {
         "latent_neighbour": "AEARCTR-0012346",
-        "latent_similarity": 0.6635,
-        "lexical_similarity": 0.0852,
+        "latent_similarity": 0.6624,
+        "lexical_similarity": 0.0849,
         "neighbour_title": "Born That Way: Fairness Considerations about Genetics",
         "plan": "AEARCTR-0014144",
         "plan_title": "Market Luck and Redistributive Preferences - China"
       },
       {
         "latent_neighbour": "AEARCTR-0008474",
-        "latent_similarity": 0.6609,
-        "lexical_similarity": 0.1029,
+        "latent_similarity": 0.6603,
+        "lexical_similarity": 0.1027,
         "neighbour_title": "Inequality with unequal opportunity",
         "plan": "AEARCTR-0014144",
         "plan_title": "Market Luck and Redistributive Preferences - China"
       },
       {
         "latent_neighbour": "AEARCTR-0010180",
-        "latent_similarity": 0.6534,
-        "lexical_similarity": 0.0977,
+        "latent_similarity": 0.6532,
+        "lexical_similarity": 0.0973,
         "neighbour_title": "History-dependent fairness preferences - study 2",
         "plan": "AEARCTR-0014144",
         "plan_title": "Market Luck and Redistributive Preferences - China"
       },
       {
         "latent_neighbour": "AEARCTR-0019121",
-        "latent_similarity": 0.6764,
-        "lexical_similarity": 0.1406,
+        "latent_similarity": 0.6767,
+        "lexical_similarity": 0.141,
         "neighbour_title": "Strategic Communication and the Underuse of Incentive-Based Credibility: Experimental Evidence",
         "plan": "AEARCTR-0007750",
         "plan_title": "The Supply of Motivated Beliefs"
       },
       {
         "latent_neighbour": "AEARCTR-0013519",
-        "latent_similarity": 0.7437,
-        "lexical_similarity": 0.1117,
+        "latent_similarity": 0.7432,
+        "lexical_similarity": 0.1132,
         "neighbour_title": "AI-Powered Tutoring: Unleashing the Full Potential of Personalized Learning with Khanmigo",
         "plan": "AEARCTR-0019188",
         "plan_title": "Bridging the Gap: Evaluating AI-powered Math Tutoring to Support Low-income Middle School Students"
       },
       {
         "latent_neighbour": "AEARCTR-0017917",
-        "latent_similarity": 0.7317,
-        "lexical_similarity": 0.1079,
+        "latent_similarity": 0.7312,
+        "lexical_similarity": 0.1087,
         "neighbour_title": "The Personalization Trap: Does AI Tutoring Build Learners or Dependence?",
         "plan": "AEARCTR-0019188",
         "plan_title": "Bridging the Gap: Evaluating AI-powered Math Tutoring to Support Low-income Middle School Students"
       },
       {
         "latent_neighbour": "AEARCTR-0019569",
-        "latent_similarity": 0.7128,
-        "lexical_similarity": 0.1047,
+        "latent_similarity": 0.7117,
+        "lexical_similarity": 0.1031,
         "neighbour_title": "Improving Persistence through Goal Support in i-Ready: A Classroom-Randomized Crossover Trial",
         "plan": "AEARCTR-0019188",
         "plan_title": "Bridging the Gap: Evaluating AI-powered Math Tutoring to Support Low-income Middle School Students"
       },
       {
         "latent_neighbour": "AEARCTR-0019200",
-        "latent_similarity": 0.7006,
-        "lexical_similarity": 0.12,
+        "latent_similarity": 0.7004,
+        "lexical_similarity": 0.1205,
         "neighbour_title": "Adaptive Math Practice and Teacher Data Use: A Randomized Evaluation of AI-Enabled Learning in Uzbekistan",
         "plan": "AEARCTR-0019188",
         "plan_title": "Bridging the Gap: Evaluating AI-powered Math Tutoring to Support Low-income Middle School Students"
       },
       {
         "latent_neighbour": "AEARCTR-0014275",
-        "latent_similarity": 0.7383,
-        "lexical_similarity": 0.1194,
+        "latent_similarity": 0.7376,
+        "lexical_similarity": 0.1181,
         "neighbour_title": "The Effect of Inflation Uncertainty on Household Expectations and Spending",
         "plan": "AEARCTR-0015436",
         "plan_title": "Interest rate expectations and household decision-making"
       },
       {
         "latent_neighbour": "AEARCTR-0012835",
-        "latent_similarity": 0.7173,
-        "lexical_similarity": 0.1071,
+        "latent_similarity": 0.7172,
+        "lexical_similarity": 0.1052,
         "neighbour_title": "Hand-to-mouth agents and durable consumption",
         "plan": "AEARCTR-0015436",
         "plan_title": "Interest rate expectations and household decision-making"
       },
       {
         "latent_neighbour": "AEARCTR-0009912",
-        "latent_similarity": 0.6339,
-        "lexical_similarity": 0.0786,
+        "latent_similarity": 0.6329,
+        "lexical_similarity": 0.0795,
         "neighbour_title": "Reducing Indoor Air Pollution",
         "plan": "AEARCTR-0013153",
         "plan_title": "Testing framing approaches for delivery of information about the impact of wood burning on air quality in Sandwell, UK"
       },
       {
         "latent_neighbour": "AEARCTR-0005341",
-        "latent_similarity": 0.6946,
-        "lexical_similarity": 0.091,
+        "latent_similarity": 0.6953,
+        "lexical_similarity": 0.0901,
         "neighbour_title": "Socioemotional Skills in Preschool. Evidence from Mexico",
         "plan": "AEARCTR-0013499",
         "plan_title": "The impact of a robotics workshop on neurobiological mechanisms of executive and social functions in boys and girls: a longitudinal study."
       },
       {
         "latent_neighbour": "AEARCTR-0003976",
-        "latent_similarity": 0.678,
-        "lexical_similarity": 0.0816,
+        "latent_similarity": 0.6785,
+        "lexical_similarity": 0.0811,
         "neighbour_title": "Non-Cognitive Skills Development and School-Based Violence Reduction in Central America.",
         "plan": "AEARCTR-0013499",
         "plan_title": "The impact of a robotics workshop on neurobiological mechanisms of executive and social functions in boys and girls: a longitudinal study."
@@ -126,15 +126,15 @@
     "latent_hit": 0.6,
     "lexical_floor": 0.2,
     "mean_latent_max_sim": 0.6822,
-    "mean_lexical_max_sim": 0.2259,
-    "mean_topk_overlap": 0.4619,
+    "mean_lexical_max_sim": 0.2258,
+    "mean_topk_overlap": 0.4598,
     "n_components": 300,
     "n_docs": 13078,
     "n_features": 200000,
-    "n_latent_only_pairs": 764,
-    "pct_rows_with_latent_only_hit": 41.38,
+    "n_latent_only_pairs": 760,
+    "pct_rows_with_latent_only_hit": 41.5,
     "sample": 800,
-    "seconds": 23.9,
+    "seconds": 24.5,
     "status": "measured"
   }
 }
