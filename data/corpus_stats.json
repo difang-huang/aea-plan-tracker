@@ -3,138 +3,138 @@
     "examples": [
       {
         "latent_neighbour": "AEARCTR-0000230",
-        "latent_similarity": 0.6697,
-        "lexical_similarity": 0.1294,
+        "latent_similarity": 0.6744,
+        "lexical_similarity": 0.1275,
         "neighbour_title": "Information on Tax Refunds & Tax-filing Decisions",
-        "plan": "AEARCTR-0007925",
-        "plan_title": "Increasing voluntary tax compliance through outreach to clients of return preparers"
+        "plan": "AEARCTR-0007926",
+        "plan_title": "Increasing voluntary tax compliance through return preparer early intervention"
       },
       {
-        "latent_neighbour": "AEARCTR-0002580",
-        "latent_similarity": 0.6032,
-        "lexical_similarity": 0.1005,
-        "neighbour_title": "Choices in ambiguous settings",
-        "plan": "AEARCTR-0008447",
-        "plan_title": "What drives sports betting?"
+        "latent_neighbour": "AEARCTR-0005223",
+        "latent_similarity": 0.6623,
+        "lexical_similarity": 0.1255,
+        "neighbour_title": "Behavior Encouragement: Increasing Earned Income Tax Credit (EITC) Uptake",
+        "plan": "AEARCTR-0007926",
+        "plan_title": "Increasing voluntary tax compliance through return preparer early intervention"
       },
       {
-        "latent_neighbour": "AEARCTR-0012346",
-        "latent_similarity": 0.6624,
-        "lexical_similarity": 0.0849,
-        "neighbour_title": "Born That Way: Fairness Considerations about Genetics",
-        "plan": "AEARCTR-0014144",
-        "plan_title": "Market Luck and Redistributive Preferences - China"
+        "latent_neighbour": "AEARCTR-0001958",
+        "latent_similarity": 0.6403,
+        "lexical_similarity": 0.1096,
+        "neighbour_title": "Primary Care Provider Supply and Patient Outcomes: A Cluster Randomized Trial in Nigeria",
+        "plan": "AEARCTR-0008449",
+        "plan_title": "Impact of a Nurse Mentorship and Digital Health Package Intervention for Maternal and Newborn Health in Kenya: A Cluster Randomized Controlled Trial"
       },
       {
-        "latent_neighbour": "AEARCTR-0008474",
-        "latent_similarity": 0.6603,
-        "lexical_similarity": 0.1027,
-        "neighbour_title": "Inequality with unequal opportunity",
-        "plan": "AEARCTR-0014144",
-        "plan_title": "Market Luck and Redistributive Preferences - China"
+        "latent_neighbour": "AEARCTR-0004190",
+        "latent_similarity": 0.6372,
+        "lexical_similarity": 0.0708,
+        "neighbour_title": "Evaluating the impact of reduced facility waiting time on HIV treatment adherence",
+        "plan": "AEARCTR-0008449",
+        "plan_title": "Impact of a Nurse Mentorship and Digital Health Package Intervention for Maternal and Newborn Health in Kenya: A Cluster Randomized Controlled Trial"
       },
       {
-        "latent_neighbour": "AEARCTR-0010180",
-        "latent_similarity": 0.6532,
-        "lexical_similarity": 0.0973,
-        "neighbour_title": "History-dependent fairness preferences - study 2",
-        "plan": "AEARCTR-0014144",
-        "plan_title": "Market Luck and Redistributive Preferences - China"
+        "latent_neighbour": "AEARCTR-0001517",
+        "latent_similarity": 0.6608,
+        "lexical_similarity": 0.1307,
+        "neighbour_title": "Can We Confront Climate Change by Picking up $20 Bills in Houses? Experimental Evidence on Programs to Reduce Residential Sector Energy Consumption",
+        "plan": "AEARCTR-0016119",
+        "plan_title": "Cold Climate Heat Pump Assistance Program"
       },
       {
-        "latent_neighbour": "AEARCTR-0019121",
-        "latent_similarity": 0.6767,
-        "lexical_similarity": 0.141,
-        "neighbour_title": "Strategic Communication and the Underuse of Incentive-Based Credibility: Experimental Evidence",
-        "plan": "AEARCTR-0007750",
-        "plan_title": "The Supply of Motivated Beliefs"
+        "latent_neighbour": "AEARCTR-0008824",
+        "latent_similarity": 0.6462,
+        "lexical_similarity": 0.1251,
+        "neighbour_title": "The effect of information provision in small transition countries: Experimental field evidence from Armenia",
+        "plan": "AEARCTR-0016119",
+        "plan_title": "Cold Climate Heat Pump Assistance Program"
       },
       {
-        "latent_neighbour": "AEARCTR-0013519",
-        "latent_similarity": 0.7432,
-        "lexical_similarity": 0.1132,
-        "neighbour_title": "AI-Powered Tutoring: Unleashing the Full Potential of Personalized Learning with Khanmigo",
-        "plan": "AEARCTR-0019188",
-        "plan_title": "Bridging the Gap: Evaluating AI-powered Math Tutoring to Support Low-income Middle School Students"
+        "latent_neighbour": "AEARCTR-0002784",
+        "latent_similarity": 0.6564,
+        "lexical_similarity": 0.0984,
+        "neighbour_title": "Supporting SMEs to Become Successful Exporters through Good Exporting Practices in Argentina",
+        "plan": "AEARCTR-0017806",
+        "plan_title": "Striving of for Quality - Experimental Evidence of the Impact of Quality Certification on Firms and Networks in Rwanda"
       },
       {
-        "latent_neighbour": "AEARCTR-0017917",
-        "latent_similarity": 0.7312,
-        "lexical_similarity": 0.1087,
-        "neighbour_title": "The Personalization Trap: Does AI Tutoring Build Learners or Dependence?",
-        "plan": "AEARCTR-0019188",
-        "plan_title": "Bridging the Gap: Evaluating AI-powered Math Tutoring to Support Low-income Middle School Students"
+        "latent_neighbour": "AEARCTR-0008236",
+        "latent_similarity": 0.6215,
+        "lexical_similarity": 0.0861,
+        "neighbour_title": "Good Exporting Practices program: A group-based export upgrading intervention for SMEs in Ghana",
+        "plan": "AEARCTR-0017806",
+        "plan_title": "Striving of for Quality - Experimental Evidence of the Impact of Quality Certification on Firms and Networks in Rwanda"
       },
       {
-        "latent_neighbour": "AEARCTR-0019569",
-        "latent_similarity": 0.7117,
-        "lexical_similarity": 0.1031,
-        "neighbour_title": "Improving Persistence through Goal Support in i-Ready: A Classroom-Randomized Crossover Trial",
-        "plan": "AEARCTR-0019188",
-        "plan_title": "Bridging the Gap: Evaluating AI-powered Math Tutoring to Support Low-income Middle School Students"
+        "latent_neighbour": "AEARCTR-0017129",
+        "latent_similarity": 0.6864,
+        "lexical_similarity": 0.0906,
+        "neighbour_title": "Cognitive Enrichment and Human Capital: Evidence from a school intervention in Malawi",
+        "plan": "AEARCTR-0014146",
+        "plan_title": "Shaping Minds: The Transformative Effects of Theater-Based Learning"
       },
       {
-        "latent_neighbour": "AEARCTR-0019200",
-        "latent_similarity": 0.7004,
-        "lexical_similarity": 0.1205,
-        "neighbour_title": "Adaptive Math Practice and Teacher Data Use: A Randomized Evaluation of AI-Enabled Learning in Uzbekistan",
-        "plan": "AEARCTR-0019188",
-        "plan_title": "Bridging the Gap: Evaluating AI-powered Math Tutoring to Support Low-income Middle School Students"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0014275",
-        "latent_similarity": 0.7376,
-        "lexical_similarity": 0.1181,
-        "neighbour_title": "The Effect of Inflation Uncertainty on Household Expectations and Spending",
-        "plan": "AEARCTR-0015436",
-        "plan_title": "Interest rate expectations and household decision-making"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0012835",
-        "latent_similarity": 0.7172,
-        "lexical_similarity": 0.1052,
-        "neighbour_title": "Hand-to-mouth agents and durable consumption",
-        "plan": "AEARCTR-0015436",
-        "plan_title": "Interest rate expectations and household decision-making"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0009912",
-        "latent_similarity": 0.6329,
-        "lexical_similarity": 0.0795,
-        "neighbour_title": "Reducing Indoor Air Pollution",
-        "plan": "AEARCTR-0013153",
-        "plan_title": "Testing framing approaches for delivery of information about the impact of wood burning on air quality in Sandwell, UK"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0005341",
-        "latent_similarity": 0.6953,
-        "lexical_similarity": 0.0901,
-        "neighbour_title": "Socioemotional Skills in Preschool. Evidence from Mexico",
-        "plan": "AEARCTR-0013499",
-        "plan_title": "The impact of a robotics workshop on neurobiological mechanisms of executive and social functions in boys and girls: a longitudinal study."
+        "latent_neighbour": "AEARCTR-0017213",
+        "latent_similarity": 0.6245,
+        "lexical_similarity": 0.0773,
+        "neighbour_title": "Impact of scouting at school on students \u2018performance A randomized control trial of primary schools in Burkina Faso",
+        "plan": "AEARCTR-0014146",
+        "plan_title": "Shaping Minds: The Transformative Effects of Theater-Based Learning"
       },
       {
         "latent_neighbour": "AEARCTR-0003976",
-        "latent_similarity": 0.6785,
-        "lexical_similarity": 0.0811,
+        "latent_similarity": 0.6109,
+        "lexical_similarity": 0.0665,
         "neighbour_title": "Non-Cognitive Skills Development and School-Based Violence Reduction in Central America.",
-        "plan": "AEARCTR-0013499",
-        "plan_title": "The impact of a robotics workshop on neurobiological mechanisms of executive and social functions in boys and girls: a longitudinal study."
+        "plan": "AEARCTR-0014146",
+        "plan_title": "Shaping Minds: The Transformative Effects of Theater-Based Learning"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0014032",
+        "latent_similarity": 0.6474,
+        "lexical_similarity": 0.0804,
+        "neighbour_title": "Hiring Survey",
+        "plan": "AEARCTR-0019190",
+        "plan_title": "Unpacking the Beliefs Behind Job Recruitment Decisions"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0017993",
+        "latent_similarity": 0.6161,
+        "lexical_similarity": 0.091,
+        "neighbour_title": "The Role of Information about Worker Skills in Hiring Decisions",
+        "plan": "AEARCTR-0019190",
+        "plan_title": "Unpacking the Beliefs Behind Job Recruitment Decisions"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0011771",
+        "latent_similarity": 0.6044,
+        "lexical_similarity": 0.0955,
+        "neighbour_title": "Discrimination, Rejection and Job Search",
+        "plan": "AEARCTR-0019190",
+        "plan_title": "Unpacking the Beliefs Behind Job Recruitment Decisions"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0014875",
+        "latent_similarity": 0.6586,
+        "lexical_similarity": 0.0876,
+        "neighbour_title": "Activism and Fair Pricing: A Lab Experiment",
+        "plan": "AEARCTR-0017164",
+        "plan_title": "Newsvendor Decisions under Stochastic and Strategic Uncertainties: Theory and Experimental Evidence"
       }
     ],
     "k": 6,
     "latent_hit": 0.6,
     "lexical_floor": 0.2,
-    "mean_latent_max_sim": 0.6822,
-    "mean_lexical_max_sim": 0.2258,
-    "mean_topk_overlap": 0.4598,
+    "mean_latent_max_sim": 0.6918,
+    "mean_lexical_max_sim": 0.2408,
+    "mean_topk_overlap": 0.4798,
     "n_components": 300,
-    "n_docs": 13078,
+    "n_docs": 13079,
     "n_features": 200000,
-    "n_latent_only_pairs": 760,
-    "pct_rows_with_latent_only_hit": 41.5,
+    "n_latent_only_pairs": 765,
+    "pct_rows_with_latent_only_hit": 41.88,
     "sample": 800,
-    "seconds": 24.5,
+    "seconds": 24.0,
     "status": "measured"
   }
 }
