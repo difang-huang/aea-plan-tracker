@@ -4,86 +4,86 @@
       {
         "latent_neighbour": "AEARCTR-0000230",
         "latent_similarity": 0.669,
-        "lexical_similarity": 0.1269,
+        "lexical_similarity": 0.1277,
         "neighbour_title": "Information on Tax Refunds & Tax-filing Decisions",
         "plan": "AEARCTR-0007926",
         "plan_title": "Increasing voluntary tax compliance through return preparer early intervention"
       },
       {
         "latent_neighbour": "AEARCTR-0005223",
-        "latent_similarity": 0.6668,
-        "lexical_similarity": 0.1247,
+        "latent_similarity": 0.6673,
+        "lexical_similarity": 0.1266,
         "neighbour_title": "Behavior Encouragement: Increasing Earned Income Tax Credit (EITC) Uptake",
         "plan": "AEARCTR-0007926",
         "plan_title": "Increasing voluntary tax compliance through return preparer early intervention"
       },
       {
         "latent_neighbour": "AEARCTR-0013541",
-        "latent_similarity": 0.6818,
-        "lexical_similarity": 0.1139,
+        "latent_similarity": 0.6817,
+        "lexical_similarity": 0.1132,
         "neighbour_title": "Crowdflex utilisation payments mini-trial 1 invitation randomised encouragement pre-analysis plan",
         "plan": "AEARCTR-0014148",
         "plan_title": "Warm Home Discount Industry Initiative Scheme: Effects of solar panels and battery installation in British low-income and vulnerable households"
       },
       {
         "latent_neighbour": "AEARCTR-0015455",
-        "latent_similarity": 0.6781,
-        "lexical_similarity": 0.0806,
+        "latent_similarity": 0.6773,
+        "lexical_similarity": 0.0809,
         "neighbour_title": "Power-ups in NPG region: evaluating the impact of offering free electricity",
         "plan": "AEARCTR-0014148",
         "plan_title": "Warm Home Discount Industry Initiative Scheme: Effects of solar panels and battery installation in British low-income and vulnerable households"
       },
       {
         "latent_neighbour": "AEARCTR-0013539",
-        "latent_similarity": 0.6611,
-        "lexical_similarity": 0.0905,
+        "latent_similarity": 0.6605,
+        "lexical_similarity": 0.09,
         "neighbour_title": "CrowdFlex: Beta Utilisation Payments Mini-Trial 1",
         "plan": "AEARCTR-0014148",
         "plan_title": "Warm Home Discount Industry Initiative Scheme: Effects of solar panels and battery installation in British low-income and vulnerable households"
       },
       {
         "latent_neighbour": "AEARCTR-0000657",
-        "latent_similarity": 0.7891,
-        "lexical_similarity": 0.1333,
+        "latent_similarity": 0.7893,
+        "lexical_similarity": 0.1329,
         "neighbour_title": "Impact Evaluation of Nadie es Perfecto, a Program to Improve Parenting Skills in Chile",
         "plan": "AEARCTR-0008419",
         "plan_title": "Optimal Design of Digital Early Childhood Development Interventions: A Multifactorial Randomized Control Trial"
       },
       {
         "latent_neighbour": "AEARCTR-0012023",
-        "latent_similarity": 0.7774,
-        "lexical_similarity": 0.1346,
+        "latent_similarity": 0.7772,
+        "lexical_similarity": 0.1332,
         "neighbour_title": "Evaluation of a Group Training Based Parent-Child Interaction Program on the Child Development in a Low-Income Setting",
         "plan": "AEARCTR-0008419",
         "plan_title": "Optimal Design of Digital Early Childhood Development Interventions: A Multifactorial Randomized Control Trial"
       },
       {
         "latent_neighbour": "AEARCTR-0014371",
-        "latent_similarity": 0.7545,
-        "lexical_similarity": 0.1349,
+        "latent_similarity": 0.754,
+        "lexical_similarity": 0.1341,
         "neighbour_title": "Effect of A Parental Stimulation Intervention on Early Childhood Development among Migrant Population in China: A Stepped-Wedge Randomized Trial",
         "plan": "AEARCTR-0008419",
         "plan_title": "Optimal Design of Digital Early Childhood Development Interventions: A Multifactorial Randomized Control Trial"
       },
       {
         "latent_neighbour": "AEARCTR-0008475",
-        "latent_similarity": 0.6038,
-        "lexical_similarity": 0.0953,
+        "latent_similarity": 0.6049,
+        "lexical_similarity": 0.0956,
         "neighbour_title": "The effects of travel campaign on decision making of Oita-prefecture tourist",
         "plan": "AEARCTR-0007892",
         "plan_title": "Can Nudge-based Messages Encourage People with COVID-19 Vaccine Hesitancy?"
       },
       {
         "latent_neighbour": "AEARCTR-0008822",
-        "latent_similarity": 0.6021,
-        "lexical_similarity": 0.0898,
+        "latent_similarity": 0.6018,
+        "lexical_similarity": 0.0895,
         "neighbour_title": "COVID Arm: A Random Shock to Trust in Science, Medicine, and Authorities",
         "plan": "AEARCTR-0007892",
         "plan_title": "Can Nudge-based Messages Encourage People with COVID-19 Vaccine Hesitancy?"
       },
       {
         "latent_neighbour": "AEARCTR-0004753",
-        "latent_similarity": 0.7231,
+        "latent_similarity": 0.7228,
         "lexical_similarity": 0.1238,
         "neighbour_title": "Experiment on Tax Compliance in Eswatini",
         "plan": "AEARCTR-0013156",
@@ -91,33 +91,33 @@
       },
       {
         "latent_neighbour": "AEARCTR-0002575",
-        "latent_similarity": 0.7164,
-        "lexical_similarity": 0.1248,
+        "latent_similarity": 0.7157,
+        "lexical_similarity": 0.1252,
         "neighbour_title": "Rental income tax compliance",
         "plan": "AEARCTR-0013156",
         "plan_title": "Quality of Service and Tax compliance"
       },
       {
         "latent_neighbour": "AEARCTR-0019125",
-        "latent_similarity": 0.6677,
-        "lexical_similarity": 0.0776,
+        "latent_similarity": 0.6672,
+        "lexical_similarity": 0.0781,
         "neighbour_title": "Creating supportive learning communities \u2013 Systematic evaluation of a school-based intervention",
         "plan": "AEARCTR-0015720",
         "plan_title": "Beyond the Classroom: RCT Insights on Student Motivation, Well-Being, and Engagement"
       },
       {
         "latent_neighbour": "AEARCTR-0002647",
-        "latent_similarity": 0.6204,
-        "lexical_similarity": 0.0711,
+        "latent_similarity": 0.6197,
+        "lexical_similarity": 0.0706,
         "neighbour_title": "Teacher-training to transform classrooms, teachers and communities in Uganda",
         "plan": "AEARCTR-0015720",
         "plan_title": "Beyond the Classroom: RCT Insights on Student Motivation, Well-Being, and Engagement"
       },
       {
-        "latent_neighbour": "AEARCTR-0012347",
-        "latent_similarity": 0.6126,
-        "lexical_similarity": 0.0655,
-        "neighbour_title": "Purpose, Practice and Teacher Transformation - An RCT of a \u201cLearning to Learn\u201d Teacher Training in Ugandan Secondary Schools",
+        "latent_neighbour": "AEARCTR-0017469",
+        "latent_similarity": 0.6123,
+        "lexical_similarity": 0.0792,
+        "neighbour_title": "Improving Socioemotional Learning and Classroom Climate in Chilean Schools: Evidence from the Trab\u00fcn-ASE Program",
         "plan": "AEARCTR-0015720",
         "plan_title": "Beyond the Classroom: RCT Insights on Student Motivation, Well-Being, and Engagement"
       }
@@ -127,14 +127,14 @@
     "lexical_floor": 0.2,
     "mean_latent_max_sim": 0.6916,
     "mean_lexical_max_sim": 0.241,
-    "mean_topk_overlap": 0.4756,
+    "mean_topk_overlap": 0.4769,
     "n_components": 300,
     "n_docs": 13081,
     "n_features": 200000,
-    "n_latent_only_pairs": 769,
-    "pct_rows_with_latent_only_hit": 41.75,
+    "n_latent_only_pairs": 764,
+    "pct_rows_with_latent_only_hit": 41.62,
     "sample": 800,
-    "seconds": 20.4,
+    "seconds": 20.3,
     "status": "measured"
   }
 }
