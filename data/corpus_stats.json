@@ -3,103 +3,103 @@
     "examples": [
       {
         "latent_neighbour": "AEARCTR-0010345",
-        "latent_similarity": 0.6312,
-        "lexical_similarity": 0.0986,
+        "latent_similarity": 0.633,
+        "lexical_similarity": 0.1005,
         "neighbour_title": "Tailoring Advice and Incentives to Enhance Consumer Welfare from Livestock Insurance",
         "plan": "AEARCTR-0016155",
         "plan_title": "Updating Climate Beliefs: The Interaction Between Traditional and Modern Forecasting"
       },
       {
         "latent_neighbour": "AEARCTR-0011253",
-        "latent_similarity": 0.6007,
-        "lexical_similarity": 0.0937,
+        "latent_similarity": 0.6008,
+        "lexical_similarity": 0.0924,
         "neighbour_title": "The Impact of Village Insurance Savings Accounts on Women's Assets and Savings",
         "plan": "AEARCTR-0016155",
         "plan_title": "Updating Climate Beliefs: The Interaction Between Traditional and Modern Forecasting"
       },
       {
         "latent_neighbour": "AEARCTR-0013541",
-        "latent_similarity": 0.6854,
-        "lexical_similarity": 0.1133,
+        "latent_similarity": 0.6868,
+        "lexical_similarity": 0.1147,
         "neighbour_title": "Crowdflex utilisation payments mini-trial 1 invitation randomised encouragement pre-analysis plan",
         "plan": "AEARCTR-0014148",
         "plan_title": "Warm Home Discount Industry Initiative Scheme: Effects of solar panels and battery installation in British low-income and vulnerable households"
       },
       {
         "latent_neighbour": "AEARCTR-0015455",
-        "latent_similarity": 0.682,
-        "lexical_similarity": 0.0863,
+        "latent_similarity": 0.681,
+        "lexical_similarity": 0.0822,
         "neighbour_title": "Power-ups in NPG region: evaluating the impact of offering free electricity",
         "plan": "AEARCTR-0014148",
         "plan_title": "Warm Home Discount Industry Initiative Scheme: Effects of solar panels and battery installation in British low-income and vulnerable households"
       },
       {
         "latent_neighbour": "AEARCTR-0000657",
-        "latent_similarity": 0.7901,
-        "lexical_similarity": 0.1337,
+        "latent_similarity": 0.7906,
+        "lexical_similarity": 0.1331,
         "neighbour_title": "Impact Evaluation of Nadie es Perfecto, a Program to Improve Parenting Skills in Chile",
         "plan": "AEARCTR-0008419",
         "plan_title": "Optimal Design of Digital Early Childhood Development Interventions: A Multifactorial Randomized Control Trial"
       },
       {
         "latent_neighbour": "AEARCTR-0012023",
-        "latent_similarity": 0.782,
-        "lexical_similarity": 0.1335,
+        "latent_similarity": 0.7823,
+        "lexical_similarity": 0.1343,
         "neighbour_title": "Evaluation of a Group Training Based Parent-Child Interaction Program on the Child Development in a Low-Income Setting",
         "plan": "AEARCTR-0008419",
         "plan_title": "Optimal Design of Digital Early Childhood Development Interventions: A Multifactorial Randomized Control Trial"
       },
       {
         "latent_neighbour": "AEARCTR-0014371",
-        "latent_similarity": 0.7571,
-        "lexical_similarity": 0.1346,
+        "latent_similarity": 0.7574,
+        "lexical_similarity": 0.1335,
         "neighbour_title": "Effect of A Parental Stimulation Intervention on Early Childhood Development among Migrant Population in China: A Stepped-Wedge Randomized Trial",
         "plan": "AEARCTR-0008419",
         "plan_title": "Optimal Design of Digital Early Childhood Development Interventions: A Multifactorial Randomized Control Trial"
       },
       {
         "latent_neighbour": "AEARCTR-0015734",
-        "latent_similarity": 0.6071,
-        "lexical_similarity": 0.0801,
+        "latent_similarity": 0.6088,
+        "lexical_similarity": 0.0804,
         "neighbour_title": "A Comprehensive Analysis of the Subproportionality and Risk-Tolerance/Risk-Aversion Properties",
         "plan": "AEARCTR-0003633",
         "plan_title": "A Stream of Prospects or a Prospect of Streams: On the Evaluation of Intertemporal Risks"
       },
       {
         "latent_neighbour": "AEARCTR-0017188",
-        "latent_similarity": 0.6074,
-        "lexical_similarity": 0.0563,
+        "latent_similarity": 0.6085,
+        "lexical_similarity": 0.0554,
         "neighbour_title": "Collusion in continuous-time markets",
         "plan": "AEARCTR-0010782",
         "plan_title": "Sticky Prices as Coordination Failure: An Experimental Investigation"
       },
       {
         "latent_neighbour": "AEARCTR-0000300",
-        "latent_similarity": 0.6364,
-        "lexical_similarity": 0.0851,
+        "latent_similarity": 0.6366,
+        "lexical_similarity": 0.0856,
         "neighbour_title": "Empowering Adolescent Girls: Evidence from a Randomized Control Trial in Sierra Leone",
         "plan": "AEARCTR-0007893",
         "plan_title": "\u201cBreast-Ironing, Breastfeeding and Child Mortality: experimental evidence from Cameroon\u201d"
       },
       {
         "latent_neighbour": "AEARCTR-0015021",
-        "latent_similarity": 0.6307,
-        "lexical_similarity": 0.0768,
+        "latent_similarity": 0.6319,
+        "lexical_similarity": 0.0769,
         "neighbour_title": "Empowering Adolescent Girls using Safe Spaces and Engaging Men : Evidence from a RCT in Benin",
         "plan": "AEARCTR-0007893",
         "plan_title": "\u201cBreast-Ironing, Breastfeeding and Child Mortality: experimental evidence from Cameroon\u201d"
       },
       {
         "latent_neighbour": "AEARCTR-0014106",
-        "latent_similarity": 0.6205,
-        "lexical_similarity": 0.0807,
+        "latent_similarity": 0.6213,
+        "lexical_similarity": 0.08,
         "neighbour_title": "Preventing Teenage Pregnancy for Girls in Bangladesh",
         "plan": "AEARCTR-0007893",
         "plan_title": "\u201cBreast-Ironing, Breastfeeding and Child Mortality: experimental evidence from Cameroon\u201d"
       },
       {
         "latent_neighbour": "AEARCTR-0009468",
-        "latent_similarity": 0.6016,
+        "latent_similarity": 0.602,
         "lexical_similarity": 0.0778,
         "neighbour_title": "Mitigating Effect of Bicycles on Maternal and Child Health in Zambia",
         "plan": "AEARCTR-0007893",
@@ -107,16 +107,16 @@
       },
       {
         "latent_neighbour": "AEARCTR-0014082",
-        "latent_similarity": 0.6177,
-        "lexical_similarity": 0.0828,
+        "latent_similarity": 0.6176,
+        "lexical_similarity": 0.0853,
         "neighbour_title": "The Gender Gap in Confidence: Is it contagious?",
         "plan": "AEARCTR-0014319",
         "plan_title": "Gender gap in apologies: round 2"
       },
       {
         "latent_neighbour": "AEARCTR-0018163",
-        "latent_similarity": 0.7849,
-        "lexical_similarity": 0.1343,
+        "latent_similarity": 0.7838,
+        "lexical_similarity": 0.1367,
         "neighbour_title": "Expanding Common-Ratio and Common-Consequence Comparisons",
         "plan": "AEARCTR-0015722",
         "plan_title": "A Nonparametric Test for Cumulative Prospect Theory"
@@ -125,16 +125,16 @@
     "k": 6,
     "latent_hit": 0.6,
     "lexical_floor": 0.2,
-    "mean_latent_max_sim": 0.6882,
-    "mean_lexical_max_sim": 0.234,
-    "mean_topk_overlap": 0.4756,
+    "mean_latent_max_sim": 0.6883,
+    "mean_lexical_max_sim": 0.2338,
+    "mean_topk_overlap": 0.476,
     "n_components": 300,
     "n_docs": 13082,
     "n_features": 200000,
-    "n_latent_only_pairs": 764,
-    "pct_rows_with_latent_only_hit": 41.88,
+    "n_latent_only_pairs": 775,
+    "pct_rows_with_latent_only_hit": 42.75,
     "sample": 800,
-    "seconds": 19.5,
+    "seconds": 19.3,
     "status": "measured"
   }
 }
