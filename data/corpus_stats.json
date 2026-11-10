@@ -2,139 +2,139 @@
   "similarity_probe": {
     "examples": [
       {
-        "latent_neighbour": "AEARCTR-0010345",
-        "latent_similarity": 0.633,
-        "lexical_similarity": 0.1005,
-        "neighbour_title": "Tailoring Advice and Incentives to Enhance Consumer Welfare from Livestock Insurance",
-        "plan": "AEARCTR-0016155",
-        "plan_title": "Updating Climate Beliefs: The Interaction Between Traditional and Modern Forecasting"
+        "latent_neighbour": "AEARCTR-0010666",
+        "latent_similarity": 0.6915,
+        "lexical_similarity": 0.1175,
+        "neighbour_title": "Increasing Adoption and Varietal Turnover of Seed: The Role of Consumer and Producer Side Interventions",
+        "plan": "AEARCTR-0008452",
+        "plan_title": "Matching new agricultural technology with the demand for innovation of low-income farmers"
       },
       {
-        "latent_neighbour": "AEARCTR-0011253",
-        "latent_similarity": 0.6008,
-        "lexical_similarity": 0.0924,
-        "neighbour_title": "The Impact of Village Insurance Savings Accounts on Women's Assets and Savings",
-        "plan": "AEARCTR-0016155",
-        "plan_title": "Updating Climate Beliefs: The Interaction Between Traditional and Modern Forecasting"
+        "latent_neighbour": "AEARCTR-0010716",
+        "latent_similarity": 0.6904,
+        "lexical_similarity": 0.1092,
+        "neighbour_title": "Accelerating Crop Varietal Turnover in Nigeria",
+        "plan": "AEARCTR-0008452",
+        "plan_title": "Matching new agricultural technology with the demand for innovation of low-income farmers"
       },
       {
-        "latent_neighbour": "AEARCTR-0013541",
-        "latent_similarity": 0.6868,
-        "lexical_similarity": 0.1147,
-        "neighbour_title": "Crowdflex utilisation payments mini-trial 1 invitation randomised encouragement pre-analysis plan",
-        "plan": "AEARCTR-0014148",
-        "plan_title": "Warm Home Discount Industry Initiative Scheme: Effects of solar panels and battery installation in British low-income and vulnerable households"
+        "latent_neighbour": "AEARCTR-0002579",
+        "latent_similarity": 0.672,
+        "lexical_similarity": 0.1096,
+        "neighbour_title": "An impact assessment of EAMDA's banana initiative to increase technology adoption by smallholder farmers in Kenya",
+        "plan": "AEARCTR-0008452",
+        "plan_title": "Matching new agricultural technology with the demand for innovation of low-income farmers"
       },
       {
-        "latent_neighbour": "AEARCTR-0015455",
-        "latent_similarity": 0.681,
-        "lexical_similarity": 0.0822,
-        "neighbour_title": "Power-ups in NPG region: evaluating the impact of offering free electricity",
-        "plan": "AEARCTR-0014148",
-        "plan_title": "Warm Home Discount Industry Initiative Scheme: Effects of solar panels and battery installation in British low-income and vulnerable households"
+        "latent_neighbour": "AEARCTR-0017577",
+        "latent_similarity": 0.6632,
+        "lexical_similarity": 0.0919,
+        "neighbour_title": "Empirical investigation of nudge for creation of innovative olive production cluster: A randomized controlled trial on olive-growing farms in West Bank of Palestine",
+        "plan": "AEARCTR-0008452",
+        "plan_title": "Matching new agricultural technology with the demand for innovation of low-income farmers"
       },
       {
-        "latent_neighbour": "AEARCTR-0000657",
-        "latent_similarity": 0.7906,
-        "lexical_similarity": 0.1331,
-        "neighbour_title": "Impact Evaluation of Nadie es Perfecto, a Program to Improve Parenting Skills in Chile",
-        "plan": "AEARCTR-0008419",
-        "plan_title": "Optimal Design of Digital Early Childhood Development Interventions: A Multifactorial Randomized Control Trial"
+        "latent_neighbour": "AEARCTR-0012505",
+        "latent_similarity": 0.6454,
+        "lexical_similarity": 0.0864,
+        "neighbour_title": "San Antonio Generating Opportunities for Achieving Lasting Success (G.O.A.L.S.) Initiative",
+        "plan": "AEARCTR-0014150",
+        "plan_title": "Testing the Impact of Guaranteed Basic Income for Low-Income Households in Rochester"
       },
       {
-        "latent_neighbour": "AEARCTR-0012023",
-        "latent_similarity": 0.7823,
-        "lexical_similarity": 0.1343,
-        "neighbour_title": "Evaluation of a Group Training Based Parent-Child Interaction Program on the Child Development in a Low-Income Setting",
-        "plan": "AEARCTR-0008419",
-        "plan_title": "Optimal Design of Digital Early Childhood Development Interventions: A Multifactorial Randomized Control Trial"
+        "latent_neighbour": "AEARCTR-0007729",
+        "latent_similarity": 0.7108,
+        "lexical_similarity": 0.1243,
+        "neighbour_title": "A protocol for the role of incentives for adoption of climate-smart agricultural innovations: An experimental evaluation in Uganda",
+        "plan": "AEARCTR-0008721",
+        "plan_title": "Impact Evaluation of Farmer Field Schools and eVouchers in Mozambique"
       },
       {
-        "latent_neighbour": "AEARCTR-0014371",
-        "latent_similarity": 0.7574,
-        "lexical_similarity": 0.1335,
-        "neighbour_title": "Effect of A Parental Stimulation Intervention on Early Childhood Development among Migrant Population in China: A Stepped-Wedge Randomized Trial",
-        "plan": "AEARCTR-0008419",
-        "plan_title": "Optimal Design of Digital Early Childhood Development Interventions: A Multifactorial Randomized Control Trial"
+        "latent_neighbour": "AEARCTR-0000190",
+        "latent_similarity": 0.7023,
+        "lexical_similarity": 0.1174,
+        "neighbour_title": "Disseminating Innovative Resources and Technologies to Smallholders (DIRTS)",
+        "plan": "AEARCTR-0008721",
+        "plan_title": "Impact Evaluation of Farmer Field Schools and eVouchers in Mozambique"
       },
       {
-        "latent_neighbour": "AEARCTR-0015734",
-        "latent_similarity": 0.6088,
-        "lexical_similarity": 0.0804,
-        "neighbour_title": "A Comprehensive Analysis of the Subproportionality and Risk-Tolerance/Risk-Aversion Properties",
-        "plan": "AEARCTR-0003633",
-        "plan_title": "A Stream of Prospects or a Prospect of Streams: On the Evaluation of Intertemporal Risks"
+        "latent_neighbour": "AEARCTR-0010474",
+        "latent_similarity": 0.6782,
+        "lexical_similarity": 0.1192,
+        "neighbour_title": "Impact Evaluation of the Use of Pod-Borer Resistant Cowpea in Nigeria",
+        "plan": "AEARCTR-0008721",
+        "plan_title": "Impact Evaluation of Farmer Field Schools and eVouchers in Mozambique"
       },
       {
         "latent_neighbour": "AEARCTR-0017188",
-        "latent_similarity": 0.6085,
-        "lexical_similarity": 0.0554,
+        "latent_similarity": 0.606,
+        "lexical_similarity": 0.0563,
         "neighbour_title": "Collusion in continuous-time markets",
         "plan": "AEARCTR-0010782",
         "plan_title": "Sticky Prices as Coordination Failure: An Experimental Investigation"
       },
       {
         "latent_neighbour": "AEARCTR-0000300",
-        "latent_similarity": 0.6366,
-        "lexical_similarity": 0.0856,
+        "latent_similarity": 0.635,
+        "lexical_similarity": 0.0852,
         "neighbour_title": "Empowering Adolescent Girls: Evidence from a Randomized Control Trial in Sierra Leone",
         "plan": "AEARCTR-0007893",
         "plan_title": "\u201cBreast-Ironing, Breastfeeding and Child Mortality: experimental evidence from Cameroon\u201d"
       },
       {
         "latent_neighbour": "AEARCTR-0015021",
-        "latent_similarity": 0.6319,
-        "lexical_similarity": 0.0769,
+        "latent_similarity": 0.6305,
+        "lexical_similarity": 0.0768,
         "neighbour_title": "Empowering Adolescent Girls using Safe Spaces and Engaging Men : Evidence from a RCT in Benin",
         "plan": "AEARCTR-0007893",
         "plan_title": "\u201cBreast-Ironing, Breastfeeding and Child Mortality: experimental evidence from Cameroon\u201d"
       },
       {
         "latent_neighbour": "AEARCTR-0014106",
-        "latent_similarity": 0.6213,
-        "lexical_similarity": 0.08,
+        "latent_similarity": 0.6192,
+        "lexical_similarity": 0.0808,
         "neighbour_title": "Preventing Teenage Pregnancy for Girls in Bangladesh",
         "plan": "AEARCTR-0007893",
         "plan_title": "\u201cBreast-Ironing, Breastfeeding and Child Mortality: experimental evidence from Cameroon\u201d"
       },
       {
         "latent_neighbour": "AEARCTR-0009468",
-        "latent_similarity": 0.602,
+        "latent_similarity": 0.6035,
         "lexical_similarity": 0.0778,
         "neighbour_title": "Mitigating Effect of Bicycles on Maternal and Child Health in Zambia",
         "plan": "AEARCTR-0007893",
         "plan_title": "\u201cBreast-Ironing, Breastfeeding and Child Mortality: experimental evidence from Cameroon\u201d"
       },
       {
-        "latent_neighbour": "AEARCTR-0014082",
-        "latent_similarity": 0.6176,
-        "lexical_similarity": 0.0853,
-        "neighbour_title": "The Gender Gap in Confidence: Is it contagious?",
-        "plan": "AEARCTR-0014319",
-        "plan_title": "Gender gap in apologies: round 2"
+        "latent_neighbour": "AEARCTR-0009947",
+        "latent_similarity": 0.6804,
+        "lexical_similarity": 0.0966,
+        "neighbour_title": "Peer effects and tracking, the role of boosting group cohesion.",
+        "plan": "AEARCTR-0014321",
+        "plan_title": "Effectiveness of Peer-Assisted Learning"
       },
       {
-        "latent_neighbour": "AEARCTR-0018163",
-        "latent_similarity": 0.7838,
-        "lexical_similarity": 0.1367,
-        "neighbour_title": "Expanding Common-Ratio and Common-Consequence Comparisons",
-        "plan": "AEARCTR-0015722",
-        "plan_title": "A Nonparametric Test for Cumulative Prospect Theory"
+        "latent_neighbour": "AEARCTR-0012370",
+        "latent_similarity": 0.6143,
+        "lexical_similarity": 0.0967,
+        "neighbour_title": "Unlocking the Value of Social and Emotional Learning Interventions: Maximizing Benefits and Measuring the Opportunity Cost",
+        "plan": "AEARCTR-0014321",
+        "plan_title": "Effectiveness of Peer-Assisted Learning"
       }
     ],
     "k": 6,
     "latent_hit": 0.6,
     "lexical_floor": 0.2,
-    "mean_latent_max_sim": 0.6883,
-    "mean_lexical_max_sim": 0.2338,
-    "mean_topk_overlap": 0.476,
+    "mean_latent_max_sim": 0.6874,
+    "mean_lexical_max_sim": 0.2284,
+    "mean_topk_overlap": 0.4587,
     "n_components": 300,
-    "n_docs": 13082,
+    "n_docs": 13083,
     "n_features": 200000,
-    "n_latent_only_pairs": 775,
-    "pct_rows_with_latent_only_hit": 42.75,
+    "n_latent_only_pairs": 839,
+    "pct_rows_with_latent_only_hit": 45.25,
     "sample": 800,
-    "seconds": 19.3,
+    "seconds": 23.1,
     "status": "measured"
   }
 }
