@@ -2,139 +2,139 @@
   "similarity_probe": {
     "examples": [
       {
-        "latent_neighbour": "AEARCTR-0010747",
-        "latent_similarity": 0.7377,
-        "lexical_similarity": 0.0834,
-        "neighbour_title": "Apprendre \u00e0 Aimer la Mondialisation ? French, Agni, and Attitudes About Globalization in Africa",
-        "plan": "AEARCTR-0008457",
-        "plan_title": "Democracy, Authoritarianism, and Development: An Experimental Analysis of People and Political Regimes in Africa"
+        "latent_neighbour": "AEARCTR-0000405",
+        "latent_similarity": 0.608,
+        "lexical_similarity": 0.0866,
+        "neighbour_title": "READING CATCH-UP PROJECT: THE IMPACT OF AN 11-WEEK TEACHER SUPPORT PROGRAMME ON PUPIL READING PROFICIENCY",
+        "plan": "AEARCTR-0007941",
+        "plan_title": "Experiment on the Effects of Systematic Phonics Instruction for Low-SES Early Readers."
       },
       {
-        "latent_neighbour": "AEARCTR-0008232",
-        "latent_similarity": 0.684,
-        "lexical_similarity": 0.0905,
-        "neighbour_title": "Je suis un patriot! An experimental analysis of soccer, ethnicity, and nationalism amongst the Akan in C\u00f4te d\u2019Ivoire",
-        "plan": "AEARCTR-0008457",
-        "plan_title": "Democracy, Authoritarianism, and Development: An Experimental Analysis of People and Political Regimes in Africa"
+        "latent_neighbour": "AEARCTR-0012816",
+        "latent_similarity": 0.8237,
+        "lexical_similarity": 0.1492,
+        "neighbour_title": "Payoffs, Beliefs, and Cooperation in Infinitely Repeated Games",
+        "plan": "AEARCTR-0016185",
+        "plan_title": "Endogenous Horizon Information Choices in Repeated Prisoner's Dilemma"
       },
       {
-        "latent_neighbour": "AEARCTR-0008983",
-        "latent_similarity": 0.6657,
-        "lexical_similarity": 0.0741,
-        "neighbour_title": "Testing the Mandela Hypothesis: An Experimental Analysis of Language and Politics in C\u00f4te d'Ivoire",
-        "plan": "AEARCTR-0008457",
-        "plan_title": "Democracy, Authoritarianism, and Development: An Experimental Analysis of People and Political Regimes in Africa"
+        "latent_neighbour": "AEARCTR-0018136",
+        "latent_similarity": 0.7968,
+        "lexical_similarity": 0.1092,
+        "neighbour_title": "Cooperation Across Generations: An Experimental Study of Intergenerational Altruism in the Prisoner\u2019s Dilemma",
+        "plan": "AEARCTR-0016185",
+        "plan_title": "Endogenous Horizon Information Choices in Repeated Prisoner's Dilemma"
       },
       {
-        "latent_neighbour": "AEARCTR-0009335",
-        "latent_similarity": 0.6583,
-        "lexical_similarity": 0.0847,
-        "neighbour_title": "Slavery and Trust: An Experimental Analysis in C\u00f4te d\u2019Ivoire",
-        "plan": "AEARCTR-0008457",
-        "plan_title": "Democracy, Authoritarianism, and Development: An Experimental Analysis of People and Political Regimes in Africa"
+        "latent_neighbour": "AEARCTR-0008994",
+        "latent_similarity": 0.6523,
+        "lexical_similarity": 0.1063,
+        "neighbour_title": "A Second Chance at Financial Inclusion: The Impact of Repayment Plans and Incentives on Delinquent Digital Credit Borrowers",
+        "plan": "AEARCTR-0001853",
+        "plan_title": "A Personal Touch- Text Messaging for Loan Repayment"
       },
       {
-        "latent_neighbour": "AEARCTR-0007581",
-        "latent_similarity": 0.7239,
-        "lexical_similarity": 0.1119,
-        "neighbour_title": "Optimal Targeting in Fundraising: A Causal Machine-Learning Approach",
-        "plan": "AEARCTR-0001849",
-        "plan_title": "The Effect of Effectiveness: Donor Response to Aid Effectiveness in a Direct Mail Fundraising Experiment"
+        "latent_neighbour": "AEARCTR-0001364",
+        "latent_similarity": 0.6392,
+        "lexical_similarity": 0.0898,
+        "neighbour_title": "The Supply- and Demand-Side Impacts of Credit Market Information in Guatemala",
+        "plan": "AEARCTR-0001853",
+        "plan_title": "A Personal Touch- Text Messaging for Loan Repayment"
       },
       {
-        "latent_neighbour": "AEARCTR-0001296",
-        "latent_similarity": 0.7025,
-        "lexical_similarity": 0.1026,
-        "neighbour_title": "How Can Bill and Melinda Gates Increase Other People's Donations to Fund Public Goods?",
-        "plan": "AEARCTR-0001849",
-        "plan_title": "The Effect of Effectiveness: Donor Response to Aid Effectiveness in a Direct Mail Fundraising Experiment"
+        "latent_neighbour": "AEARCTR-0015977",
+        "latent_similarity": 0.6335,
+        "lexical_similarity": 0.0997,
+        "neighbour_title": "The Impact of Business Training on Loan Repayment and Performance: Evidence from a Behavioral Messaging Experiment in Microfinance",
+        "plan": "AEARCTR-0001853",
+        "plan_title": "A Personal Touch- Text Messaging for Loan Repayment"
       },
       {
-        "latent_neighbour": "AEARCTR-0004848",
-        "latent_similarity": 0.6981,
-        "lexical_similarity": 0.0989,
-        "neighbour_title": "Personalized fundraising: A field experiment on threshold matching of donations",
-        "plan": "AEARCTR-0001849",
-        "plan_title": "The Effect of Effectiveness: Donor Response to Aid Effectiveness in a Direct Mail Fundraising Experiment"
+        "latent_neighbour": "AEARCTR-0001583",
+        "latent_similarity": 0.6294,
+        "lexical_similarity": 0.1045,
+        "neighbour_title": "Group versus Individual Liability: Short and Long Term Evidence from Philippine Microcredit Lending Groups",
+        "plan": "AEARCTR-0001853",
+        "plan_title": "A Personal Touch- Text Messaging for Loan Repayment"
       },
       {
-        "latent_neighbour": "AEARCTR-0008263",
-        "latent_similarity": 0.6929,
-        "lexical_similarity": 0.1049,
-        "neighbour_title": "Do Thank-You Calls Increase Charitable Giving? Expert Forecasts and Field Experimental Evidence",
-        "plan": "AEARCTR-0001849",
-        "plan_title": "The Effect of Effectiveness: Donor Response to Aid Effectiveness in a Direct Mail Fundraising Experiment"
+        "latent_neighbour": "AEARCTR-0002048",
+        "latent_similarity": 0.62,
+        "lexical_similarity": 0.0933,
+        "neighbour_title": "Do Flexible Repayment Schedules Improve the Impact of Microcredit? Evidence from a Randomized Evaluation in Rural India",
+        "plan": "AEARCTR-0001853",
+        "plan_title": "A Personal Touch- Text Messaging for Loan Repayment"
       },
       {
-        "latent_neighbour": "AEARCTR-0003428",
-        "latent_similarity": 0.6863,
-        "lexical_similarity": 0.1081,
-        "neighbour_title": "Understanding Defensive Health Behavior: Evidence from Pollution Masks in Delhi.",
-        "plan": "AEARCTR-0014162",
-        "plan_title": "Workers' Exposure to Air Pollution in Urban Uganda"
+        "latent_neighbour": "AEARCTR-0013571",
+        "latent_similarity": 0.7196,
+        "lexical_similarity": 0.1236,
+        "neighbour_title": "Beyond labels: Exploring the impacts of stereotype-driven beliefs on cooperation, success attribution, and punishment",
+        "plan": "AEARCTR-0017852",
+        "plan_title": "Intergenerational Perceptions of Fairness"
       },
       {
-        "latent_neighbour": "AEARCTR-0004742",
-        "latent_similarity": 0.6681,
-        "lexical_similarity": 0.1011,
-        "neighbour_title": "The Impact of Enhanced Air Pollution Awareness on Defensive Actions and the Demand for Clean Air",
-        "plan": "AEARCTR-0014162",
-        "plan_title": "Workers' Exposure to Air Pollution in Urban Uganda"
+        "latent_neighbour": "AEARCTR-0003508",
+        "latent_similarity": 0.7149,
+        "lexical_similarity": 0.1075,
+        "neighbour_title": "Counter-punishment in Public Good Games",
+        "plan": "AEARCTR-0017852",
+        "plan_title": "Intergenerational Perceptions of Fairness"
       },
       {
-        "latent_neighbour": "AEARCTR-0013110",
-        "latent_similarity": 0.6638,
-        "lexical_similarity": 0.0993,
-        "neighbour_title": "Learning is in the Air: Clean Air as an Experience Good",
-        "plan": "AEARCTR-0014162",
-        "plan_title": "Workers' Exposure to Air Pollution in Urban Uganda"
+        "latent_neighbour": "AEARCTR-0003497",
+        "latent_similarity": 0.6847,
+        "lexical_similarity": 0.1063,
+        "neighbour_title": "Probabilistic continuation in the public goods game",
+        "plan": "AEARCTR-0017852",
+        "plan_title": "Intergenerational Perceptions of Fairness"
       },
       {
-        "latent_neighbour": "AEARCTR-0003660",
-        "latent_similarity": 0.6218,
-        "lexical_similarity": 0.0619,
-        "neighbour_title": "Replication of Rational Expectations and the Aggregation of Diverse Information in Laboratory Security Markets",
-        "plan": "AEARCTR-0009355",
-        "plan_title": "The Nature of Excess: Using Randomization to Understand How Markets Equilibrate"
+        "latent_neighbour": "AEARCTR-0004185",
+        "latent_similarity": 0.7115,
+        "lexical_similarity": 0.1098,
+        "neighbour_title": "The Impact of Summer Youth Employment on Youth Outcomes",
+        "plan": "AEARCTR-0002222",
+        "plan_title": "The effects of summer jobs on disadvantaged youth"
       },
       {
-        "latent_neighbour": "AEARCTR-0001452",
-        "latent_similarity": 0.6318,
-        "lexical_similarity": 0.0702,
-        "neighbour_title": "Impact of Rainfall Insurance on Farmer Behavior in India",
-        "plan": "AEARCTR-0019208",
-        "plan_title": "Demand for Options as Price Insurance"
+        "latent_neighbour": "AEARCTR-0012762",
+        "latent_similarity": 0.6125,
+        "lexical_similarity": 0.1289,
+        "neighbour_title": "Governance participation puzzle: A field experiment",
+        "plan": "AEARCTR-0015475",
+        "plan_title": "Citizen Engagement and Corporate ESG Practices"
       },
       {
-        "latent_neighbour": "AEARCTR-0007886",
-        "latent_similarity": 0.6023,
-        "lexical_similarity": 0.1004,
-        "neighbour_title": "Delivering Prevention: Selling vs. Giving Reassessed",
-        "plan": "AEARCTR-0019208",
-        "plan_title": "Demand for Options as Price Insurance"
+        "latent_neighbour": "AEARCTR-0004626",
+        "latent_similarity": 0.6064,
+        "lexical_similarity": 0.071,
+        "neighbour_title": "Information on the Effort-Performance Link and Academic Achievement",
+        "plan": "AEARCTR-0010801",
+        "plan_title": "The long-term effects of an intervention to exercise."
       },
       {
-        "latent_neighbour": "AEARCTR-0010404",
-        "latent_similarity": 0.6459,
-        "lexical_similarity": 0.086,
-        "neighbour_title": "Private versus public benefits: a field experiment on consumers' willingness to pay for organic and local food.",
-        "plan": "AEARCTR-0010789",
-        "plan_title": "Increasing Sales by Promoting the Attributes of Pecan through a Systematic Science-Based Marketing Strategy"
+        "latent_neighbour": "AEARCTR-0008249",
+        "latent_similarity": 0.6796,
+        "lexical_similarity": 0.0825,
+        "neighbour_title": "Impact Evaluation of BYLC\u2019s CSF Project",
+        "plan": "AEARCTR-0007910",
+        "plan_title": "Evaluation of Demand-led Vocational Training Programs in Pakistan"
       }
     ],
     "k": 6,
     "latent_hit": 0.6,
     "lexical_floor": 0.2,
-    "mean_latent_max_sim": 0.686,
-    "mean_lexical_max_sim": 0.2333,
-    "mean_topk_overlap": 0.4627,
+    "mean_latent_max_sim": 0.6848,
+    "mean_lexical_max_sim": 0.2241,
+    "mean_topk_overlap": 0.474,
     "n_components": 300,
-    "n_docs": 13096,
+    "n_docs": 13107,
     "n_features": 200000,
-    "n_latent_only_pairs": 787,
-    "pct_rows_with_latent_only_hit": 43.0,
+    "n_latent_only_pairs": 786,
+    "pct_rows_with_latent_only_hit": 42.12,
     "sample": 800,
-    "seconds": 26.6,
+    "seconds": 23.5,
     "status": "measured"
   }
 }
