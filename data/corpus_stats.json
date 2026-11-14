@@ -3,15 +3,15 @@
     "examples": [
       {
         "latent_neighbour": "AEARCTR-0013735",
-        "latent_similarity": 0.6956,
-        "lexical_similarity": 0.098,
+        "latent_similarity": 0.6955,
+        "lexical_similarity": 0.0986,
         "neighbour_title": "Assessing the impact of a healthcare-inclusive graduation program on health and livelihoods in Bangladesh",
         "plan": "AEARCTR-0007944",
         "plan_title": "Expanding Opportunity: Testing asset grants and jobs programs for Egypt\u2019s poor"
       },
       {
         "latent_neighbour": "AEARCTR-0015643",
-        "latent_similarity": 0.6864,
+        "latent_similarity": 0.6866,
         "lexical_similarity": 0.1151,
         "neighbour_title": "Impact Evaluation of the Economic Inclusion Programme in Kenya",
         "plan": "AEARCTR-0007944",
@@ -19,8 +19,8 @@
       },
       {
         "latent_neighbour": "AEARCTR-0003498",
-        "latent_similarity": 0.6784,
-        "lexical_similarity": 0.1093,
+        "latent_similarity": 0.6787,
+        "lexical_similarity": 0.1102,
         "neighbour_title": "Supporting Women's Livelihoods (SWL) in Zambia",
         "plan": "AEARCTR-0007944",
         "plan_title": "Expanding Opportunity: Testing asset grants and jobs programs for Egypt\u2019s poor"
@@ -28,95 +28,95 @@
       {
         "latent_neighbour": "AEARCTR-0006551",
         "latent_similarity": 0.6172,
-        "lexical_similarity": 0.1018,
+        "lexical_similarity": 0.1004,
         "neighbour_title": "Entrepreneurship support for refugees and host communities in a fragile context",
         "plan": "AEARCTR-0016192",
         "plan_title": "Can coaching help families adapt to displacement following a natural disaster? Evidence from a flood adaption program in Ghana."
       },
       {
         "latent_neighbour": "AEARCTR-0008994",
-        "latent_similarity": 0.655,
-        "lexical_similarity": 0.1067,
+        "latent_similarity": 0.6542,
+        "lexical_similarity": 0.1055,
         "neighbour_title": "A Second Chance at Financial Inclusion: The Impact of Repayment Plans and Incentives on Delinquent Digital Credit Borrowers",
         "plan": "AEARCTR-0001853",
         "plan_title": "A Personal Touch- Text Messaging for Loan Repayment"
       },
       {
         "latent_neighbour": "AEARCTR-0001364",
-        "latent_similarity": 0.6427,
-        "lexical_similarity": 0.0893,
+        "latent_similarity": 0.6412,
+        "lexical_similarity": 0.089,
         "neighbour_title": "The Supply- and Demand-Side Impacts of Credit Market Information in Guatemala",
         "plan": "AEARCTR-0001853",
         "plan_title": "A Personal Touch- Text Messaging for Loan Repayment"
       },
       {
         "latent_neighbour": "AEARCTR-0015977",
-        "latent_similarity": 0.6381,
-        "lexical_similarity": 0.0999,
+        "latent_similarity": 0.639,
+        "lexical_similarity": 0.1041,
         "neighbour_title": "The Impact of Business Training on Loan Repayment and Performance: Evidence from a Behavioral Messaging Experiment in Microfinance",
         "plan": "AEARCTR-0001853",
         "plan_title": "A Personal Touch- Text Messaging for Loan Repayment"
       },
       {
         "latent_neighbour": "AEARCTR-0001583",
-        "latent_similarity": 0.6295,
-        "lexical_similarity": 0.1049,
+        "latent_similarity": 0.6296,
+        "lexical_similarity": 0.1048,
         "neighbour_title": "Group versus Individual Liability: Short and Long Term Evidence from Philippine Microcredit Lending Groups",
         "plan": "AEARCTR-0001853",
         "plan_title": "A Personal Touch- Text Messaging for Loan Repayment"
       },
       {
         "latent_neighbour": "AEARCTR-0002999",
-        "latent_similarity": 0.6171,
-        "lexical_similarity": 0.0888,
+        "latent_similarity": 0.6172,
+        "lexical_similarity": 0.0878,
         "neighbour_title": "Understanding Delegation in Delegated Dictator Games",
         "plan": "AEARCTR-0017210",
         "plan_title": "Frustration and Anger in Coordination Settings"
       },
       {
         "latent_neighbour": "AEARCTR-0009471",
-        "latent_similarity": 0.6148,
-        "lexical_similarity": 0.0732,
+        "latent_similarity": 0.615,
+        "lexical_similarity": 0.0725,
         "neighbour_title": "Unequal opportunity, limited information and meritocracy",
         "plan": "AEARCTR-0007913",
         "plan_title": "Negative income shocks and redistributive preferences"
       },
       {
-        "latent_neighbour": "AEARCTR-0002937",
-        "latent_similarity": 0.7909,
-        "lexical_similarity": 0.1588,
-        "neighbour_title": "First-Price Auctions: Single- vs. Multi-Stage Mechanisms",
+        "latent_neighbour": "AEARCTR-0017041",
+        "latent_similarity": 0.7738,
+        "lexical_similarity": 0.16,
+        "neighbour_title": "Scaling and Equity Auctions: The Types-as-Quantities Case",
         "plan": "AEARCTR-0016086",
         "plan_title": "Asymmetric valuations in charity auctions"
       },
       {
         "latent_neighbour": "AEARCTR-0011146",
-        "latent_similarity": 0.7693,
-        "lexical_similarity": 0.1138,
+        "latent_similarity": 0.7692,
+        "lexical_similarity": 0.1126,
         "neighbour_title": "Knapsack Auctions",
         "plan": "AEARCTR-0016086",
         "plan_title": "Asymmetric valuations in charity auctions"
       },
       {
         "latent_neighbour": "AEARCTR-0009992",
-        "latent_similarity": 0.6048,
-        "lexical_similarity": 0.0803,
+        "latent_similarity": 0.6046,
+        "lexical_similarity": 0.0794,
         "neighbour_title": "Educational Migration Prospects and Human Capital Investments",
         "plan": "AEARCTR-0014354",
         "plan_title": "The World of Work - A study of the transition from secondary school in Tanzania - PRE-ANALYSIS PLAN FOR THE ENDLINE SURVEY"
       },
       {
         "latent_neighbour": "AEARCTR-0013539",
-        "latent_similarity": 0.7563,
-        "lexical_similarity": 0.1386,
+        "latent_similarity": 0.7575,
+        "lexical_similarity": 0.1357,
         "neighbour_title": "CrowdFlex: Beta Utilisation Payments Mini-Trial 1",
         "plan": "AEARCTR-0013031",
         "plan_title": "Energy Demand Flexibility at Scale: Business customers Randomized Encouragement Design"
       },
       {
         "latent_neighbour": "AEARCTR-0006792",
-        "latent_similarity": 0.6673,
-        "lexical_similarity": 0.0957,
+        "latent_similarity": 0.6678,
+        "lexical_similarity": 0.0958,
         "neighbour_title": "Participatory agricultural technology development and dissemination: An experimental evidence from rural China",
         "plan": "AEARCTR-0013363",
         "plan_title": "Enhancing Fertilizer Application Practices in Nepal: A Randomized Controlled Trial"
@@ -126,15 +126,15 @@
     "latent_hit": 0.6,
     "lexical_floor": 0.2,
     "mean_latent_max_sim": 0.6878,
-    "mean_lexical_max_sim": 0.2348,
-    "mean_topk_overlap": 0.4646,
+    "mean_lexical_max_sim": 0.2349,
+    "mean_topk_overlap": 0.466,
     "n_components": 300,
     "n_docs": 13114,
     "n_features": 200000,
-    "n_latent_only_pairs": 789,
-    "pct_rows_with_latent_only_hit": 42.0,
+    "n_latent_only_pairs": 783,
+    "pct_rows_with_latent_only_hit": 41.5,
     "sample": 800,
-    "seconds": 22.7,
+    "seconds": 30.9,
     "status": "measured"
   }
 }
