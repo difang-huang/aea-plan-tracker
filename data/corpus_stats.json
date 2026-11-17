@@ -2,139 +2,139 @@
   "similarity_probe": {
     "examples": [
       {
-        "latent_neighbour": "AEARCTR-0019282",
-        "latent_similarity": 0.6353,
-        "lexical_similarity": 0.0917,
-        "neighbour_title": "The Effects of the Disability Employment Quota on French Firms: Evidence from the OETH Program.",
-        "plan": "AEARCTR-0017845",
-        "plan_title": "Salary expectations and employer responses"
+        "latent_neighbour": "AEARCTR-0003501",
+        "latent_similarity": 0.8071,
+        "lexical_similarity": 0.1811,
+        "neighbour_title": "The effect of teacher professional development on financial literacy education. Evidence from a randomized experiment",
+        "plan": "AEARCTR-0007956",
+        "plan_title": "Can heuristics also mediate the effect of financial education to financial literacy? On the effectiveness of financial education to reduce the negative effects of availability heur"
       },
       {
-        "latent_neighbour": "AEARCTR-0012586",
-        "latent_similarity": 0.6252,
-        "lexical_similarity": 0.0953,
-        "neighbour_title": "Do Firms Like STARs? Measuring Demand for Job Candidates Skilled Through Alternative Routes",
-        "plan": "AEARCTR-0017845",
-        "plan_title": "Salary expectations and employer responses"
+        "latent_neighbour": "AEARCTR-0007134",
+        "latent_similarity": 0.7328,
+        "lexical_similarity": 0.096,
+        "neighbour_title": "Addressing the COVID Gap Year Among Low-income Students and Students of Color: Helping Unenrolled Recent High School Grads Stay on Track with College Plans",
+        "plan": "AEARCTR-0008483",
+        "plan_title": "Evaluation of High-Touch vs. Low-Touch Interventions to Increase Community College Persistence and Completion"
       },
       {
-        "latent_neighbour": "AEARCTR-0008994",
-        "latent_similarity": 0.6537,
-        "lexical_similarity": 0.108,
-        "neighbour_title": "A Second Chance at Financial Inclusion: The Impact of Repayment Plans and Incentives on Delinquent Digital Credit Borrowers",
-        "plan": "AEARCTR-0001853",
-        "plan_title": "A Personal Touch- Text Messaging for Loan Repayment"
+        "latent_neighbour": "AEARCTR-0010784",
+        "latent_similarity": 0.7307,
+        "lexical_similarity": 0.1048,
+        "neighbour_title": "Pathways to Success for Adult Learners at Two Tennessee Community Colleges: Evidence from a Field Experiment",
+        "plan": "AEARCTR-0008483",
+        "plan_title": "Evaluation of High-Touch vs. Low-Touch Interventions to Increase Community College Persistence and Completion"
       },
       {
-        "latent_neighbour": "AEARCTR-0001364",
-        "latent_similarity": 0.6414,
-        "lexical_similarity": 0.09,
-        "neighbour_title": "The Supply- and Demand-Side Impacts of Credit Market Information in Guatemala",
-        "plan": "AEARCTR-0001853",
-        "plan_title": "A Personal Touch- Text Messaging for Loan Repayment"
+        "latent_neighbour": "AEARCTR-0003774",
+        "latent_similarity": 0.7391,
+        "lexical_similarity": 0.1408,
+        "neighbour_title": "Health information on household air pollution, LPG uptake, and women's welfare in rural India",
+        "plan": "AEARCTR-0019248",
+        "plan_title": "Evidence on clean cooking subsidies for exclusive use, exposure, and affordability from a randomized control trial in rural Tanzania"
       },
       {
-        "latent_neighbour": "AEARCTR-0015977",
+        "latent_neighbour": "AEARCTR-0018314",
+        "latent_similarity": 0.65,
+        "lexical_similarity": 0.1046,
+        "neighbour_title": "Are School- and Home-Based Social-Emotional Learning Interventions Complements or Substitutes? Experimental Evidence from Rural China",
+        "plan": "AEARCTR-0017889",
+        "plan_title": "AI-Assisted Parenting Guidance and Child Development: A Randomized Experiment in Rural China"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0007079",
+        "latent_similarity": 0.6148,
+        "lexical_similarity": 0.0897,
+        "neighbour_title": "Cultivating Youth's Empathy through Parental Involvement: Experimental Evidence from China",
+        "plan": "AEARCTR-0017889",
+        "plan_title": "AI-Assisted Parenting Guidance and Child Development: A Randomized Experiment in Rural China"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0019200",
+        "latent_similarity": 0.67,
+        "lexical_similarity": 0.0992,
+        "neighbour_title": "Adaptive Math Practice and Teacher Data Use in Uzbekistan",
+        "plan": "AEARCTR-0019270",
+        "plan_title": "The Effects of Robotics and Active-Learning Training on STEM Interest, Curiosity, and Computational Reasoning"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0019816",
+        "latent_similarity": 0.6595,
+        "lexical_similarity": 0.0821,
+        "neighbour_title": "\u201cHIGH TOUCH HIGH TECH\u201d (HTHT) MATHEMATICS IN URUGUAY",
+        "plan": "AEARCTR-0019270",
+        "plan_title": "The Effects of Robotics and Active-Learning Training on STEM Interest, Curiosity, and Computational Reasoning"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0018449",
         "latent_similarity": 0.6377,
-        "lexical_similarity": 0.1053,
-        "neighbour_title": "The Impact of Business Training on Loan Repayment and Performance: Evidence from a Behavioral Messaging Experiment in Microfinance",
-        "plan": "AEARCTR-0001853",
-        "plan_title": "A Personal Touch- Text Messaging for Loan Repayment"
+        "lexical_similarity": 0.0876,
+        "neighbour_title": "Improving Higher-Order Thinking Skills in Mathematics in Bhutanese Primary Schools",
+        "plan": "AEARCTR-0019270",
+        "plan_title": "The Effects of Robotics and Active-Learning Training on STEM Interest, Curiosity, and Computational Reasoning"
       },
       {
-        "latent_neighbour": "AEARCTR-0001583",
-        "latent_similarity": 0.6289,
-        "lexical_similarity": 0.1058,
-        "neighbour_title": "Group versus Individual Liability: Short and Long Term Evidence from Philippine Microcredit Lending Groups",
-        "plan": "AEARCTR-0001853",
-        "plan_title": "A Personal Touch- Text Messaging for Loan Repayment"
+        "latent_neighbour": "AEARCTR-0015003",
+        "latent_similarity": 0.6084,
+        "lexical_similarity": 0.0892,
+        "neighbour_title": "Testing Community-Led Outreach Clinics to Improve Health in Rural Areas",
+        "plan": "AEARCTR-0002225",
+        "plan_title": "Female voices, community choices: a randomized controlled trial to evaluate female-only Community Monitoring meetings"
       },
       {
-        "latent_neighbour": "AEARCTR-0010938",
-        "latent_similarity": 0.6172,
-        "lexical_similarity": 0.0795,
-        "neighbour_title": "Cooperation to reduce water pollution in the Mekong Delta",
-        "plan": "AEARCTR-0017211",
-        "plan_title": "Collective Action in Irrigation Systems: Understanding Strategic Public Goods Reliance and Cooperation"
+        "latent_neighbour": "AEARCTR-0000006",
+        "latent_similarity": 0.6074,
+        "lexical_similarity": 0.0588,
+        "neighbour_title": "Community Based Strategies to Reduce Maternal Mortality in Northern Nigeria",
+        "plan": "AEARCTR-0002225",
+        "plan_title": "Female voices, community choices: a randomized controlled trial to evaluate female-only Community Monitoring meetings"
       },
       {
-        "latent_neighbour": "AEARCTR-0007467",
-        "latent_similarity": 0.7282,
-        "lexical_similarity": 0.1168,
-        "neighbour_title": "On the External Validity of Economic Rationality",
-        "plan": "AEARCTR-0016087",
-        "plan_title": "Economic Rationality under Cognitive Limitations: The Effect of Sequential Elimination"
+        "latent_neighbour": "AEARCTR-0012363",
+        "latent_similarity": 0.6572,
+        "lexical_similarity": 0.0679,
+        "neighbour_title": "Bidder Power in a Multi-Unit Auction",
+        "plan": "AEARCTR-0010823",
+        "plan_title": "Consumer preferences for organic and local apples"
       },
       {
-        "latent_neighbour": "AEARCTR-0006463",
-        "latent_similarity": 0.6225,
-        "lexical_similarity": 0.0902,
-        "neighbour_title": "Motivated Pessimism",
-        "plan": "AEARCTR-0013532",
-        "plan_title": "The Value of Social Information in the Workplace: An Online Experiment"
+        "latent_neighbour": "AEARCTR-0018880",
+        "latent_similarity": 0.6458,
+        "lexical_similarity": 0.0776,
+        "neighbour_title": "Valuing AI Art: An Experimental Study (2)",
+        "plan": "AEARCTR-0010823",
+        "plan_title": "Consumer preferences for organic and local apples"
       },
       {
-        "latent_neighbour": "AEARCTR-0013539",
-        "latent_similarity": 0.759,
-        "lexical_similarity": 0.1363,
-        "neighbour_title": "CrowdFlex: Beta Utilisation Payments Mini-Trial 1",
-        "plan": "AEARCTR-0013031",
-        "plan_title": "Energy Demand Flexibility at Scale: Business customers Randomized Encouragement Design"
+        "latent_neighbour": "AEARCTR-0017750",
+        "latent_similarity": 0.6418,
+        "lexical_similarity": 0.0732,
+        "neighbour_title": "Bidding against the machine: Preference elicitation in the presence of bots",
+        "plan": "AEARCTR-0010823",
+        "plan_title": "Consumer preferences for organic and local apples"
       },
       {
-        "latent_neighbour": "AEARCTR-0013493",
-        "latent_similarity": 0.6951,
-        "lexical_similarity": 0.124,
-        "neighbour_title": "Studying the latent demand of female labour",
-        "plan": "AEARCTR-0009190",
-        "plan_title": "Bringing Work Home: Internet-Mediated Gig Work and Women's Employment"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0013670",
-        "latent_similarity": 0.6729,
-        "lexical_similarity": 0.1159,
-        "neighbour_title": "What\u2019s in the Name? Volunteer and Employment Opportunities in Egypt",
-        "plan": "AEARCTR-0009190",
-        "plan_title": "Bringing Work Home: Internet-Mediated Gig Work and Women's Employment"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0018327",
-        "latent_similarity": 0.6546,
-        "lexical_similarity": 0.0944,
-        "neighbour_title": "Intra-Household (Mis-)Beliefs and Women\u2019s Work Decisions in Pakistan",
-        "plan": "AEARCTR-0009190",
-        "plan_title": "Bringing Work Home: Internet-Mediated Gig Work and Women's Employment"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0011878",
-        "latent_similarity": 0.6865,
-        "lexical_similarity": 0.063,
-        "neighbour_title": "Comparing a discrete choice experiment with a BDM mechanism in preference elicitation",
-        "plan": "AEARCTR-0014816",
-        "plan_title": "Integrating Feasibility and Realism: Examining Hybrid Incentive Structures in Discrete Choice Experiments"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0016485",
-        "latent_similarity": 0.6473,
-        "lexical_similarity": 0.0869,
-        "neighbour_title": "Understanding Smokers\u2019 Preferences for Tobacco Product Attributes in Colombia and Bolivia: A Discrete Choice Experiment",
-        "plan": "AEARCTR-0014816",
-        "plan_title": "Integrating Feasibility and Realism: Examining Hybrid Incentive Structures in Discrete Choice Experiments"
+        "latent_neighbour": "AEARCTR-0017929",
+        "latent_similarity": 0.6376,
+        "lexical_similarity": 0.074,
+        "neighbour_title": "Scaling and Equity Auctions: The Types-as-Marginal-Costs Case",
+        "plan": "AEARCTR-0010823",
+        "plan_title": "Consumer preferences for organic and local apples"
       }
     ],
     "k": 6,
     "latent_hit": 0.6,
     "lexical_floor": 0.2,
-    "mean_latent_max_sim": 0.6906,
-    "mean_lexical_max_sim": 0.2355,
-    "mean_topk_overlap": 0.4671,
+    "mean_latent_max_sim": 0.6853,
+    "mean_lexical_max_sim": 0.223,
+    "mean_topk_overlap": 0.47,
     "n_components": 300,
-    "n_docs": 13115,
+    "n_docs": 13139,
     "n_features": 200000,
-    "n_latent_only_pairs": 765,
-    "pct_rows_with_latent_only_hit": 41.5,
+    "n_latent_only_pairs": 786,
+    "pct_rows_with_latent_only_hit": 43.38,
     "sample": 800,
-    "seconds": 24.9,
+    "seconds": 26.7,
     "status": "measured"
   }
 }
