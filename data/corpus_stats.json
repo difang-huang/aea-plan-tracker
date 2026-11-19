@@ -2,139 +2,139 @@
   "similarity_probe": {
     "examples": [
       {
-        "latent_neighbour": "AEARCTR-0013994",
-        "latent_similarity": 0.639,
-        "lexical_similarity": 0.0842,
-        "neighbour_title": "How social media creators shape mass politics",
-        "plan": "AEARCTR-0008489",
-        "plan_title": "How Does Exposure to Discordant Media Sources Affect Political Attitudes and Behavior? Experimental Evidence from Turkey"
+        "latent_neighbour": "AEARCTR-0002361",
+        "latent_similarity": 0.6189,
+        "lexical_similarity": 0.0897,
+        "neighbour_title": "Mathematics intervention 2017",
+        "plan": "AEARCTR-0007966",
+        "plan_title": "S-confini - a summer camp targeted to low achievers"
       },
       {
-        "latent_neighbour": "AEARCTR-0013724",
-        "latent_similarity": 0.6303,
-        "lexical_similarity": 0.0668,
-        "neighbour_title": "Social Media, Influencers and Political Engagement of the Youth",
-        "plan": "AEARCTR-0008489",
-        "plan_title": "How Does Exposure to Discordant Media Sources Affect Political Attitudes and Behavior? Experimental Evidence from Turkey"
+        "latent_neighbour": "AEARCTR-0009958",
+        "latent_similarity": 0.6164,
+        "lexical_similarity": 0.089,
+        "neighbour_title": "Arcipelago Educativo",
+        "plan": "AEARCTR-0007966",
+        "plan_title": "S-confini - a summer camp targeted to low achievers"
       },
       {
-        "latent_neighbour": "AEARCTR-0004024",
-        "latent_similarity": 0.6147,
-        "lexical_similarity": 0.0781,
-        "neighbour_title": "Gender Transformative Programming to Improve Capabilities of Young Adolescents in Ethiopia: A Cluster Randomized Control Trial",
-        "plan": "AEARCTR-0016233",
-        "plan_title": "Fostering Human Capital and Youth Empowerment in Northwest Nigeria through Edutainment, EdTech and Digital Workshops"
+        "latent_neighbour": "AEARCTR-0001474",
+        "latent_similarity": 0.6064,
+        "lexical_similarity": 0.0528,
+        "neighbour_title": "Closing the Knowledge gap? Two planned interventions aimed at low-SES children",
+        "plan": "AEARCTR-0007966",
+        "plan_title": "S-confini - a summer camp targeted to low achievers"
       },
       {
-        "latent_neighbour": "AEARCTR-0016285",
-        "latent_similarity": 0.613,
-        "lexical_similarity": 0.0803,
-        "neighbour_title": "How do transformative early learning gains shape learning and life in adolescence? Evidence from West Africa",
-        "plan": "AEARCTR-0016233",
-        "plan_title": "Fostering Human Capital and Youth Empowerment in Northwest Nigeria through Edutainment, EdTech and Digital Workshops"
+        "latent_neighbour": "AEARCTR-0000039",
+        "latent_similarity": 0.6011,
+        "lexical_similarity": 0.0613,
+        "neighbour_title": "Using Learning Camps to Improve Basic Learning Outcomes of Primary School Children",
+        "plan": "AEARCTR-0007966",
+        "plan_title": "S-confini - a summer camp targeted to low achievers"
       },
       {
-        "latent_neighbour": "AEARCTR-0000522",
-        "latent_similarity": 0.6319,
-        "lexical_similarity": 0.0806,
-        "neighbour_title": "Improving financial literacy and participation of female entrepreneurs in Chile",
-        "plan": "AEARCTR-0001867",
-        "plan_title": "Small and Medium Enterprise Financing and Mentoring Services in Emerging Markets in the Dominican Republic"
+        "latent_neighbour": "AEARCTR-0018314",
+        "latent_similarity": 0.6532,
+        "lexical_similarity": 0.1054,
+        "neighbour_title": "Are School- and Home-Based Social-Emotional Learning Interventions Complements or Substitutes? Experimental Evidence from Rural China",
+        "plan": "AEARCTR-0017889",
+        "plan_title": "AI-Assisted Parenting Guidance and Child Development: A Randomized Experiment in Rural China"
       },
       {
-        "latent_neighbour": "AEARCTR-0008292",
-        "latent_similarity": 0.631,
-        "lexical_similarity": 0.0922,
-        "neighbour_title": "The Effects of SME Digital Training and Loan Access on Business Practices and Growth",
-        "plan": "AEARCTR-0001867",
-        "plan_title": "Small and Medium Enterprise Financing and Mentoring Services in Emerging Markets in the Dominican Republic"
+        "latent_neighbour": "AEARCTR-0007079",
+        "latent_similarity": 0.6129,
+        "lexical_similarity": 0.0906,
+        "neighbour_title": "Cultivating Youth's Empathy through Parental Involvement: Experimental Evidence from China",
+        "plan": "AEARCTR-0017889",
+        "plan_title": "AI-Assisted Parenting Guidance and Child Development: A Randomized Experiment in Rural China"
       },
       {
-        "latent_neighbour": "AEARCTR-0003625",
-        "latent_similarity": 0.6229,
+        "latent_neighbour": "AEARCTR-0018576",
+        "latent_similarity": 0.6882,
+        "lexical_similarity": 0.0824,
+        "neighbour_title": "Paternal Relational Valuations and the Construal Asymmetry \u2014 Pre-registration of Stage 0",
+        "plan": "AEARCTR-0019267",
+        "plan_title": "Anticipated Child Sex and Prospective Parents' Labour Supply and Childcare Intentions"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0019454",
+        "latent_similarity": 0.6276,
+        "lexical_similarity": 0.0761,
+        "neighbour_title": "Pronatal Policy Information and Fertility Intentions: A Survey Experiment in South Korea",
+        "plan": "AEARCTR-0019267",
+        "plan_title": "Anticipated Child Sex and Prospective Parents' Labour Supply and Childcare Intentions"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0005781",
+        "latent_similarity": 0.604,
+        "lexical_similarity": 0.0777,
+        "neighbour_title": "Status Quo Bias and Usage of Financial Products",
+        "plan": "AEARCTR-0001870",
+        "plan_title": "Cash in hand and savings decisions"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0011592",
+        "latent_similarity": 0.6053,
+        "lexical_similarity": 0.0658,
+        "neighbour_title": "Young workers\u2019 beliefs and sorting in the labor market",
+        "plan": "AEARCTR-0017907",
+        "plan_title": "Labour market expectations and job search behaviour of young workers in C\u00f4te d\u2019Ivoire"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0005715",
+        "latent_similarity": 0.7219,
+        "lexical_similarity": 0.1294,
+        "neighbour_title": "Does Economics Make You Sexist",
+        "plan": "AEARCTR-0014221",
+        "plan_title": "Gender-STEM Stereotypes and College Major Choice"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0004021",
+        "latent_similarity": 0.6084,
+        "lexical_similarity": 0.1195,
+        "neighbour_title": "Students\u2019 Choice of Major: An Information Experiment",
+        "plan": "AEARCTR-0014221",
+        "plan_title": "Gender-STEM Stereotypes and College Major Choice"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0010260",
+        "latent_similarity": 0.6448,
+        "lexical_similarity": 0.0853,
+        "neighbour_title": "Digital Advertising and Firm Size",
+        "plan": "AEARCTR-0016160",
+        "plan_title": "Experiment Registration for The Consumer Welfare Effects of Online Ads: Evidence from a 9-Year Experiment"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0014168",
+        "latent_similarity": 0.7513,
+        "lexical_similarity": 0.1546,
+        "neighbour_title": "The Effect of Inflation Uncertainty on Household Spending",
+        "plan": "AEARCTR-0014397",
+        "plan_title": "THE CAUSAL EFFECTS OF INFLATION UNCERTAINTY ON HOUSEHOLDS\u2019 BELIEFS AND ACTIONS"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0008612",
+        "latent_similarity": 0.608,
         "lexical_similarity": 0.0768,
-        "neighbour_title": "Do Microfinance Clients Benefit from Business Advice Services? Evidence from a Training and Consulting Program in Indonesia",
-        "plan": "AEARCTR-0001867",
-        "plan_title": "Small and Medium Enterprise Financing and Mentoring Services in Emerging Markets in the Dominican Republic"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0002119",
-        "latent_similarity": 0.6022,
-        "lexical_similarity": 0.1161,
-        "neighbour_title": "Demand and Supply Constraints to Improved Sorghum Technology Adoption and their Gender-Differentiated Effects in Burkina Faso",
-        "plan": "AEARCTR-0014215",
-        "plan_title": "Scaling Agricultural Input Market Innovations: Village Input Fairs in Ghana"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0011183",
-        "latent_similarity": 0.7451,
-        "lexical_similarity": 0.124,
-        "neighbour_title": "Nonbinary hiring discrimination and the politicization of pronouns: A resume audit study",
-        "plan": "AEARCTR-0019282",
-        "plan_title": "The Effects of the Disability Employment Quota on French Firms: Evidence from the OETH Program."
-      },
-      {
-        "latent_neighbour": "AEARCTR-0014372",
-        "latent_similarity": 0.7445,
-        "lexical_similarity": 0.1397,
-        "neighbour_title": "Systematic Discrimination in China: Evidence from Audit Study",
-        "plan": "AEARCTR-0019282",
-        "plan_title": "The Effects of the Disability Employment Quota on French Firms: Evidence from the OETH Program."
-      },
-      {
-        "latent_neighbour": "AEARCTR-0019244",
-        "latent_similarity": 0.7344,
-        "lexical_similarity": 0.1298,
-        "neighbour_title": "Social Identity and Hiring Outcomes in the Turkish Labor Market: A Correspondence Experiment",
-        "plan": "AEARCTR-0019282",
-        "plan_title": "The Effects of the Disability Employment Quota on French Firms: Evidence from the OETH Program."
-      },
-      {
-        "latent_neighbour": "AEARCTR-0009904",
-        "latent_similarity": 0.725,
-        "lexical_similarity": 0.1268,
-        "neighbour_title": "Employer Preferences for Local vs. Non-Local Workers: A Resume Audit",
-        "plan": "AEARCTR-0019282",
-        "plan_title": "The Effects of the Disability Employment Quota on French Firms: Evidence from the OETH Program."
-      },
-      {
-        "latent_neighbour": "AEARCTR-0004214",
-        "latent_similarity": 0.6592,
-        "lexical_similarity": 0.0914,
-        "neighbour_title": "Revealing a Reference Dependent Preference for Mixing: An Experimental Study on Risk Preferences over Gains and Losses",
-        "plan": "AEARCTR-0010861",
-        "plan_title": "Loss aversion: loss looms larger or gain looms smaller?"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0009758",
-        "latent_similarity": 0.6033,
-        "lexical_similarity": 0.0804,
-        "neighbour_title": "Implementaci\u00f3n de un chatbot basado en estrategias comportamentales para fomentar la continuidad de la vacunaci\u00f3n contra el COVID-19: un ensayo controlado aleatorio",
-        "plan": "AEARCTR-0007930",
-        "plan_title": "Nudging COVID-19 Vaccination of Young Adults in Japan: A Field Experiment"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0014236",
-        "latent_similarity": 0.6032,
-        "lexical_similarity": 0.1104,
-        "neighbour_title": "A Prospective Randomized Trial of Personalized Nudges to Increase Influenza Vaccinations",
-        "plan": "AEARCTR-0007930",
-        "plan_title": "Nudging COVID-19 Vaccination of Young Adults in Japan: A Field Experiment"
+        "neighbour_title": "Minimum Contribution Mechanism",
+        "plan": "AEARCTR-0013563",
+        "plan_title": "The Emergence and Dynamics of Corrupt Behavior: An Experimental Study Proposal"
       }
     ],
     "k": 6,
     "latent_hit": 0.6,
     "lexical_floor": 0.2,
-    "mean_latent_max_sim": 0.6853,
-    "mean_lexical_max_sim": 0.2251,
+    "mean_latent_max_sim": 0.6925,
+    "mean_lexical_max_sim": 0.2302,
     "mean_topk_overlap": 0.4675,
     "n_components": 300,
-    "n_docs": 13148,
+    "n_docs": 13154,
     "n_features": 200000,
-    "n_latent_only_pairs": 817,
-    "pct_rows_with_latent_only_hit": 46.5,
+    "n_latent_only_pairs": 844,
+    "pct_rows_with_latent_only_hit": 45.38,
     "sample": 800,
-    "seconds": 15.6,
+    "seconds": 16.7,
     "status": "measured"
   }
 }
