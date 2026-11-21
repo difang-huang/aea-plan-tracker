@@ -2,139 +2,139 @@
   "similarity_probe": {
     "examples": [
       {
-        "latent_neighbour": "AEARCTR-0005167",
-        "latent_similarity": 0.616,
-        "lexical_similarity": 0.0824,
-        "neighbour_title": "Impact Evaluation of Socio-economic Inclusion of vulnerable youth in C\u00f4te d'Ivoire",
-        "plan": "AEARCTR-0007967",
-        "plan_title": "Evaluation of the Network for Enterprise Development Learning through Sewing for Girls (N4G) training program for young women in Ghana"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0015416",
-        "latent_similarity": 0.6005,
-        "lexical_similarity": 0.0953,
-        "neighbour_title": "ReStart: Supporting Women's Re-Entry into the Labour Force",
-        "plan": "AEARCTR-0007967",
-        "plan_title": "Evaluation of the Network for Enterprise Development Learning through Sewing for Girls (N4G) training program for young women in Ghana"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0012346",
-        "latent_similarity": 0.6679,
-        "lexical_similarity": 0.1054,
-        "neighbour_title": "Born That Way: Fairness Considerations about Genetics",
-        "plan": "AEARCTR-0008495",
-        "plan_title": "Why Meritocrat? The Role of Pure Fairness Preferences?"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0005811",
-        "latent_similarity": 0.6561,
-        "lexical_similarity": 0.0954,
-        "neighbour_title": "Shallow Meritocracy",
-        "plan": "AEARCTR-0008495",
-        "plan_title": "Why Meritocrat? The Role of Pure Fairness Preferences?"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0020229",
-        "latent_similarity": 0.738,
-        "lexical_similarity": 0.1235,
-        "neighbour_title": "The Experience Formation Mechanism",
-        "plan": "AEARCTR-0016243",
-        "plan_title": "Left-Digit Bias in Household Inflation Expectations"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0006425",
-        "latent_similarity": 0.6991,
-        "lexical_similarity": 0.1239,
-        "neighbour_title": "Average Inflation Targeting",
-        "plan": "AEARCTR-0016243",
-        "plan_title": "Left-Digit Bias in Household Inflation Expectations"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0011948",
-        "latent_similarity": 0.692,
-        "lexical_similarity": 0.1151,
-        "neighbour_title": "Time variation in Inattention",
-        "plan": "AEARCTR-0016243",
-        "plan_title": "Left-Digit Bias in Household Inflation Expectations"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0005378",
-        "latent_similarity": 0.6868,
-        "lexical_similarity": 0.0902,
-        "neighbour_title": "FORWARD GUIDANCE AND HOUSEHOLD EXPECTATIONS",
-        "plan": "AEARCTR-0016243",
-        "plan_title": "Left-Digit Bias in Household Inflation Expectations"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0016439",
-        "latent_similarity": 0.6729,
-        "lexical_similarity": 0.1135,
-        "neighbour_title": "Revisiting the Monetary Policy Response to the 2021-2022 Inflation Surge: Households' Assessment and Inflation Expectations",
-        "plan": "AEARCTR-0016243",
-        "plan_title": "Left-Digit Bias in Household Inflation Expectations"
+        "latent_neighbour": "AEARCTR-0005781",
+        "latent_similarity": 0.604,
+        "lexical_similarity": 0.0781,
+        "neighbour_title": "Status Quo Bias and Usage of Financial Products",
+        "plan": "AEARCTR-0001870",
+        "plan_title": "Cash in hand and savings decisions"
       },
       {
         "latent_neighbour": "AEARCTR-0000792",
-        "latent_similarity": 0.6008,
-        "lexical_similarity": 0.0881,
+        "latent_similarity": 0.6018,
+        "lexical_similarity": 0.0877,
         "neighbour_title": "Incentivizing Savings",
         "plan": "AEARCTR-0001870",
         "plan_title": "Cash in hand and savings decisions"
       },
       {
-        "latent_neighbour": "AEARCTR-0018781",
-        "latent_similarity": 0.634,
-        "lexical_similarity": 0.0583,
-        "neighbour_title": "Adaptivity and Flexibility in Multi-digit Arithmetic",
-        "plan": "AEARCTR-0010380",
-        "plan_title": "Evaluation of a gamification intensive math learning program"
+        "latent_neighbour": "AEARCTR-0019709",
+        "latent_similarity": 0.6614,
+        "lexical_similarity": 0.1011,
+        "neighbour_title": "The Role of Information on Producers\u2019 Innovation Adoption in a Lab-in-the-Field Experiment",
+        "plan": "AEARCTR-0010404",
+        "plan_title": "Private versus public benefits: a field experiment on consumers' willingness to pay for organic and local food."
       },
       {
-        "latent_neighbour": "AEARCTR-0002456",
-        "latent_similarity": 0.6322,
-        "lexical_similarity": 0.0972,
-        "neighbour_title": "The Impact of Khan Academy on proficiency and attitudes towards math: Experimental Evidence from Brazil",
-        "plan": "AEARCTR-0010380",
-        "plan_title": "Evaluation of a gamification intensive math learning program"
+        "latent_neighbour": "AEARCTR-0010789",
+        "latent_similarity": 0.6534,
+        "lexical_similarity": 0.0866,
+        "neighbour_title": "Increasing Sales by Promoting the Attributes of Pecan through a Systematic Science-Based Marketing Strategy",
+        "plan": "AEARCTR-0010404",
+        "plan_title": "Private versus public benefits: a field experiment on consumers' willingness to pay for organic and local food."
       },
       {
-        "latent_neighbour": "AEARCTR-0019816",
-        "latent_similarity": 0.6024,
-        "lexical_similarity": 0.0625,
-        "neighbour_title": "\u201cHIGH TOUCH HIGH TECH\u201d (HTHT) MATHEMATICS IN URUGUAY",
-        "plan": "AEARCTR-0010380",
-        "plan_title": "Evaluation of a gamification intensive math learning program"
+        "latent_neighbour": "AEARCTR-0003432",
+        "latent_similarity": 0.6284,
+        "lexical_similarity": 0.0907,
+        "neighbour_title": "Beliefs, Ability and College Major Success",
+        "plan": "AEARCTR-0010870",
+        "plan_title": "Improving match quality to college majors and impacts on student outcomes in high school"
       },
       {
-        "latent_neighbour": "AEARCTR-0016102",
-        "latent_similarity": 0.7755,
-        "lexical_similarity": 0.1039,
-        "neighbour_title": "Child Labor and Illegal Chemical Pesticide Use in Jalal-Abad, Kyrgyzstan: A List Experiment with Randomized Survey Modes",
-        "plan": "AEARCTR-0019293",
-        "plan_title": "Social Desirability Bias in Survey Measures of Sexual Identity and Attitudes Toward Homosexuality: Evidence from Double List Experiments in France"
+        "latent_neighbour": "AEARCTR-0008339",
+        "latent_similarity": 0.6141,
+        "lexical_similarity": 0.096,
+        "neighbour_title": "Career Expectations and Major Choice",
+        "plan": "AEARCTR-0010870",
+        "plan_title": "Improving match quality to college majors and impacts on student outcomes in high school"
       },
       {
-        "latent_neighbour": "AEARCTR-0010448",
-        "latent_similarity": 0.6741,
-        "lexical_similarity": 0.0912,
-        "neighbour_title": "Evidence of tutoring, mentoring and support programs for the improvement of reading and mathematics competences.",
-        "plan": "AEARCTR-0015527",
-        "plan_title": "Peer Learning in Rural India"
+        "latent_neighbour": "AEARCTR-0001657",
+        "latent_similarity": 0.782,
+        "lexical_similarity": 0.1443,
+        "neighbour_title": "Bangladeshi Association for Life skills, Income and Knowledge for Adolescents",
+        "plan": "AEARCTR-0017271",
+        "plan_title": "Safe Spaces Plus: Engaging Trusted Adults in Girls\u2019 Empowerment Programs"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0000300",
+        "latent_similarity": 0.7456,
+        "lexical_similarity": 0.1244,
+        "neighbour_title": "Empowering Adolescent Girls: Evidence from a Randomized Control Trial in Sierra Leone",
+        "plan": "AEARCTR-0017271",
+        "plan_title": "Safe Spaces Plus: Engaging Trusted Adults in Girls\u2019 Empowerment Programs"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0002656",
+        "latent_similarity": 0.7248,
+        "lexical_similarity": 0.1345,
+        "neighbour_title": "Promoting Adolescent Engagement, Knowledge and Health Evaluation of PAnKH: an adolescent girl intervention in Rajasthan, India",
+        "plan": "AEARCTR-0017271",
+        "plan_title": "Safe Spaces Plus: Engaging Trusted Adults in Girls\u2019 Empowerment Programs"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0014585",
+        "latent_similarity": 0.6696,
+        "lexical_similarity": 0.0938,
+        "neighbour_title": "Uptake of Best Management Practices by Rice Farmers in Nigeria: The Effectiveness of Bundling Women\u2019s Empowerment Training, Digital Extension, and In-Person Extension",
+        "plan": "AEARCTR-0016165",
+        "plan_title": "Does knowledge co-creation lead to adoption of agroecological practices? A cluster-randomized control trial in India"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0001816",
+        "latent_similarity": 0.6535,
+        "lexical_similarity": 0.0837,
+        "neighbour_title": "The effect of demonstration plots and the warehouse receipt system on ISFM adoption, yield and income of smallholder farmers: a study from Malawi\u2019s Anchor Farms",
+        "plan": "AEARCTR-0016165",
+        "plan_title": "Does knowledge co-creation lead to adoption of agroecological practices? A cluster-randomized control trial in India"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0012160",
+        "latent_similarity": 0.6416,
+        "lexical_similarity": 0.0924,
+        "neighbour_title": "Learning vs. Costly Information Processing in Technology Adoption: Evidence from a Cluster Randomized Controlled Trial in India",
+        "plan": "AEARCTR-0016165",
+        "plan_title": "Does knowledge co-creation lead to adoption of agroecological practices? A cluster-randomized control trial in India"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0018378",
+        "latent_similarity": 0.6415,
+        "lexical_similarity": 0.0855,
+        "neighbour_title": "Impacts of sustainable intensification training on adoption, yield and profits: Evidence from a Randomized Controlled Trial",
+        "plan": "AEARCTR-0016165",
+        "plan_title": "Does knowledge co-creation lead to adoption of agroecological practices? A cluster-randomized control trial in India"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0013249",
+        "latent_similarity": 0.697,
+        "lexical_similarity": 0.0948,
+        "neighbour_title": "Effectiveness of a Nurse-led Didactic Cognitive Behavioral Therapy for People with Depression: A Randomized Controlled Trial",
+        "plan": "AEARCTR-0014402",
+        "plan_title": "Application Of Cognitive Behavior Therapy-Based Intervention On Psychological Distress And Coping Skills Among Women With PCOS: A Randomized Controlled Trial"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0009520",
+        "latent_similarity": 0.6801,
+        "lexical_similarity": 0.1025,
+        "neighbour_title": "Cultural Adaptation and Feasibility Evaluation of Metacognitive Training for Patients with Depression in Pakistan: A Randomized Controlled Trial",
+        "plan": "AEARCTR-0014402",
+        "plan_title": "Application Of Cognitive Behavior Therapy-Based Intervention On Psychological Distress And Coping Skills Among Women With PCOS: A Randomized Controlled Trial"
       }
     ],
     "k": 6,
     "latent_hit": 0.6,
     "lexical_floor": 0.2,
-    "mean_latent_max_sim": 0.6861,
-    "mean_lexical_max_sim": 0.2359,
-    "mean_topk_overlap": 0.4715,
+    "mean_latent_max_sim": 0.6863,
+    "mean_lexical_max_sim": 0.2242,
+    "mean_topk_overlap": 0.4754,
     "n_components": 300,
-    "n_docs": 13156,
+    "n_docs": 13158,
     "n_features": 200000,
-    "n_latent_only_pairs": 759,
-    "pct_rows_with_latent_only_hit": 43.0,
+    "n_latent_only_pairs": 856,
+    "pct_rows_with_latent_only_hit": 45.38,
     "sample": 800,
-    "seconds": 23.3,
+    "seconds": 26.7,
     "status": "measured"
   }
 }
