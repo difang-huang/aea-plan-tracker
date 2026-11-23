@@ -3,7 +3,7 @@
     "examples": [
       {
         "latent_neighbour": "AEARCTR-0005781",
-        "latent_similarity": 0.6034,
+        "latent_similarity": 0.6037,
         "lexical_similarity": 0.078,
         "neighbour_title": "Status Quo Bias and Usage of Financial Products",
         "plan": "AEARCTR-0001870",
@@ -11,15 +11,15 @@
       },
       {
         "latent_neighbour": "AEARCTR-0000792",
-        "latent_similarity": 0.6019,
-        "lexical_similarity": 0.0872,
+        "latent_similarity": 0.6023,
+        "lexical_similarity": 0.0878,
         "neighbour_title": "Incentivizing Savings",
         "plan": "AEARCTR-0001870",
         "plan_title": "Cash in hand and savings decisions"
       },
       {
         "latent_neighbour": "AEARCTR-0019709",
-        "latent_similarity": 0.661,
+        "latent_similarity": 0.6609,
         "lexical_similarity": 0.1013,
         "neighbour_title": "The Role of Information on Producers\u2019 Innovation Adoption in a Lab-in-the-Field Experiment",
         "plan": "AEARCTR-0010404",
@@ -28,23 +28,23 @@
       {
         "latent_neighbour": "AEARCTR-0010789",
         "latent_similarity": 0.6533,
-        "lexical_similarity": 0.0865,
+        "lexical_similarity": 0.0866,
         "neighbour_title": "Increasing Sales by Promoting the Attributes of Pecan through a Systematic Science-Based Marketing Strategy",
         "plan": "AEARCTR-0010404",
         "plan_title": "Private versus public benefits: a field experiment on consumers' willingness to pay for organic and local food."
       },
       {
         "latent_neighbour": "AEARCTR-0003432",
-        "latent_similarity": 0.6286,
-        "lexical_similarity": 0.0915,
+        "latent_similarity": 0.6287,
+        "lexical_similarity": 0.0899,
         "neighbour_title": "Beliefs, Ability and College Major Success",
         "plan": "AEARCTR-0010870",
         "plan_title": "Improving match quality to college majors and impacts on student outcomes in high school"
       },
       {
         "latent_neighbour": "AEARCTR-0008339",
-        "latent_similarity": 0.614,
-        "lexical_similarity": 0.0991,
+        "latent_similarity": 0.6136,
+        "lexical_similarity": 0.1003,
         "neighbour_title": "Career Expectations and Major Choice",
         "plan": "AEARCTR-0010870",
         "plan_title": "Improving match quality to college majors and impacts on student outcomes in high school"
@@ -52,31 +52,31 @@
       {
         "latent_neighbour": "AEARCTR-0001657",
         "latent_similarity": 0.7826,
-        "lexical_similarity": 0.1442,
+        "lexical_similarity": 0.1446,
         "neighbour_title": "Bangladeshi Association for Life skills, Income and Knowledge for Adolescents",
         "plan": "AEARCTR-0017271",
         "plan_title": "Safe Spaces Plus: Engaging Trusted Adults in Girls\u2019 Empowerment Programs"
       },
       {
         "latent_neighbour": "AEARCTR-0000300",
-        "latent_similarity": 0.7458,
-        "lexical_similarity": 0.125,
+        "latent_similarity": 0.7454,
+        "lexical_similarity": 0.1262,
         "neighbour_title": "Empowering Adolescent Girls: Evidence from a Randomized Control Trial in Sierra Leone",
         "plan": "AEARCTR-0017271",
         "plan_title": "Safe Spaces Plus: Engaging Trusted Adults in Girls\u2019 Empowerment Programs"
       },
       {
         "latent_neighbour": "AEARCTR-0002656",
-        "latent_similarity": 0.7249,
-        "lexical_similarity": 0.1366,
+        "latent_similarity": 0.7248,
+        "lexical_similarity": 0.1357,
         "neighbour_title": "Promoting Adolescent Engagement, Knowledge and Health Evaluation of PAnKH: an adolescent girl intervention in Rajasthan, India",
         "plan": "AEARCTR-0017271",
         "plan_title": "Safe Spaces Plus: Engaging Trusted Adults in Girls\u2019 Empowerment Programs"
       },
       {
         "latent_neighbour": "AEARCTR-0014585",
-        "latent_similarity": 0.6692,
-        "lexical_similarity": 0.0939,
+        "latent_similarity": 0.6697,
+        "lexical_similarity": 0.0935,
         "neighbour_title": "Uptake of Best Management Practices by Rice Farmers in Nigeria: The Effectiveness of Bundling Women\u2019s Empowerment Training, Digital Extension, and In-Person Extension",
         "plan": "AEARCTR-0016165",
         "plan_title": "Does knowledge co-creation lead to adoption of agroecological practices? A cluster-randomized control trial in India"
@@ -84,39 +84,39 @@
       {
         "latent_neighbour": "AEARCTR-0001816",
         "latent_similarity": 0.6534,
-        "lexical_similarity": 0.0841,
+        "lexical_similarity": 0.0833,
         "neighbour_title": "The effect of demonstration plots and the warehouse receipt system on ISFM adoption, yield and income of smallholder farmers: a study from Malawi\u2019s Anchor Farms",
         "plan": "AEARCTR-0016165",
         "plan_title": "Does knowledge co-creation lead to adoption of agroecological practices? A cluster-randomized control trial in India"
       },
       {
         "latent_neighbour": "AEARCTR-0012160",
-        "latent_similarity": 0.6421,
-        "lexical_similarity": 0.0933,
+        "latent_similarity": 0.6424,
+        "lexical_similarity": 0.093,
         "neighbour_title": "Learning vs. Costly Information Processing in Technology Adoption: Evidence from a Cluster Randomized Controlled Trial in India",
         "plan": "AEARCTR-0016165",
         "plan_title": "Does knowledge co-creation lead to adoption of agroecological practices? A cluster-randomized control trial in India"
       },
       {
         "latent_neighbour": "AEARCTR-0018378",
-        "latent_similarity": 0.6412,
-        "lexical_similarity": 0.0856,
+        "latent_similarity": 0.6415,
+        "lexical_similarity": 0.0851,
         "neighbour_title": "Impacts of sustainable intensification training on adoption, yield and profits: Evidence from a Randomized Controlled Trial",
         "plan": "AEARCTR-0016165",
         "plan_title": "Does knowledge co-creation lead to adoption of agroecological practices? A cluster-randomized control trial in India"
       },
       {
         "latent_neighbour": "AEARCTR-0013249",
-        "latent_similarity": 0.6976,
-        "lexical_similarity": 0.0953,
+        "latent_similarity": 0.6972,
+        "lexical_similarity": 0.0959,
         "neighbour_title": "Effectiveness of a Nurse-led Didactic Cognitive Behavioral Therapy for People with Depression: A Randomized Controlled Trial",
         "plan": "AEARCTR-0014402",
         "plan_title": "Application Of Cognitive Behavior Therapy-Based Intervention On Psychological Distress And Coping Skills Among Women With PCOS: A Randomized Controlled Trial"
       },
       {
         "latent_neighbour": "AEARCTR-0009520",
-        "latent_similarity": 0.6801,
-        "lexical_similarity": 0.103,
+        "latent_similarity": 0.6803,
+        "lexical_similarity": 0.1026,
         "neighbour_title": "Cultural Adaptation and Feasibility Evaluation of Metacognitive Training for Patients with Depression in Pakistan: A Randomized Controlled Trial",
         "plan": "AEARCTR-0014402",
         "plan_title": "Application Of Cognitive Behavior Therapy-Based Intervention On Psychological Distress And Coping Skills Among Women With PCOS: A Randomized Controlled Trial"
@@ -126,15 +126,15 @@
     "latent_hit": 0.6,
     "lexical_floor": 0.2,
     "mean_latent_max_sim": 0.6863,
-    "mean_lexical_max_sim": 0.2241,
-    "mean_topk_overlap": 0.474,
+    "mean_lexical_max_sim": 0.2242,
+    "mean_topk_overlap": 0.4731,
     "n_components": 300,
     "n_docs": 13158,
     "n_features": 200000,
-    "n_latent_only_pairs": 849,
-    "pct_rows_with_latent_only_hit": 45.25,
+    "n_latent_only_pairs": 863,
+    "pct_rows_with_latent_only_hit": 45.88,
     "sample": 800,
-    "seconds": 23.5,
+    "seconds": 23.9,
     "status": "measured"
   }
 }
