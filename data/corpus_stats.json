@@ -2,139 +2,139 @@
   "similarity_probe": {
     "examples": [
       {
-        "latent_neighbour": "AEARCTR-0000900",
-        "latent_similarity": 0.7127,
-        "lexical_similarity": 0.1061,
-        "neighbour_title": "Randomized Evaluation of Teacher Professional Development in Evidence-Based Literacy Instruction (EBLI)",
-        "plan": "AEARCTR-0007978",
-        "plan_title": "The Effect of Teacher Training and Community Literacy Programming on Teacher and Student Outcomes"
+        "latent_neighbour": "AEARCTR-0012178",
+        "latent_similarity": 0.7533,
+        "lexical_similarity": 0.1299,
+        "neighbour_title": "Enhanced Salience of Nonlinear Pricing and Energy Conservation",
+        "plan": "AEARCTR-0019313",
+        "plan_title": "PEAKapp"
       },
       {
-        "latent_neighbour": "AEARCTR-0002214",
-        "latent_similarity": 0.6946,
-        "lexical_similarity": 0.1096,
-        "neighbour_title": "Literacy Boost in Rwanda: A Randomized Control Trial",
-        "plan": "AEARCTR-0007978",
-        "plan_title": "The Effect of Teacher Training and Community Literacy Programming on Teacher and Student Outcomes"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0003670",
-        "latent_similarity": 0.6887,
-        "lexical_similarity": 0.0961,
-        "neighbour_title": "Raising outcomes in primary education, a cluster randomised trial in rural Guinea Bissau",
-        "plan": "AEARCTR-0007978",
-        "plan_title": "The Effect of Teacher Training and Community Literacy Programming on Teacher and Student Outcomes"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0017266",
-        "latent_similarity": 0.617,
-        "lexical_similarity": 0.0977,
-        "neighbour_title": "Digital engagement practices in trading apps: addressing biases through financial education",
-        "plan": "AEARCTR-0017913",
-        "plan_title": "Financial risk knowledge and investment propensity: an experiment on young adults"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0017547",
-        "latent_similarity": 0.6058,
-        "lexical_similarity": 0.0889,
-        "neighbour_title": "Lifestyle Sustainability Information and Investment Decisions",
-        "plan": "AEARCTR-0017913",
-        "plan_title": "Financial risk knowledge and investment propensity: an experiment on young adults"
+        "latent_neighbour": "AEARCTR-0018558",
+        "latent_similarity": 0.6693,
+        "lexical_similarity": 0.1226,
+        "neighbour_title": "Smart Thermostats, Automation, and Willingness to Accept Discomfort",
+        "plan": "AEARCTR-0019313",
+        "plan_title": "PEAKapp"
       },
       {
         "latent_neighbour": "AEARCTR-0006295",
-        "latent_similarity": 0.6624,
-        "lexical_similarity": 0.0989,
+        "latent_similarity": 0.6601,
+        "lexical_similarity": 0.0993,
         "neighbour_title": "Female Empowerment, Bank Savings Product Design, and Agricultural Development in Ethiopia",
         "plan": "AEARCTR-0001880",
         "plan_title": "Facilitating Savings for Agriculture: Field Experimental Evidence from Malawi"
       },
       {
         "latent_neighbour": "AEARCTR-0016052",
-        "latent_similarity": 0.6379,
-        "lexical_similarity": 0.0828,
+        "latent_similarity": 0.6429,
+        "lexical_similarity": 0.0823,
         "neighbour_title": "Savings and Seller-Buyer Relationships: Evidence from Dairy Cooperatives in Kenya",
         "plan": "AEARCTR-0001880",
         "plan_title": "Facilitating Savings for Agriculture: Field Experimental Evidence from Malawi"
       },
       {
         "latent_neighbour": "AEARCTR-0000205",
-        "latent_similarity": 0.6208,
-        "lexical_similarity": 0.1056,
+        "latent_similarity": 0.6264,
+        "lexical_similarity": 0.1064,
         "neighbour_title": "Changing Behavior to Improve Household Financial Management in Malawi",
         "plan": "AEARCTR-0001880",
         "plan_title": "Facilitating Savings for Agriculture: Field Experimental Evidence from Malawi"
       },
       {
-        "latent_neighbour": "AEARCTR-0019001",
-        "latent_similarity": 0.6362,
-        "lexical_similarity": 0.0875,
-        "neighbour_title": "An Experimental Study of AI Decision Support and Human Judgment",
-        "plan": "AEARCTR-0019322",
-        "plan_title": "Conditions of AI Engagement in Learning: An Online Experiment"
+        "latent_neighbour": "AEARCTR-0011349",
+        "latent_similarity": 0.6058,
+        "lexical_similarity": 0.0653,
+        "neighbour_title": "Counterfactual Reasoning and Algorithmic Descriptions",
+        "plan": "AEARCTR-0010662",
+        "plan_title": "An Experiment on Two-Person Social Choice"
       },
       {
-        "latent_neighbour": "AEARCTR-0019333",
-        "latent_similarity": 0.6342,
-        "lexical_similarity": 0.078,
-        "neighbour_title": "A Field Experiment on the Future of Software Development",
-        "plan": "AEARCTR-0019322",
-        "plan_title": "Conditions of AI Engagement in Learning: An Online Experiment"
+        "latent_neighbour": "AEARCTR-0015797",
+        "latent_similarity": 0.6051,
+        "lexical_similarity": 0.0866,
+        "neighbour_title": "Generative AI and Overconfidence in Market Entry",
+        "plan": "AEARCTR-0016197",
+        "plan_title": "Generative AI and Task Choice: Experimental Evidence on Task Choice and Income Gap"
       },
       {
-        "latent_neighbour": "AEARCTR-0017819",
-        "latent_similarity": 0.607,
-        "lexical_similarity": 0.0785,
-        "neighbour_title": "Fee Framing and Intertemporal Choice: An Experimental Test of Description Invariance",
-        "plan": "AEARCTR-0019322",
-        "plan_title": "Conditions of AI Engagement in Learning: An Online Experiment"
+        "latent_neighbour": "AEARCTR-0017030",
+        "latent_similarity": 0.6002,
+        "lexical_similarity": 0.0746,
+        "neighbour_title": "The Impact of Generative AI on Research Productivity",
+        "plan": "AEARCTR-0016197",
+        "plan_title": "Generative AI and Task Choice: Experimental Evidence on Task Choice and Income Gap"
       },
       {
-        "latent_neighbour": "AEARCTR-0020076",
-        "latent_similarity": 0.6036,
-        "lexical_similarity": 0.0769,
-        "neighbour_title": "Procedural Requirements and Review Rules: An Online Experiment",
-        "plan": "AEARCTR-0019322",
-        "plan_title": "Conditions of AI Engagement in Learning: An Online Experiment"
+        "latent_neighbour": "AEARCTR-0003157",
+        "latent_similarity": 0.6023,
+        "lexical_similarity": 0.0637,
+        "neighbour_title": "Improving education in remote and isolated areas in Indonesia",
+        "plan": "AEARCTR-0013589",
+        "plan_title": "Performance-Based Financing for Education in Cameroon"
       },
       {
-        "latent_neighbour": "AEARCTR-0002689",
-        "latent_similarity": 0.6703,
-        "lexical_similarity": 0.0802,
-        "neighbour_title": "Unpacking a Multi-Faceted Program to Build Sustainable Income for the Very Poor",
-        "plan": "AEARCTR-0002231",
-        "plan_title": "Labor Markets and Poverty in Village Economies"
+        "latent_neighbour": "AEARCTR-0017172",
+        "latent_similarity": 0.6218,
+        "lexical_similarity": 0.0878,
+        "neighbour_title": "Talent Allocation to Startups versus Incumbents: A Cross-Country Experiment for Germany and the United States",
+        "plan": "AEARCTR-0013087",
+        "plan_title": "New forms of work and workers\u2019 demand for security and stability"
       },
       {
-        "latent_neighbour": "AEARCTR-0014912",
-        "latent_similarity": 0.6627,
-        "lexical_similarity": 0.0846,
-        "neighbour_title": "When Does EdTech Work? Evidence from a Scalable Home-Based Intervention with School Complementarity",
-        "plan": "AEARCTR-0015545",
-        "plan_title": "Effective Families or Effective Schools? Experimental Evidence on Fostering Children's Numeracy"
+        "latent_neighbour": "AEARCTR-0015780",
+        "latent_similarity": 0.6017,
+        "lexical_similarity": 0.0821,
+        "neighbour_title": "Wage-pension tradeoff",
+        "plan": "AEARCTR-0013087",
+        "plan_title": "New forms of work and workers\u2019 demand for security and stability"
       },
       {
-        "latent_neighbour": "AEARCTR-0015528",
-        "latent_similarity": 0.6931,
-        "lexical_similarity": 0.116,
-        "neighbour_title": "Long(er)-term Effects of the Targeting the Ultra Poor Program",
-        "plan": "AEARCTR-0007944",
-        "plan_title": "Expanding Opportunity: Testing asset grants and jobs programs for Egypt\u2019s poor"
+        "latent_neighbour": "AEARCTR-0000609",
+        "latent_similarity": 0.7119,
+        "lexical_similarity": 0.1175,
+        "neighbour_title": "The Role of Information and Social Learning on Risky Sexual Behavior in Cameroon",
+        "plan": "AEARCTR-0000180",
+        "plan_title": "Study on mhealth and Reproductive Health in Teens (SMART)"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0000106",
+        "latent_similarity": 0.6989,
+        "lexical_similarity": 0.1078,
+        "neighbour_title": "Do Information Technologies Improve Teenagers' Sexual Education? Evidence from a Randomized Evaluation in Colombia",
+        "plan": "AEARCTR-0000180",
+        "plan_title": "Study on mhealth and Reproductive Health in Teens (SMART)"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0000277",
+        "latent_similarity": 0.678,
+        "lexical_similarity": 0.1079,
+        "neighbour_title": "Impact Evaluation of the Reducing the Risk Program",
+        "plan": "AEARCTR-0000180",
+        "plan_title": "Study on mhealth and Reproductive Health in Teens (SMART)"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0000899",
+        "latent_similarity": 0.6537,
+        "lexical_similarity": 0.1182,
+        "neighbour_title": "An Impact Evaluation of the Introduction of a New Woman\u2019s Condom on Overall Condom Use in Urban Lusaka, Zambia",
+        "plan": "AEARCTR-0000180",
+        "plan_title": "Study on mhealth and Reproductive Health in Teens (SMART)"
       }
     ],
     "k": 6,
     "latent_hit": 0.6,
     "lexical_floor": 0.2,
-    "mean_latent_max_sim": 0.6809,
-    "mean_lexical_max_sim": 0.2241,
-    "mean_topk_overlap": 0.4769,
+    "mean_latent_max_sim": 0.6866,
+    "mean_lexical_max_sim": 0.2302,
+    "mean_topk_overlap": 0.4738,
     "n_components": 300,
-    "n_docs": 13174,
+    "n_docs": 13185,
     "n_features": 200000,
-    "n_latent_only_pairs": 760,
-    "pct_rows_with_latent_only_hit": 42.88,
+    "n_latent_only_pairs": 776,
+    "pct_rows_with_latent_only_hit": 43.38,
     "sample": 800,
-    "seconds": 23.2,
+    "seconds": 20.7,
     "status": "measured"
   }
 }
