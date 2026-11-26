@@ -2,139 +2,139 @@
   "similarity_probe": {
     "examples": [
       {
-        "latent_neighbour": "AEARCTR-0012178",
-        "latent_similarity": 0.7533,
-        "lexical_similarity": 0.1299,
-        "neighbour_title": "Enhanced Salience of Nonlinear Pricing and Energy Conservation",
-        "plan": "AEARCTR-0019313",
-        "plan_title": "PEAKapp"
+        "latent_neighbour": "AEARCTR-0015873",
+        "latent_similarity": 0.6095,
+        "lexical_similarity": 0.103,
+        "neighbour_title": "Incentivizing Sustainable Agriculture: A Randomized Controlled Trial with Rice Farmers in India",
+        "plan": "AEARCTR-0017933",
+        "plan_title": "Assessing the impact of Leaf Color Charts among paddy farmers in India"
       },
       {
-        "latent_neighbour": "AEARCTR-0018558",
-        "latent_similarity": 0.6693,
-        "lexical_similarity": 0.1226,
-        "neighbour_title": "Smart Thermostats, Automation, and Willingness to Accept Discomfort",
-        "plan": "AEARCTR-0019313",
-        "plan_title": "PEAKapp"
+        "latent_neighbour": "AEARCTR-0013754",
+        "latent_similarity": 0.6292,
+        "lexical_similarity": 0.0668,
+        "neighbour_title": "Silver Spoons and Scales of Justice",
+        "plan": "AEARCTR-0008552",
+        "plan_title": "Finding Merit where there is None - Cross Country Differences"
       },
       {
-        "latent_neighbour": "AEARCTR-0006295",
-        "latent_similarity": 0.6601,
-        "lexical_similarity": 0.0993,
-        "neighbour_title": "Female Empowerment, Bank Savings Product Design, and Agricultural Development in Ethiopia",
-        "plan": "AEARCTR-0001880",
-        "plan_title": "Facilitating Savings for Agriculture: Field Experimental Evidence from Malawi"
+        "latent_neighbour": "AEARCTR-0013753",
+        "latent_similarity": 0.6287,
+        "lexical_similarity": 0.0673,
+        "neighbour_title": "Intergenerational Fairness",
+        "plan": "AEARCTR-0008552",
+        "plan_title": "Finding Merit where there is None - Cross Country Differences"
       },
       {
-        "latent_neighbour": "AEARCTR-0016052",
-        "latent_similarity": 0.6429,
-        "lexical_similarity": 0.0823,
-        "neighbour_title": "Savings and Seller-Buyer Relationships: Evidence from Dairy Cooperatives in Kenya",
-        "plan": "AEARCTR-0001880",
-        "plan_title": "Facilitating Savings for Agriculture: Field Experimental Evidence from Malawi"
+        "latent_neighbour": "AEARCTR-0010180",
+        "latent_similarity": 0.611,
+        "lexical_similarity": 0.1051,
+        "neighbour_title": "History-dependent fairness preferences - study 2",
+        "plan": "AEARCTR-0008552",
+        "plan_title": "Finding Merit where there is None - Cross Country Differences"
       },
       {
-        "latent_neighbour": "AEARCTR-0000205",
-        "latent_similarity": 0.6264,
-        "lexical_similarity": 0.1064,
-        "neighbour_title": "Changing Behavior to Improve Household Financial Management in Malawi",
-        "plan": "AEARCTR-0001880",
-        "plan_title": "Facilitating Savings for Agriculture: Field Experimental Evidence from Malawi"
+        "latent_neighbour": "AEARCTR-0001045",
+        "latent_similarity": 0.6667,
+        "lexical_similarity": 0.1001,
+        "neighbour_title": "Increasing Early Childhood Care and Development Through Community Preschools in Cambodia: Evaluating the Impacts",
+        "plan": "AEARCTR-0017987",
+        "plan_title": "Impact of Early Childhood Comprehensive Care on Children and their Families in the Dominican Republic"
       },
       {
-        "latent_neighbour": "AEARCTR-0011349",
-        "latent_similarity": 0.6058,
-        "lexical_similarity": 0.0653,
-        "neighbour_title": "Counterfactual Reasoning and Algorithmic Descriptions",
-        "plan": "AEARCTR-0010662",
-        "plan_title": "An Experiment on Two-Person Social Choice"
+        "latent_neighbour": "AEARCTR-0002868",
+        "latent_similarity": 0.6608,
+        "lexical_similarity": 0.113,
+        "neighbour_title": "Experimental evaluation of Semillas de Apego, a group-based program to foster maternal mental health and early childhood development among violence exposed communities in Colombia.",
+        "plan": "AEARCTR-0017987",
+        "plan_title": "Impact of Early Childhood Comprehensive Care on Children and their Families in the Dominican Republic"
       },
       {
-        "latent_neighbour": "AEARCTR-0015797",
-        "latent_similarity": 0.6051,
-        "lexical_similarity": 0.0866,
-        "neighbour_title": "Generative AI and Overconfidence in Market Entry",
-        "plan": "AEARCTR-0016197",
-        "plan_title": "Generative AI and Task Choice: Experimental Evidence on Task Choice and Income Gap"
+        "latent_neighbour": "AEARCTR-0001246",
+        "latent_similarity": 0.6585,
+        "lexical_similarity": 0.105,
+        "neighbour_title": "Evaluation of Centres for Infant Development: an early years intervention in Colombia",
+        "plan": "AEARCTR-0017987",
+        "plan_title": "Impact of Early Childhood Comprehensive Care on Children and their Families in the Dominican Republic"
       },
       {
-        "latent_neighbour": "AEARCTR-0017030",
-        "latent_similarity": 0.6002,
-        "lexical_similarity": 0.0746,
-        "neighbour_title": "The Impact of Generative AI on Research Productivity",
-        "plan": "AEARCTR-0016197",
-        "plan_title": "Generative AI and Task Choice: Experimental Evidence on Task Choice and Income Gap"
+        "latent_neighbour": "AEARCTR-0001903",
+        "latent_similarity": 0.6437,
+        "lexical_similarity": 0.1088,
+        "neighbour_title": "The aeioTu Longitudinal Randomized Trial",
+        "plan": "AEARCTR-0017987",
+        "plan_title": "Impact of Early Childhood Comprehensive Care on Children and their Families in the Dominican Republic"
       },
       {
-        "latent_neighbour": "AEARCTR-0003157",
-        "latent_similarity": 0.6023,
-        "lexical_similarity": 0.0637,
-        "neighbour_title": "Improving education in remote and isolated areas in Indonesia",
-        "plan": "AEARCTR-0013589",
-        "plan_title": "Performance-Based Financing for Education in Cameroon"
+        "latent_neighbour": "AEARCTR-0008780",
+        "latent_similarity": 0.6789,
+        "lexical_similarity": 0.1018,
+        "neighbour_title": "Cost and stakes of coordination: evidence from an experiment in Senegal",
+        "plan": "AEARCTR-0014255",
+        "plan_title": "Farm to Fridge: Digital Traceability and Quality Upgrading in Kenyan Dairy Value Chain"
       },
       {
-        "latent_neighbour": "AEARCTR-0017172",
+        "latent_neighbour": "AEARCTR-0005205",
+        "latent_similarity": 0.6115,
+        "lexical_similarity": 0.0639,
+        "neighbour_title": "When Certification Turns Sour: A Randomized Intervention with Pesticide Testing Agencies in Vietnam",
+        "plan": "AEARCTR-0014255",
+        "plan_title": "Farm to Fridge: Digital Traceability and Quality Upgrading in Kenyan Dairy Value Chain"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0011362",
         "latent_similarity": 0.6218,
-        "lexical_similarity": 0.0878,
-        "neighbour_title": "Talent Allocation to Startups versus Incumbents: A Cross-Country Experiment for Germany and the United States",
-        "plan": "AEARCTR-0013087",
-        "plan_title": "New forms of work and workers\u2019 demand for security and stability"
+        "lexical_similarity": 0.0857,
+        "neighbour_title": "Building future-proof skills for youth employment",
+        "plan": "AEARCTR-0010684",
+        "plan_title": "Dual-Client Workforce Development Model: NPower Canada Randomized Control Trial"
       },
       {
-        "latent_neighbour": "AEARCTR-0015780",
-        "latent_similarity": 0.6017,
-        "lexical_similarity": 0.0821,
-        "neighbour_title": "Wage-pension tradeoff",
-        "plan": "AEARCTR-0013087",
-        "plan_title": "New forms of work and workers\u2019 demand for security and stability"
+        "latent_neighbour": "AEARCTR-0004601",
+        "latent_similarity": 0.6776,
+        "lexical_similarity": 0.0784,
+        "neighbour_title": "The Math and the Path: Enhanced Advising and Postsecondary Progress",
+        "plan": "AEARCTR-0002234",
+        "plan_title": "The Effect of a Minor Informational Intervention on Courseload and Time to Degree"
       },
       {
-        "latent_neighbour": "AEARCTR-0000609",
-        "latent_similarity": 0.7119,
-        "lexical_similarity": 0.1175,
-        "neighbour_title": "The Role of Information and Social Learning on Risky Sexual Behavior in Cameroon",
-        "plan": "AEARCTR-0000180",
-        "plan_title": "Study on mhealth and Reproductive Health in Teens (SMART)"
+        "latent_neighbour": "AEARCTR-0005849",
+        "latent_similarity": 0.6424,
+        "lexical_similarity": 0.0697,
+        "neighbour_title": "College Summer School: Educational Bene fits and Enrollment Preferences",
+        "plan": "AEARCTR-0002234",
+        "plan_title": "The Effect of a Minor Informational Intervention on Courseload and Time to Degree"
       },
       {
-        "latent_neighbour": "AEARCTR-0000106",
-        "latent_similarity": 0.6989,
-        "lexical_similarity": 0.1078,
-        "neighbour_title": "Do Information Technologies Improve Teenagers' Sexual Education? Evidence from a Randomized Evaluation in Colombia",
-        "plan": "AEARCTR-0000180",
-        "plan_title": "Study on mhealth and Reproductive Health in Teens (SMART)"
+        "latent_neighbour": "AEARCTR-0007222",
+        "latent_similarity": 0.6422,
+        "lexical_similarity": 0.0733,
+        "neighbour_title": "Personalized Pathways for Community College Transfer",
+        "plan": "AEARCTR-0002234",
+        "plan_title": "The Effect of a Minor Informational Intervention on Courseload and Time to Degree"
       },
       {
-        "latent_neighbour": "AEARCTR-0000277",
-        "latent_similarity": 0.678,
-        "lexical_similarity": 0.1079,
-        "neighbour_title": "Impact Evaluation of the Reducing the Risk Program",
-        "plan": "AEARCTR-0000180",
-        "plan_title": "Study on mhealth and Reproductive Health in Teens (SMART)"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0000899",
-        "latent_similarity": 0.6537,
-        "lexical_similarity": 0.1182,
-        "neighbour_title": "An Impact Evaluation of the Introduction of a New Woman\u2019s Condom on Overall Condom Use in Urban Lusaka, Zambia",
-        "plan": "AEARCTR-0000180",
-        "plan_title": "Study on mhealth and Reproductive Health in Teens (SMART)"
+        "latent_neighbour": "AEARCTR-0010761",
+        "latent_similarity": 0.7008,
+        "lexical_similarity": 0.1133,
+        "neighbour_title": "Can doctors reduce COVID-19 misinformation and increase vaccine uptake in Ghana? A cluster-randomised controlled trial",
+        "plan": "AEARCTR-0010896",
+        "plan_title": "Development, Implementation, and Evaluation of a National Cross-generational Strategy to Support Introduction of the Human Papillomavirus (HPV) Vaccine and Utilization of Cervical "
       }
     ],
     "k": 6,
     "latent_hit": 0.6,
     "lexical_floor": 0.2,
-    "mean_latent_max_sim": 0.6866,
-    "mean_lexical_max_sim": 0.2302,
-    "mean_topk_overlap": 0.4738,
+    "mean_latent_max_sim": 0.6812,
+    "mean_lexical_max_sim": 0.2242,
+    "mean_topk_overlap": 0.4698,
     "n_components": 300,
-    "n_docs": 13185,
+    "n_docs": 13191,
     "n_features": 200000,
-    "n_latent_only_pairs": 776,
-    "pct_rows_with_latent_only_hit": 43.38,
+    "n_latent_only_pairs": 757,
+    "pct_rows_with_latent_only_hit": 40.75,
     "sample": 800,
-    "seconds": 20.7,
+    "seconds": 22.2,
     "status": "measured"
   }
 }
