@@ -2,16 +2,8 @@
   "similarity_probe": {
     "examples": [
       {
-        "latent_neighbour": "AEARCTR-0015873",
-        "latent_similarity": 0.6095,
-        "lexical_similarity": 0.103,
-        "neighbour_title": "Incentivizing Sustainable Agriculture: A Randomized Controlled Trial with Rice Farmers in India",
-        "plan": "AEARCTR-0017933",
-        "plan_title": "Assessing the impact of Leaf Color Charts among paddy farmers in India"
-      },
-      {
         "latent_neighbour": "AEARCTR-0013754",
-        "latent_similarity": 0.6292,
+        "latent_similarity": 0.6299,
         "lexical_similarity": 0.0668,
         "neighbour_title": "Silver Spoons and Scales of Justice",
         "plan": "AEARCTR-0008552",
@@ -19,7 +11,7 @@
       },
       {
         "latent_neighbour": "AEARCTR-0013753",
-        "latent_similarity": 0.6287,
+        "latent_similarity": 0.6293,
         "lexical_similarity": 0.0673,
         "neighbour_title": "Intergenerational Fairness",
         "plan": "AEARCTR-0008552",
@@ -27,63 +19,47 @@
       },
       {
         "latent_neighbour": "AEARCTR-0010180",
-        "latent_similarity": 0.611,
+        "latent_similarity": 0.6196,
         "lexical_similarity": 0.1051,
         "neighbour_title": "History-dependent fairness preferences - study 2",
         "plan": "AEARCTR-0008552",
         "plan_title": "Finding Merit where there is None - Cross Country Differences"
       },
       {
-        "latent_neighbour": "AEARCTR-0001045",
-        "latent_similarity": 0.6667,
-        "lexical_similarity": 0.1001,
-        "neighbour_title": "Increasing Early Childhood Care and Development Through Community Preschools in Cambodia: Evaluating the Impacts",
-        "plan": "AEARCTR-0017987",
-        "plan_title": "Impact of Early Childhood Comprehensive Care on Children and their Families in the Dominican Republic"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0002868",
-        "latent_similarity": 0.6608,
-        "lexical_similarity": 0.113,
-        "neighbour_title": "Experimental evaluation of Semillas de Apego, a group-based program to foster maternal mental health and early childhood development among violence exposed communities in Colombia.",
-        "plan": "AEARCTR-0017987",
-        "plan_title": "Impact of Early Childhood Comprehensive Care on Children and their Families in the Dominican Republic"
-      },
-      {
         "latent_neighbour": "AEARCTR-0001246",
-        "latent_similarity": 0.6585,
+        "latent_similarity": 0.6688,
         "lexical_similarity": 0.105,
         "neighbour_title": "Evaluation of Centres for Infant Development: an early years intervention in Colombia",
         "plan": "AEARCTR-0017987",
         "plan_title": "Impact of Early Childhood Comprehensive Care on Children and their Families in the Dominican Republic"
       },
       {
+        "latent_neighbour": "AEARCTR-0001045",
+        "latent_similarity": 0.6617,
+        "lexical_similarity": 0.1001,
+        "neighbour_title": "Increasing Early Childhood Care and Development Through Community Preschools in Cambodia: Evaluating the Impacts",
+        "plan": "AEARCTR-0017987",
+        "plan_title": "Impact of Early Childhood Comprehensive Care on Children and their Families in the Dominican Republic"
+      },
+      {
         "latent_neighbour": "AEARCTR-0001903",
-        "latent_similarity": 0.6437,
-        "lexical_similarity": 0.1088,
+        "latent_similarity": 0.6606,
+        "lexical_similarity": 0.1087,
         "neighbour_title": "The aeioTu Longitudinal Randomized Trial",
         "plan": "AEARCTR-0017987",
         "plan_title": "Impact of Early Childhood Comprehensive Care on Children and their Families in the Dominican Republic"
       },
       {
-        "latent_neighbour": "AEARCTR-0008780",
-        "latent_similarity": 0.6789,
-        "lexical_similarity": 0.1018,
-        "neighbour_title": "Cost and stakes of coordination: evidence from an experiment in Senegal",
-        "plan": "AEARCTR-0014255",
-        "plan_title": "Farm to Fridge: Digital Traceability and Quality Upgrading in Kenyan Dairy Value Chain"
-      },
-      {
-        "latent_neighbour": "AEARCTR-0005205",
-        "latent_similarity": 0.6115,
-        "lexical_similarity": 0.0639,
-        "neighbour_title": "When Certification Turns Sour: A Randomized Intervention with Pesticide Testing Agencies in Vietnam",
-        "plan": "AEARCTR-0014255",
-        "plan_title": "Farm to Fridge: Digital Traceability and Quality Upgrading in Kenyan Dairy Value Chain"
+        "latent_neighbour": "AEARCTR-0002868",
+        "latent_similarity": 0.6595,
+        "lexical_similarity": 0.113,
+        "neighbour_title": "Experimental evaluation of Semillas de Apego, a group-based program to foster maternal mental health and early childhood development among violence exposed communities in Colombia.",
+        "plan": "AEARCTR-0017987",
+        "plan_title": "Impact of Early Childhood Comprehensive Care on Children and their Families in the Dominican Republic"
       },
       {
         "latent_neighbour": "AEARCTR-0011362",
-        "latent_similarity": 0.6218,
+        "latent_similarity": 0.638,
         "lexical_similarity": 0.0857,
         "neighbour_title": "Building future-proof skills for youth employment",
         "plan": "AEARCTR-0010684",
@@ -91,50 +67,74 @@
       },
       {
         "latent_neighbour": "AEARCTR-0004601",
-        "latent_similarity": 0.6776,
+        "latent_similarity": 0.6917,
         "lexical_similarity": 0.0784,
         "neighbour_title": "The Math and the Path: Enhanced Advising and Postsecondary Progress",
         "plan": "AEARCTR-0002234",
         "plan_title": "The Effect of a Minor Informational Intervention on Courseload and Time to Degree"
       },
       {
-        "latent_neighbour": "AEARCTR-0005849",
-        "latent_similarity": 0.6424,
-        "lexical_similarity": 0.0697,
-        "neighbour_title": "College Summer School: Educational Bene fits and Enrollment Preferences",
-        "plan": "AEARCTR-0002234",
-        "plan_title": "The Effect of a Minor Informational Intervention on Courseload and Time to Degree"
-      },
-      {
         "latent_neighbour": "AEARCTR-0007222",
-        "latent_similarity": 0.6422,
+        "latent_similarity": 0.6421,
         "lexical_similarity": 0.0733,
         "neighbour_title": "Personalized Pathways for Community College Transfer",
         "plan": "AEARCTR-0002234",
         "plan_title": "The Effect of a Minor Informational Intervention on Courseload and Time to Degree"
       },
       {
-        "latent_neighbour": "AEARCTR-0010761",
-        "latent_similarity": 0.7008,
-        "lexical_similarity": 0.1133,
-        "neighbour_title": "Can doctors reduce COVID-19 misinformation and increase vaccine uptake in Ghana? A cluster-randomised controlled trial",
-        "plan": "AEARCTR-0010896",
-        "plan_title": "Development, Implementation, and Evaluation of a National Cross-generational Strategy to Support Introduction of the Human Papillomavirus (HPV) Vaccine and Utilization of Cervical "
+        "latent_neighbour": "AEARCTR-0005849",
+        "latent_similarity": 0.6413,
+        "lexical_similarity": 0.0697,
+        "neighbour_title": "College Summer School: Educational Bene fits and Enrollment Preferences",
+        "plan": "AEARCTR-0002234",
+        "plan_title": "The Effect of a Minor Informational Intervention on Courseload and Time to Degree"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0006712",
+        "latent_similarity": 0.6058,
+        "lexical_similarity": 0.0753,
+        "neighbour_title": "Gender pay transparency",
+        "plan": "AEARCTR-0010897",
+        "plan_title": "New Pay: An experimental analysis of self-set pay and social comparisons"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0012627",
+        "latent_similarity": 0.6174,
+        "lexical_similarity": 0.0752,
+        "neighbour_title": "Assessing the potential of integrating public transportation with e-hailing services: a randomized trial in a ridesharing platform in S\u00e3o Paulo, Brazil",
+        "plan": "AEARCTR-0007952",
+        "plan_title": "Use information and prediction to reduce disorderly parking"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0010209",
+        "latent_similarity": 0.6703,
+        "lexical_similarity": 0.0803,
+        "neighbour_title": "Enhancing adaptive capacities of coastal communities, especially women, to cope with climate change induced salinity",
+        "plan": "AEARCTR-0013264",
+        "plan_title": "Impact Evaluation of the Labour Intensive Public Works (LIPW) in Ghana"
+      },
+      {
+        "latent_neighbour": "AEARCTR-0004109",
+        "latent_similarity": 0.6328,
+        "lexical_similarity": 0.0904,
+        "neighbour_title": "Evaluation of Brazil's Agricultural Cisterns and Technical Assistance P1+2 Program",
+        "plan": "AEARCTR-0013264",
+        "plan_title": "Impact Evaluation of the Labour Intensive Public Works (LIPW) in Ghana"
       }
     ],
     "k": 6,
     "latent_hit": 0.6,
     "lexical_floor": 0.2,
-    "mean_latent_max_sim": 0.6812,
-    "mean_lexical_max_sim": 0.2242,
-    "mean_topk_overlap": 0.4698,
+    "mean_latent_max_sim": 0.6866,
+    "mean_lexical_max_sim": 0.2334,
+    "mean_topk_overlap": 0.475,
     "n_components": 300,
-    "n_docs": 13191,
+    "n_docs": 13192,
     "n_features": 200000,
-    "n_latent_only_pairs": 757,
-    "pct_rows_with_latent_only_hit": 40.75,
+    "n_latent_only_pairs": 745,
+    "pct_rows_with_latent_only_hit": 41.62,
     "sample": 800,
-    "seconds": 22.2,
+    "seconds": 23.1,
     "status": "measured"
   }
 }
